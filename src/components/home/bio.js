@@ -53,9 +53,10 @@ class Bio extends React.Component {
             to="/about"
             style={{
               alignItems: "center",
-              background: "#d8d8d8",
+              background: "#6C5C7C",
               borderRadius: "5px",
               color: "#333",
+              color: "#fff",
               display: "flex",
               fontFamily: "Open Sans",
               justifyContent: "center",

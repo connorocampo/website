@@ -12,7 +12,6 @@ export const Container = styled.div`
 `;
 
 export const CTAContainer = styled.div`
-  ${'' /* display: flex; */}
 `;
 
 export const CTA = styled.div`
@@ -23,6 +22,11 @@ export const CTA = styled.div`
 
 export const CTAText = styled.div`
   line-height: 2;
+`;
+
+export const BookLink = styled.div`
+  color: #333333;
+  margin-top: 25px;
 `;
 
 export const Image = styled.img`
@@ -43,9 +47,9 @@ class BookSection extends React.Component {
           <CTA>Get Your Copy Today!</CTA>
           <CTAText><strong>Your First Year In Code</strong> was written for new and aspiring developers. With practical advice on topics like resume writing, ethics, job titles, and what to do when you're stuck. I’m honered to have contributed an LGBT section of the “Do I fit in?” chapter.
           </CTAText>
-          <p>(Coming out in July 2019)</p>
+          <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer"><BookLink>(Coming out in July 2019)</BookLink></a>
         </CTAContainer>
-        <Image src={Book} />
+        <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer"><Image src={Book} /></a>
       </Container>
     );
   }

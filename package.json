@@ -10,12 +10,14 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "clean": "rm -rf .cache"
   },
   "dependencies": {
-    "gatsby": "^2.1.27",
+    "gatsby": "^2.7.1",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "styled-components": "^4.2.0"
   },
   "devDependencies": {
     "prettier": "^1.16.4"

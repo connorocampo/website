@@ -1,0 +1,15 @@
+.brand {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-items > * {
+  color: #333;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+.nav-items >*:hover {
+  border-bottom: 4px solid #333;
+  padding-bottom: 10px;
+}

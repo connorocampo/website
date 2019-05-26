@@ -1,0 +1,77 @@
+import React from "react";
+import styled from 'styled-components';
+
+import { ThemeProvider } from "styled-components";
+import themeSettings from '../components/base/settings';
+
+import "../assets/styles/header.css"
+
+// Components
+
+import Header from "../components/base/header";
+import Footer from "../components/base/footer";
+
+const Container = styled.div`
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+`;
+
+const HeadingContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+const Heading = styled.div`
+  font-family: ${props => props.theme.font.opensans};
+  font-size: ${props => props.theme.size.headerBig};
+  font-weight: ${props => props.theme.weight.heavy};
+  text-transform: uppercase;
+`;
+
+const CategoryContainer = styled.div`
+  display: flex;
+  align-items: center;
+  font-family: ${props => props.theme.font.opensans};
+`;
+
+const CategoryFilterText = styled.p`
+  font-family: ${props => props.theme.font.opensans};
+  margin-right: 15px;
+`;
+
+const CategoryFilterDropdown = styled.select`
+  width: 260px;
+`;
+
+const Subheader = styled.div`
+  font-family: ${props => props.theme.font.opensans};
+  font-size: ${props => props.theme.size.headerMedium};
+  font-weight: ${props => props.theme.weight.heavy};
+  margin: 100px 0 50px 0;
+`;
+
+// Styles
+
+export default () => (
+  <ThemeProvider theme={themeSettings}>
+    <Container>
+      <Header />
+      <HeadingContainer>
+        <Heading>Blog</Heading>
+        <CategoryContainer>
+          <CategoryFilterText>Read By Category</CategoryFilterText>
+          <CategoryFilterDropdown>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </CategoryFilterDropdown>
+        </CategoryContainer>
+      </HeadingContainer>
+      <Subheader>Recent Posts</Subheader>
+      <Footer />
+    </Container>
+  </ThemeProvider>
+)

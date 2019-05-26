@@ -1,36 +1,43 @@
 import React from "react";
-import { ThemeProvider } from 'styled-components';
 import styled from 'styled-components';
 
+import { ThemeProvider } from "styled-components";
 import themeSettings from '../components/base/settings';
+
+import "../assets/styles/header.css";
 
 // Components
 
 import Header from "../components/base/header";
-import Bio from "../components/home/Bio";
-import Writings from "../components/home/Writings";
+import BookSection from "../components/BookSection";
+import MysteryBook from "../components/MysteryBook";
 import Footer from "../components/base/footer";
 
-// Stylesheets
-
-import "../assets/styles/main.css";
-import "../assets/styles/header.css";
-import "../assets/styles/footer.css";
-
 const Container = styled.div`
-  color: ${props => props.theme.colors.black};
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 40px;
 `;
 
+const Heading = styled.div`
+  font-size: ${props => props.theme.size.headerBig};
+  font-weight: ${props => props.theme.weight.heavy};
+  margin-bottom: 100px;
+  text-transform: uppercase;
+`;
+
+// Styles
+
 export default () => (
   <ThemeProvider theme={themeSettings}>
     <Container>
       <Header />
-      <Bio />
-      <Writings />
+      <Heading>Shop</Heading>
+      <BookSection />
+      <MysteryBook />
       <Footer />
     </Container>
   </ThemeProvider>
 )
+
+

@@ -1,0 +1,17 @@
+body {
+  color: #333333;
+  font-family: 'open sans';
+}
+
+.card {
+  align-items: center;
+  background: #D8D8D8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 260px;
+  margin-top: auto;
+  margin-top: 50px;
+  text-decoration: none;
+  width: 260px;
+}

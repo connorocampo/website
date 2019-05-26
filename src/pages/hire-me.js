@@ -1,35 +1,28 @@
 import React from "react";
-import { ThemeProvider } from 'styled-components';
 import styled from 'styled-components';
 
+import { ThemeProvider } from "styled-components";
 import themeSettings from '../components/base/settings';
+
+import "../assets/styles/header.css"
 
 // Components
 
 import Header from "../components/base/header";
-import Bio from "../components/home/Bio";
-import Writings from "../components/home/Writings";
 import Footer from "../components/base/footer";
 
-// Stylesheets
-
-import "../assets/styles/main.css";
-import "../assets/styles/header.css";
-import "../assets/styles/footer.css";
-
 const Container = styled.div`
-  color: ${props => props.theme.colors.black};
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 40px;
 `;
 
+// Styles
+
 export default () => (
   <ThemeProvider theme={themeSettings}>
     <Container>
       <Header />
-      <Bio />
-      <Writings />
       <Footer />
     </Container>
   </ThemeProvider>

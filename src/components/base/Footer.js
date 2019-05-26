@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import "../../assets/styles/footer.css";
+
 /*
  * Styles
  */
@@ -42,21 +44,27 @@ export const NewsletterHeader = styled.div`
 export const NewsletterText = styled.div`
   font-family: ${props => props.theme.font.opensans};
   text-align: right;
+  line-height: 1.5;
   margin-bottom: 25px;
+  margin-left: auto;
   text-align: right;  
+  width: 260px;
 `;
 
 export const Form = styled.form`
-  font-family: ${props => props.theme.font.opensans};
   font-size: ${props => props.theme.size.bodySmall};
   text-align: right;
 `;
 
+export const EmailLabel = styled.form`
+  margin-bottom: 5px;
+  text-align: left;
+`;
+
 export const EmailInput = styled.input`
-  font-family: ${props => props.theme.font.opensans};
   font-size: ${props => props.theme.size.bodySmall};
   height: 30px;
-  width: 230px;
+  width: 400px;
 `;
 
 export const Submit = styled.input`
@@ -85,11 +93,11 @@ class Footer extends React.Component {
           <div>
             <SocialMediaHeader>Lets Connect</SocialMediaHeader>
             <SocialMediaLinks className="social-media-links">
-              <a href="https://twitter.com/connorocampo">Instagram</a>
-              <a href="https://twitter.com/connorocampo">YouTube</a>
-              <a href="https://twitter.com/connorocampo">LinkedIn</a>
-              <a href="https://twitter.com/connorocampo">GitHub</a>
-              <a href="https://twitter.com/connorocampo">Twitter</a>
+              <a href="https://www.instagram.com/connor_ocampo/" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href="https://www.youtube.com/channel/UCzgDTD9EKa3BhWRkdoOYEdg?view_as=subscriber" target="_blank" rel="noopener noreferrer">YouTube</a>
+              <a href="https://www.linkedin.com/in/connorocampo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://github.com/connorocampo" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://twitter.com/connorocampo" target="_blank" rel="noopener noreferrer">Twitter</a>
             </SocialMediaLinks>
           </div>
           <div>
@@ -98,7 +106,7 @@ class Footer extends React.Component {
               <NewsletterText>Get the latest articles delivered directly to your inbox</NewsletterText>
               <Form>
                 <label>
-                  <p>Email</p>
+                  <EmailLabel>Email</EmailLabel>
                   <EmailInput type="text" name="name" />
                 </label>
                 <Submit type="submit" value="Sign Up" />

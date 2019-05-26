@@ -48,7 +48,7 @@ export const Cards = styled.div`
 `;
 
 export const CardTitle = styled.span`
-  color: ${props => props.theme.colors.black};
+  color: ${props => props.theme.color.black};
   font-family: ${props => props.theme.font.opensans};
   font-weight: ${props => props.theme.weight.heavy};
   margin-top: 20px;

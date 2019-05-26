@@ -22,7 +22,7 @@ export const Brand = styled.span`
 `;
 
 export const NavItems = styled.span`
-  color: ${props => props.theme.colors.black};
+  color: ${props => props.theme.color.black};
   font-size: ${props => props.theme.size.p};
   font-family: ${props => props.theme.font.spacemono};
 `;

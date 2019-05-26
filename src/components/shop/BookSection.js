@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Book from '../assets/images/Book.jpg';
+import Book from '../../assets/images/Book.jpg';
 
 /*
  * Styles

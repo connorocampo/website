@@ -1,9 +1,12 @@
 module.exports = {
-  colors: {
+  color: {
     black: '#333333',
     white: '#FBFAF9',
-    pink: "#F46E94"
-
+    peach: '#F8B095',
+    pinkLight: '#F27180',
+    pinkDark: '#C06C85',
+    blue: '#345D7E',
+    purple: '#6C5C7C',
   },
   easings: {
     quintOut: 'cubic-bezier(0.23, 1, 0.32, 1)',

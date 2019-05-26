@@ -9,8 +9,9 @@ import "../assets/styles/header.css";
 // Components
 
 import Header from "../components/base/header";
-import BookSection from "../components/BookSection";
-import MysteryBook from "../components/MysteryBook";
+import BookSection from "../components/shop/BookSection";
+import MysteryBook from "../components/shop/MysteryBook";
+import RecommendedProducts from "../components/shop/RecommendedProducts";
 import Footer from "../components/base/footer";
 
 const Container = styled.div`
@@ -35,6 +36,7 @@ export default () => (
       <Heading>Shop</Heading>
       <BookSection />
       <MysteryBook />
+      <RecommendedProducts />
       <Footer />
     </Container>
   </ThemeProvider>

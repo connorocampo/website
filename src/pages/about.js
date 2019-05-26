@@ -18,7 +18,7 @@ const Container = styled.div`
 `;
 
 const Heading = styled.div`
-  color: ${props => props.theme.colors.black};
+  color: ${props => props.theme.color.black};
   font-family: ${props => props.theme.font.opensans};
   font-size: ${props => props.theme.size.headerBig};
   font-weight: ${props => props.theme.weight.heavy};
@@ -27,7 +27,7 @@ const Heading = styled.div`
 `;
 
 const Text = styled.p`
-  color: ${props => props.theme.colors.black};
+  color: ${props => props.theme.color.black};
   font-family: ${props => props.theme.font.opensans};
   font-size: ${props => props.theme.size.bodyMedium};
   line-height: 2;

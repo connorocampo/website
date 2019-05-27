@@ -21,7 +21,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   margin: 100px 0;
-  width: 1200px;
+  width: 1000px;
 `;
 
 export const HeaderContainer = styled.div`

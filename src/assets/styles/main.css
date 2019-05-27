@@ -42,11 +42,11 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 270px;
+  height: 215px;
   margin-top: auto;
   margin-top: 50px;
   text-decoration: none;
-  width: 360px;
+  width: 315px;
 }
 
 .card-icon {

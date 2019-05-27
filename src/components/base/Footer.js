@@ -55,9 +55,8 @@ export const Form = styled.form`
   text-align: right;
 `;
 
-export const EmailLabel = styled.form`
+export const EmailLabel = styled.label`
   margin-bottom: 5px;
-  text-align: left;
 `;
 
 export const EmailInput = styled.input`
@@ -101,17 +100,17 @@ class Footer extends React.Component {
             <Newsletter>
               <NewsletterHeader>Stay Updated</NewsletterHeader>
               <NewsletterText>Get the latest articles delivered directly to your inbox</NewsletterText>
-              <Form>
+              <Form action="https://connorocampo.us20.list-manage.com/subscribe/post?u=3e14727ae8295d990a776994a&amp;id=ddd8552a5d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
                 <label>
-                  <EmailLabel>Email</EmailLabel>
-                  <EmailInput type="text" name="name" />
+                  <EmailLabel htmlFor="mce-EMAIL">Email</EmailLabel>
+                  <EmailInput type="email" value="" name="EMAIL" id="mce-EMAIL" />
                 </label>
-                <Submit type="submit" value="Sign Up" />
+                <Submit type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" />
               </Form>
             </Newsletter>
           </div>
         </FooterContent>
-        <Copyright>© 2019 Connor Ocampo | <Link to="/privacy-policy" className="regular-link">Privacy Policy</Link></Copyright>
+        <Copyright>© 2019 Connor Ocampo | <Link to="/privacy-policy" className="regular-link" >Privacy Policy</Link></Copyright>
       </Container>
     );
   }

@@ -15,7 +15,7 @@ import RecommendedProducts from "../components/shop/RecommendedProducts";
 import Footer from "../components/base/footer";
 
 const Container = styled.div`
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   margin-top: 40px;
 `;

@@ -12,7 +12,7 @@ import Header from "../components/base/header";
 import Footer from "../components/base/footer";
 
 const Container = styled.div`
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   margin-top: 40px;
 `;
@@ -36,7 +36,7 @@ export default () => (
     <Container>
       <Header />
       <Heading>About Connor Ocampo</Heading>
-      <img src="https://placekitten.com/1200/500"
+      <img src="https://placekitten.com/1000/400"
         style={{ marginBottom: "100px" }}
         alt="" />
       <Text>I believe that everyone has a unique lens of experiences, and furthermore, I believe there are people out there that could greatly benefit from those experiences being made visible. This goes double if the sharer is part of a historically depressed, minority class of people.</Text>

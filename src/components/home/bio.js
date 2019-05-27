@@ -24,13 +24,13 @@ export const Tagline = styled.div`
   font-family: 'Open Sans Heavy';
   margin-top: 0;
   margin-bottom: 15px;
-  max-width: 950px;
+  max-width: 720px;
 `;
 
 export const SubTitle = styled.div`
   font-size: ${props => props.theme.size.bodyMedium};
   margin-bottom: 30px;
-  max-width: 950px;
+  max-width: 620px;
 `;
 
 /*
@@ -53,15 +53,15 @@ class Bio extends React.Component {
               alignItems: "center",
               background: "#345D7E",
               borderRadius: "5px",
-              color: "#333",
               color: "#fff",
               display: "flex",
               fontFamily: "Open Sans",
+              fontSize: "16px",
               justifyContent: "center",
-              height: "60px",
+              height: "50px",
               marginBottom: "100px",
               textDecoration: "none",
-              width: "150px"
+              width: "140px"
             }}>Learn More</Link>
         </div>
       </Container>

@@ -12,7 +12,7 @@ import Header from "../components/base/header";
 import Footer from "../components/base/footer";
 
 const Container = styled.div`
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   margin-top: 40px;
 `;
@@ -113,7 +113,7 @@ export default () => (
         <Subheading>Disclaimer</Subheading>
         Disclaimer: This website is written by a regular human. I am not a financial adviser. Please get professional advice tailored to your own situation when it comes to your finances.
         </Text>
-      <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+      <div>Icons made by <a href="https://www.freepik.com/" title="Freepik" target="_blank" rel="noopener noreferrer">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener noreferrer">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" rel="noopener noreferrer">CC 3.0 BY</a></div>
       <Footer />
     </Container>
   </ThemeProvider>

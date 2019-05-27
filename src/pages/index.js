@@ -18,7 +18,7 @@ import "../assets/styles/header.css";
 import "../assets/styles/footer.css";
 
 const Container = styled.div`
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   margin-top: 40px;
 `;

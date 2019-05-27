@@ -20,7 +20,6 @@ export const Image = styled.img`
 `;
 
 export const Tagline = styled.div`
-  font-family: ${props => props.theme.font.opensans};
   font-size: ${props => props.theme.size.headerBig};
   font-weight: ${props => props.theme.weight.heavy};
   margin-top: 0;
@@ -29,7 +28,6 @@ export const Tagline = styled.div`
 `;
 
 export const SubTitle = styled.div`
-  font-family: ${props => props.theme.font.opensans};
   font-size: ${props => props.theme.size.headerSmall};
   margin-bottom: 30px;
   max-width: 950px;
@@ -46,14 +44,14 @@ class Bio extends React.Component {
         <Image src={Avatar} />
         <div>
           <Tagline>
-            A simple guy doing his best to make his way in the world
+            A simple guy doing his best to make his way in the world.
           </Tagline>
-          <SubTitle>Front-end developer, author, LGBT advocate, health/fitness practitioner, and personal finance buff</SubTitle>
+          <SubTitle>Front-end developer, author, LGBT advocate, health/fitness practitioner, and personal finance buff.</SubTitle>
           <Link
             to="/about"
             style={{
               alignItems: "center",
-              background: "#6C5C7C",
+              background: "#345D7E",
               borderRadius: "5px",
               color: "#333",
               color: "#fff",

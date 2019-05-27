@@ -18,7 +18,6 @@ import "../assets/styles/header.css";
 import "../assets/styles/footer.css";
 
 const Container = styled.div`
-  color: ${props => props.theme.color.black};
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 40px;

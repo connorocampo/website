@@ -2,10 +2,13 @@
 
 body {
   color: #333333;
+  color: #474747;
   font-family: 'open sans';
   font-size: 18px;
   overflow-x: hidden;
 }
+
+/* Home Page */
 
 .card {
   align-items: center;
@@ -19,6 +22,10 @@ body {
   margin-top: 50px;
   text-decoration: none;
   width: 360px;
+}
+
+.card-icon {
+  height: 100px;
 }
 
 /* Shop Page */

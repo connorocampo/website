@@ -1,6 +1,7 @@
 module.exports = {
   color: {
     black: '#333333',
+    blackLight: '#474747',
     white: '#FBFAF9',
     peach: '#F8B095',
     pinkLight: '#F27180',

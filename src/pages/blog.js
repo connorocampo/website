@@ -24,7 +24,6 @@ const HeadingContainer = styled.div`
 `;
 
 const Heading = styled.div`
-  font-family: ${props => props.theme.font.opensans};
   font-size: ${props => props.theme.size.headerBig};
   font-weight: ${props => props.theme.weight.heavy};
   text-transform: uppercase;
@@ -33,11 +32,9 @@ const Heading = styled.div`
 const CategoryContainer = styled.div`
   display: flex;
   align-items: center;
-  font-family: ${props => props.theme.font.opensans};
 `;
 
 const CategoryFilterText = styled.p`
-  font-family: ${props => props.theme.font.opensans};
   margin-right: 15px;
 `;
 
@@ -46,7 +43,6 @@ const CategoryFilterDropdown = styled.select`
 `;
 
 const Subheader = styled.div`
-  font-family: ${props => props.theme.font.opensans};
   font-size: ${props => props.theme.size.headerMedium};
   font-weight: ${props => props.theme.weight.heavy};
   margin: 100px 0 50px 0;
@@ -63,10 +59,12 @@ export default () => (
         <CategoryContainer>
           <CategoryFilterText>Read By Category</CategoryFilterText>
           <CategoryFilterDropdown>
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="opel">Opel</option>
-            <option value="audi">Audi</option>
+            <option value="Personal Development">Personal Development</option>
+            <option value="Personal Finance">Personal Finance</option>
+            <option value="Front-End Development">Front-End Development</option>
+            <option value="Health and Fitness">Health and Fitness</option>
+            <option value="LGBT">LGBT</option>
+            <option value="Notes">Notes</option>
           </CategoryFilterDropdown>
         </CategoryContainer>
       </HeadingContainer>

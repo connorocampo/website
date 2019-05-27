@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap');
 
+/* Global */
+
 body {
-  color: #333333;
   color: #474747;
   font-family: 'open sans';
   font-size: 18px;
   overflow-x: hidden;
+}
+
+.regular-link {
+  color: #345D7E;
+  text-decoration: none;
+}
+
+a {
+  color: #345D7E;
 }
 
 /* Home Page */
@@ -31,15 +41,11 @@ body {
 /* Shop Page */
 
 .product-link {
-  color: #333333;
+  /* color: #333333; */
   margin-bottom: 15px;
   text-decoration: none;
 }
 
 .product-link:last-child {
   margin-bottom: 0;
-}
-
-.book-link {
-  color: #333333;
 }

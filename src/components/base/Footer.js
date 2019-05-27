@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { Link } from "gatsby";
+
 import "../../assets/styles/footer.css";
 
 /*
@@ -17,7 +19,6 @@ export const FooterContent = styled.div`
 `;
 
 export const SocialMediaHeader = styled.div`
-  font-family: ${props => props.theme.font.opensans};
   font-size: ${props => props.theme.size.headerMedium};
   font-weight: ${props => props.theme.weight.heavy};
   margin-bottom: 50px;
@@ -34,7 +35,6 @@ export const Newsletter = styled.span`
 `;
 
 export const NewsletterHeader = styled.div`
-  font-family: ${props => props.theme.font.opensans};
   font-size: ${props => props.theme.size.headerMedium};
   font-weight: ${props => props.theme.weight.heavy};
   margin-bottom: 50px;
@@ -42,7 +42,6 @@ export const NewsletterHeader = styled.div`
 `;
 
 export const NewsletterText = styled.div`
-  font-family: ${props => props.theme.font.opensans};
   text-align: right;
   line-height: 1.5;
   margin-bottom: 25px;
@@ -68,14 +67,12 @@ export const EmailInput = styled.input`
 `;
 
 export const Submit = styled.input`
-  font-family: ${props => props.theme.font.opensans};
   font-size: ${props => props.theme.size.bodySmall};
   height: 40px;
   width: 100px;
 `;
 
 export const Copyright = styled.p`
-  font-family: ${props => props.theme.font.opensans};
   font-size: ${props => props.theme.size.bodySmall};
   margin-top: 100px;
   margin-bottom: 10px;
@@ -114,7 +111,7 @@ class Footer extends React.Component {
             </Newsletter>
           </div>
         </FooterContent>
-        <Copyright>© 2019 Connor Ocampo | Privacy Policy</Copyright>
+        <Copyright>© 2019 Connor Ocampo | <Link to="/privacy-policy" className="regular-link">Privacy Policy</Link></Copyright>
       </Container>
     );
   }

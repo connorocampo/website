@@ -16,14 +16,12 @@ export const Container = styled.div`
 
 export const Brand = styled.span`
   font-size: ${props => props.theme.size.headerMedium};
-  font-family: ${props => props.theme.font.opensans};
   letter-spacing: 5px;
   text-transform: uppercase;
 `;
 
 export const NavItems = styled.span`
-  color: ${props => props.theme.color.black};
-  font-size: ${props => props.theme.size.p};
+  font-size: ${props => props.theme.size.bodySmall};
   font-family: ${props => props.theme.font.spacemono};
 `;
 

@@ -18,21 +18,18 @@ const Container = styled.div`
 `;
 
 const Heading = styled.div`
-  color: ${props => props.theme.color.black};
   font-size: ${props => props.theme.size.headerBig};
   font-weight: ${props => props.theme.weight.heavy};
   margin: 100px 0;
 `;
 
 const Subheading = styled.div`
-  color: ${props => props.theme.color.black};
   font-size: ${props => props.theme.size.headerMedium};
   font-weight: ${props => props.theme.weight.heavy};
   margin: 25px 0;
 `;
 
 const Text = styled.p`
-  color: ${props => props.theme.color.black};
   font-size: ${props => props.theme.size.bodyMedium};
   line-height: 2;
 `;
@@ -114,7 +111,9 @@ export default () => (
         For questions regarding your data and how we use it, you can reach us at connorocampo@gmail.com.  You can also email us here if you would like an extract of all of your personal information stored on our website or to request that we delete all of your information stored on our website.
 
         <Subheading>Disclaimer</Subheading>
-        Disclaimer: This website is written by a regular human. I am not a financial adviser. Please get professional advice tailored to your own situation when it comes to your finances.</Text>
+        Disclaimer: This website is written by a regular human. I am not a financial adviser. Please get professional advice tailored to your own situation when it comes to your finances.
+        </Text>
+      <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
       <Footer />
     </Container>
   </ThemeProvider>

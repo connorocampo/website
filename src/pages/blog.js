@@ -24,8 +24,8 @@ const HeadingContainer = styled.div`
 `;
 
 const Heading = styled.div`
+  font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerBig};
-  font-weight: ${props => props.theme.weight.heavy};
   text-transform: uppercase;
 `;
 
@@ -43,8 +43,8 @@ const CategoryFilterDropdown = styled.select`
 `;
 
 const Subheader = styled.div`
+  font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerMedium};
-  font-weight: ${props => props.theme.weight.heavy};
   margin: 100px 0 50px 0;
 `;
 

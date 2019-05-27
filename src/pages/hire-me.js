@@ -18,15 +18,15 @@ const Container = styled.div`
 `;
 
 const Heading = styled.div`
+  font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerBig};
-  font-weight: ${props => props.theme.weight.heavy};
   margin-bottom: 100px;
   text-transform: uppercase;
 `;
 
 const Subheading = styled.div`
+  font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerMedium};
-  font-weight: ${props => props.theme.weight.heavy};
   margin-bottom: 50px;
 `;
 

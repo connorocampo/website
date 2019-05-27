@@ -21,14 +21,14 @@ export const Image = styled.img`
 
 export const Tagline = styled.div`
   font-size: ${props => props.theme.size.headerBig};
-  font-weight: ${props => props.theme.weight.heavy};
+  font-family: 'Open Sans Heavy';
   margin-top: 0;
   margin-bottom: 15px;
   max-width: 950px;
 `;
 
 export const SubTitle = styled.div`
-  font-size: ${props => props.theme.size.headerSmall};
+  font-size: ${props => props.theme.size.bodyMedium};
   margin-bottom: 30px;
   max-width: 950px;
 `;
@@ -44,9 +44,9 @@ class Bio extends React.Component {
         <Image src={Avatar} />
         <div>
           <Tagline>
-            A simple guy doing his best to make his way in the world.
+            A simple guy doing his best to make his way in the world
           </Tagline>
-          <SubTitle>Front-end developer, author, LGBT advocate, health/fitness practitioner, and personal finance buff.</SubTitle>
+          <SubTitle>Front-end developer, author, LGBT advocate, health/fitness practitioner, and personal finance buff</SubTitle>
           <Link
             to="/about"
             style={{

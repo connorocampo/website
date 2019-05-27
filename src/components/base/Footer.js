@@ -19,8 +19,8 @@ export const FooterContent = styled.div`
 `;
 
 export const SocialMediaHeader = styled.div`
+  font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerMedium};
-  font-weight: ${props => props.theme.weight.heavy};
   margin-bottom: 50px;
 `;
 
@@ -35,8 +35,8 @@ export const Newsletter = styled.span`
 `;
 
 export const NewsletterHeader = styled.div`
+  font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerMedium};
-  font-weight: ${props => props.theme.weight.heavy};
   margin-bottom: 50px;
   text-align: right;
 `;

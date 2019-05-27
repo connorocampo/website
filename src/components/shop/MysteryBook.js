@@ -20,8 +20,8 @@ export const MaxWidth = styled.div`
 `;
 
 export const Title = styled.div`
+  font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerMedium};
-  font-weight: ${props => props.theme.weight.heavy};
   text-align: center;
   text-transform: uppercase;
 `;

@@ -15,8 +15,8 @@ export const CTAContainer = styled.div`
 `;
 
 export const CTA = styled.div`
+  font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerMedium};
-  font-weight: ${props => props.theme.weight.heavy};
   margin-bottom: 50px;
 `;
 

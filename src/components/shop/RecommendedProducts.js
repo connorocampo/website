@@ -10,8 +10,8 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.div`
+  font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerMedium};
-  font-weight: ${props => props.theme.weight.heavy};
  `;
 
 export const Text = styled.div`
@@ -34,8 +34,8 @@ export const Products = styled.div`
 `;
 
 export const ProductTitle = styled.div`
+  font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerSmall};
-  font-weight: ${props => props.theme.weight.heavy};
   margin-bottom: 25px;
 `;
 

@@ -1,6 +1,8 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { ThemeProvider } from "styled-components";
+
 
 import themeSettings from '../components/base/settings';
 
@@ -34,6 +36,11 @@ const Text = styled.p`
 export default () => (
   <ThemeProvider theme={themeSettings}>
     <Container>
+      <Helmet>
+        <title>About | Connor Ocampo's Website</title>
+        <meta name="About Connor Ocampo's Website" content="About Connor Ocampo's Website" />
+        <meta name="theme-color" content="#345D7E" />
+      </Helmet>
       <Header />
       <Heading>About Connor Ocampo</Heading>
       <img src="https://placekitten.com/1000/400"

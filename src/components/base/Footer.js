@@ -102,10 +102,8 @@ class Footer extends React.Component {
               <NewsletterText>Get the latest articles delivered directly to your inbox</NewsletterText>
               <Form action="https://connorocampo.us20.list-manage.com/subscribe/post?u=3e14727ae8295d990a776994a&amp;id=ddd8552a5d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
                 <label>
-                  <EmailLabel htmlFor="mce-EMAIL">Email</EmailLabel>
-                  <EmailInput type="email" value="" name="EMAIL" id="mce-EMAIL" />
+                  <EmailLabel>Email</EmailLabel>
                 </label>
-                <Submit type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" />
               </Form>
             </Newsletter>
           </div>

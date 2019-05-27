@@ -1,7 +1,8 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
-
 import { ThemeProvider } from "styled-components";
+
 import themeSettings from '../components/base/settings';
 
 import "../assets/styles/header.css";
@@ -32,6 +33,11 @@ const Heading = styled.div`
 export default () => (
   <ThemeProvider theme={themeSettings}>
     <Container>
+      <Helmet>
+        <title>Shop | Connor Ocampo's Website</title>
+        <meta name="Shop | Connor Ocampo's Website" content="Shop | Connor Ocampo's Website" />
+        <meta name="theme-color" content="#345D7E" />
+      </Helmet>
       <Header />
       <Heading>Shop</Heading>
       <BookSection />

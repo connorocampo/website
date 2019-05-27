@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import { ThemeProvider } from 'styled-components';
 import styled from 'styled-components';
 
@@ -26,6 +27,11 @@ const Container = styled.div`
 export default () => (
   <ThemeProvider theme={themeSettings}>
     <Container>
+      <Helmet>
+        <title>Connor Ocampo's Website</title>
+        <meta name="Connor Ocampo's Website" content="Connor Ocampo's Website" />
+        <meta name="theme-color" content="#345D7E" />
+      </Helmet>
       <Header />
       <Bio />
       <Writings />

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { ThemeProvider } from "styled-components";
 
@@ -39,6 +40,11 @@ const Text = styled.p`
 export default () => (
   <ThemeProvider theme={themeSettings}>
     <Container>
+      <Helmet>
+        <title>Privacy Policy | Connor Ocampo's Website</title>
+        <meta name="Privacy Policy | Connor Ocampo's Website" content="Privacy Policy | Connor Ocampo's Website" />
+        <meta name="theme-color" content="#345D7E" />
+      </Helmet>
       <Header />
       <Heading>Privacy Policy and Disclaimer</Heading>
       <Text>

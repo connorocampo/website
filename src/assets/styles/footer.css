@@ -1,10 +1,26 @@
 .social-media-links > * {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   text-decoration: none;
 }
 
-.social-media-links > *:hover {
-  color: #345D7E;
+.social-media-links:last-child {
+  margin-bottom: 0;
+}
+
+.subscribe-link {
+  padding: 0 0 10px 0;
+  -webkit-appearance: none;
+  font-family: 'open sans';
+  font-size: 24px;
+  border: none;
+  background-color: #F5F7F8;
+  border-bottom: 4px solid #0090D9;
+  -webkit-appearance: none;
+}
+
+.subscribe-link:hover {
+  cursor: pointer;
+  font-weight: bold;
 }

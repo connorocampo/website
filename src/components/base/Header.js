@@ -37,11 +37,11 @@ class Header extends React.Component {
           <Link to="/" className="brand">Connor Ocampo</Link>
         </Brand>
         <NavItems className="nav-items">
-          <Link to="/">Home</Link>
-          <Link to="/about/">About</Link>
-          <Link to="/blog/">Blog</Link>
-          <Link to="/shop/">Shop</Link>
-          <Link to="/hire-me/">Hire Me</Link>
+          <Link to="/" className="nav-item">Home</Link>
+          <Link to="/about/" className="nav-item">About</Link>
+          <Link to="/blog/" className="nav-item">Blog</Link>
+          <Link to="/shop/" className="nav-item">Shop</Link>
+          <Link to="/hire-me/" className=" nav-item">Hire Me</Link>
         </NavItems>
       </Container>
     );

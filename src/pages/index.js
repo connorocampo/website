@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from 'react-helmet';
-import { ThemeProvider } from 'styled-components';
 import styled from 'styled-components';
+import { ThemeProvider } from 'styled-components';
 
 import themeSettings from '../components/base/settings';
 
@@ -30,7 +30,7 @@ export default () => (
       <Helmet>
         <title>Connor Ocampo's Website</title>
         <meta name="Connor Ocampo's Website" content="Connor Ocampo's Website" />
-        <meta name="theme-color" content="#345D7E" />
+        <meta name="theme-color" content="#0090D9" />
       </Helmet>
       <Header />
       <Bio />

@@ -5,8 +5,6 @@ import { ThemeProvider } from "styled-components";
 
 import themeSettings from '../components/base/settings';
 
-import "../assets/styles/header.css";
-
 // Components
 
 import Header from "../components/base/header";
@@ -36,7 +34,7 @@ export default () => (
       <Helmet>
         <title>Shop | Connor Ocampo's Website</title>
         <meta name="Shop | Connor Ocampo's Website" content="Shop | Connor Ocampo's Website" />
-        <meta name="theme-color" content="#345D7E" />
+        <meta name="theme-color" content="#0090D9" />
       </Helmet>
       <Header />
       <Heading>Shop</Heading>

@@ -1,11 +1,9 @@
 import React from "react";
-import { ThemeProvider } from "styled-components";
 import { Helmet } from 'react-helmet';
-
 import styled from 'styled-components';
-import themeSettings from '../components/base/settings';
+import { ThemeProvider } from "styled-components";
 
-import "../assets/styles/header.css"
+import themeSettings from '../components/base/settings';
 
 // Components
 
@@ -44,7 +42,7 @@ export default () => (
       <Helmet>
         <title>Hire Me | Connor Ocampo's Website</title>
         <meta name="Hire Me | Connor Ocampo's Website" content="Hire Me | Connor Ocampo's Website" />
-        <meta name="theme-color" content="#345D7E" />
+        <meta name="theme-color" content="#0090D9" />
       </Helmet>
       <Header />
       <Heading>Hire Me</Heading>

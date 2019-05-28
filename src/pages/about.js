@@ -3,10 +3,7 @@ import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { ThemeProvider } from "styled-components";
 
-
 import themeSettings from '../components/base/settings';
-
-import "../assets/styles/header.css"
 
 // Components
 
@@ -27,11 +24,9 @@ const Heading = styled.div`
 `;
 
 const Text = styled.p`
-  font-size: ${props => props.theme.size.bodyMedium};
   line-height: 2;
+  margin-bottom: 100px;
 `;
-
-// Styles
 
 export default () => (
   <ThemeProvider theme={themeSettings}>
@@ -39,7 +34,7 @@ export default () => (
       <Helmet>
         <title>About | Connor Ocampo's Website</title>
         <meta name="About Connor Ocampo's Website" content="About Connor Ocampo's Website" />
-        <meta name="theme-color" content="#345D7E" />
+        <meta name="theme-color" content="#0090D9" />
       </Helmet>
       <Header />
       <Heading>About Connor Ocampo</Heading>

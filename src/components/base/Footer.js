@@ -9,8 +9,16 @@ import "../../assets/styles/footer.css";
  * Styles
  */
 
+export const MaxWidth = styled.div`
+  background: #F5F7F8;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+`;
+
 export const Container = styled.div`
-  margin-top: 100px;
+  padding-top: 100px;
+  margin: 0 auto;
+  max-width: 1000px; 
 `;
 
 export const FooterContent = styled.div`
@@ -25,7 +33,7 @@ export const SocialMediaHeader = styled.div`
 `;
 
 export const SocialMediaLinks = styled.span`
-  font-family: ${props => props.theme.font.spacemono};  
+  ${'' /* font-family: ${props => props.theme.font.spacemono};   */}
 `;
 
 export const Newsletter = styled.span`
@@ -55,26 +63,11 @@ export const Form = styled.form`
   text-align: right;
 `;
 
-export const EmailLabel = styled.label`
-  margin-bottom: 5px;
-`;
-
-export const EmailInput = styled.input`
-  font-size: ${props => props.theme.size.bodySmall};
-  height: 30px;
-  width: 400px;
-`;
-
-export const Submit = styled.input`
-  font-size: ${props => props.theme.size.bodySmall};
-  height: 40px;
-  width: 100px;
-`;
-
 export const Copyright = styled.p`
   font-size: ${props => props.theme.size.bodySmall};
   margin-top: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 0;
+  padding-bottom: 10px;
 `;
 
 /*
@@ -84,32 +77,32 @@ export const Copyright = styled.p`
 class Footer extends React.Component {
   render() {
     return (
-      <Container>
-        <FooterContent>
-          <div>
-            <SocialMediaHeader>Lets Connect</SocialMediaHeader>
-            <SocialMediaLinks className="social-media-links">
-              <a href="https://www.instagram.com/connor_ocampo/" target="_blank" rel="noopener noreferrer">Instagram</a>
-              <a href="https://www.youtube.com/channel/UCzgDTD9EKa3BhWRkdoOYEdg?view_as=subscriber" target="_blank" rel="noopener noreferrer">YouTube</a>
-              <a href="https://www.linkedin.com/in/connorocampo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <a href="https://github.com/connorocampo" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="https://twitter.com/connorocampo" target="_blank" rel="noopener noreferrer">Twitter</a>
-            </SocialMediaLinks>
-          </div>
-          <div>
-            <Newsletter>
-              <NewsletterHeader>Stay Updated</NewsletterHeader>
-              <NewsletterText>Get the latest articles delivered directly to your inbox</NewsletterText>
-              <Form action="https://connorocampo.us20.list-manage.com/subscribe/post?u=3e14727ae8295d990a776994a&amp;id=ddd8552a5d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-                <label>
-                  <EmailLabel>Email</EmailLabel>
-                </label>
-              </Form>
-            </Newsletter>
-          </div>
-        </FooterContent>
-        <Copyright>© 2019 Connor Ocampo | <Link to="/privacy-policy" className="regular-link" >Privacy Policy</Link></Copyright>
-      </Container>
+      <MaxWidth>
+        <Container>
+          <FooterContent>
+            <div>
+              <SocialMediaHeader>Lets Connect</SocialMediaHeader>
+              <SocialMediaLinks className="social-media-links">
+                <a href="https://www.instagram.com/connor_ocampo/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://www.youtube.com/channel/UCzgDTD9EKa3BhWRkdoOYEdg?view_as=subscriber" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://www.linkedin.com/in/connorocampo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/connorocampo" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://twitter.com/connorocampo" target="_blank" rel="noopener noreferrer">Twitter</a>
+              </SocialMediaLinks>
+            </div>
+            <div>
+              <Newsletter>
+                <NewsletterHeader>Stay Updated</NewsletterHeader>
+                <NewsletterText>Get the latest articles delivered directly to your inbox</NewsletterText>
+                <Form action="https://connorocampo.us20.list-manage.com/subscribe/post?u=3e14727ae8295d990a776994a&amp;id=ddd8552a5d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+                  <input type="submit" value="Subscribe!" name="subscribe" className="subscribe-link" />
+                </Form>
+              </Newsletter>
+            </div>
+          </FooterContent>
+          <Copyright>© 2019 Connor Ocampo | <Link to="/privacy-policy" className="regular-link" >Privacy Policy</Link></Copyright>
+        </Container>
+      </MaxWidth>
     );
   }
 }

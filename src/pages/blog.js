@@ -57,7 +57,7 @@ export default () => (
       <Helmet>
         <title>Blog | Connor Ocampo's Website</title>
         <meta name="Blog | Connor Ocampo's Website" content="Blog | About Connor Ocampo's Website" />
-        <meta name="theme-color" content="#345D7E" />
+        <meta name="theme-color" content="#0090D9" />
       </Helmet>
       <Header />
       <HeadingContainer>

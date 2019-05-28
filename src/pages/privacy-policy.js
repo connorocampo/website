@@ -43,7 +43,7 @@ export default () => (
       <Helmet>
         <title>Privacy Policy | Connor Ocampo's Website</title>
         <meta name="Privacy Policy | Connor Ocampo's Website" content="Privacy Policy | Connor Ocampo's Website" />
-        <meta name="theme-color" content="#345D7E" />
+        <meta name="theme-color" content="#0090D9" />
       </Helmet>
       <Header />
       <Heading>Privacy Policy and Disclaimer</Heading>

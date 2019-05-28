@@ -29,6 +29,7 @@ export const Tagline = styled.div`
 
 export const SubTitle = styled.div`
   font-size: ${props => props.theme.size.bodyMedium};
+  line-height: 1.5;
   margin-bottom: 30px;
   max-width: 620px;
 `;
@@ -49,20 +50,7 @@ class Bio extends React.Component {
           <SubTitle>Front-end developer, author, LGBT advocate, health/fitness practitioner, and personal finance buff</SubTitle>
           <Link
             to="/about"
-            style={{
-              alignItems: "center",
-              background: "#345D7E",
-              borderRadius: "5px",
-              color: "#fff",
-              display: "flex",
-              fontFamily: "Open Sans",
-              fontSize: "16px",
-              justifyContent: "center",
-              height: "50px",
-              marginBottom: "100px",
-              textDecoration: "none",
-              width: "140px"
-            }}>Learn More</Link>
+            className="bio-button">Learn More</Link>
         </div>
       </Container>
     );

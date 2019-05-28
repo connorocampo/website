@@ -19,7 +19,7 @@ const Container = styled.div`
 const Heading = styled.div`
   font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerBig};
-  margin-bottom: 100px;
+  margin: 100px 0 50px 0;
   text-transform: uppercase;
 `;
 

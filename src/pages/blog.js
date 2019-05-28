@@ -47,13 +47,13 @@ const CategoryFilterDropdown = styled.select`
 `;
 
 const RecentPosts = styled.div`
-  margin: 100px 0;
+  margin-bottom: 50px;
 `;
 
 const Subheader = styled.div`
   font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerMedium};
-  margin: 100px 0 50px 0;
+  margin: 50px 0;
 `;
 
 const PostTitle = styled.div`

@@ -47,7 +47,7 @@ class BookSection extends React.Component {
           </CTAText>
           <CTAText>(Coming out in July 2019)</CTAText>
         </CTAContainer>
-        <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer"><Image src={Book} /></a>
+        <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer"><Image src={Book} alt="Your First Year In Code Book" /></a>
       </Container>
     );
   }

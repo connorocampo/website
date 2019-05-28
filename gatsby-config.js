@@ -24,6 +24,12 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,

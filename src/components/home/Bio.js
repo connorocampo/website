@@ -44,7 +44,6 @@ class Bio extends React.Component {
   render() {
     return (
       <ThemeProvider theme={themeSettings}>
-
         <Container>
           <Image src={Avatar} />
           <div>
@@ -58,7 +57,6 @@ class Bio extends React.Component {
           </div>
         </Container>
       </ThemeProvider>
-
     );
   }
 }

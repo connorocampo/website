@@ -38,9 +38,6 @@ export default () => (
       </Helmet>
       <Header />
       <Heading>About Connor</Heading>
-      <img src="https://placekitten.com/1000/400"
-        style={{ marginBottom: "100px" }}
-        alt="" />
       <Text>I believe that everyone has a unique lens of experiences, and furthermore, I believe there are people out there that could greatly benefit from those experiences being made visible. This goes double if the sharer is part of a historically depressed, minority class of people.</Text>
       <Footer />
     </Container>

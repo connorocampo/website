@@ -42,7 +42,7 @@ export const Subtitle = styled.span`
 
 export const Cards = styled.div`
   display: flex;
-  font-weght: bold;
+  font-weight: bold;
   flex-wrap: wrap;
   justify-content: space-between;
 `;

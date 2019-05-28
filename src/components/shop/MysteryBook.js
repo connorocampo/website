@@ -11,7 +11,7 @@ export const Container = styled.div`
 `;
 
 export const MaxWidth = styled.div`
-  background: #eee;
+  background: #F5F7F8;
   display: flex;
   align-items: center;
   justify-content: center;

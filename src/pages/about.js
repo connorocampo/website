@@ -37,7 +37,7 @@ export default () => (
         <meta name="theme-color" content="#0090D9" />
       </Helmet>
       <Header />
-      <Heading>About Connor Ocampo</Heading>
+      <Heading>About Connor</Heading>
       <img src="https://placekitten.com/1000/400"
         style={{ marginBottom: "100px" }}
         alt="" />

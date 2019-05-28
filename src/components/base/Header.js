@@ -22,7 +22,7 @@ export const Brand = styled.span`
 
 export const NavItems = styled.span`
   font-size: ${props => props.theme.size.bodySmall};
-  font-family: ${props => props.theme.font.spacemono};
+  ${'' /* font-family: ${props => props.theme.font.spacemono}; */}
 `;
 
 /*

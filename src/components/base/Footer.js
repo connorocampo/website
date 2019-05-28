@@ -33,7 +33,6 @@ export const SocialMediaHeader = styled.div`
 `;
 
 export const SocialMediaLinks = styled.span`
-  ${'' /* font-family: ${props => props.theme.font.spacemono};   */}
 `;
 
 export const Newsletter = styled.span`

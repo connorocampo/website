@@ -9,10 +9,10 @@ import themeSettings from '../components/base/settings';
 
 // Components
 
-import Header from "../components/base/header";
+import Header from "../components/base/Header";
 import Bio from "../components/home/Bio";
 import Writings from "../components/home/Writings";
-import Footer from "../components/base/footer";
+import Footer from "../components/base/Footer";
 
 // Stylesheets
 

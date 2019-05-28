@@ -7,11 +7,11 @@ import themeSettings from '../components/base/settings';
 
 // Components
 
-import Header from "../components/base/header";
+import Header from "../components/base/Header";
 import BookSection from "../components/shop/BookSection";
 import MysteryBook from "../components/shop/MysteryBook";
 import RecommendedProducts from "../components/shop/RecommendedProducts";
-import Footer from "../components/base/footer";
+import Footer from "../components/base/Footer";
 
 const Container = styled.div`
   max-width: 1000px;

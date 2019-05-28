@@ -9,8 +9,8 @@ import "../assets/styles/header.css"
 
 // Components
 
-import Header from "../components/base/header";
-import Footer from "../components/base/footer";
+import Header from "../components/base/Header";
+import Footer from "../components/base/Footer";
 
 const Container = styled.div`
   max-width: 1000px;

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { Link } from "gatsby";
 
-import "../../assets/styles/footer.css";
+import '../../assets/styles/footer.css';
 
 /*
  * Styles
@@ -57,10 +57,10 @@ export const NewsletterText = styled.div`
   width: 260px;
 `;
 
-// export const Form = styled.form`
-//   font-size: ${props => props.theme.size.bodySmall};
-//   text-align: right;
-// `;
+export const Form = styled.form`
+  font-size: ${props => props.theme.size.bodySmall};
+  text-align: right;
+`;
 
 export const Copyright = styled.p`
   font-size: ${props => props.theme.size.bodySmall};
@@ -93,9 +93,9 @@ class Footer extends React.Component {
               <Newsletter>
                 <NewsletterHeader>Stay Updated</NewsletterHeader>
                 <NewsletterText>Get the latest articles delivered directly to your inbox</NewsletterText>
-                {/* <Form action="https://connorocampo.us20.list-manage.com/subscribe/post?u=3e14727ae8295d990a776994a&amp;id=ddd8552a5d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+                <Form action="https://connorocampo.us20.list-manage.com/subscribe/post?u=3e14727ae8295d990a776994a&amp;id=ddd8552a5d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
                   <input type="submit" value="Subscribe!" name="subscribe" className="subscribe-link" />
-                </Form> */}
+                </Form>
               </Newsletter>
             </div>
           </FooterContent>

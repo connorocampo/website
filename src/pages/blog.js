@@ -8,7 +8,7 @@ import { Link, graphql } from "gatsby"
 
 import themeSettings from '../components/base/settings';
 
-import "../assets/styles/header.css"
+import "../assets/styles/header.css";
 
 // Components
 

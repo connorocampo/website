@@ -3,6 +3,9 @@ import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { ThemeProvider } from "styled-components";
 
+import { graphql } from "gatsby";
+
+
 import themeSettings from '../components/base/settings';
 
 import "../assets/styles/header.css"
@@ -51,7 +54,7 @@ const Subheader = styled.div`
 
 // Styles
 
-export default () => (
+export default ({ data }) => (
   <ThemeProvider theme={themeSettings}>
     <Container>
       <Helmet>
@@ -75,7 +78,40 @@ export default () => (
         </CategoryContainer>
       </HeadingContainer>
       <Subheader>Recent Posts</Subheader>
+
+      <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+      {data.allMarkdownRemark.edges.map(({ node }) => (
+        <div key={node.id}>
+          <h3
+          >
+            {node.frontmatter.title}{" "}
+            <span>
+              — {node.frontmatter.date}
+            </span>
+          </h3>
+          <p>{node.excerpt}</p>
+        </div>
+      ))}
+
       <Footer />
     </Container>
   </ThemeProvider>
 )
+
+export const query = graphql`
+  query {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      totalCount
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            date(formatString: "DD MMMM, YYYY")
+          }
+          excerpt(pruneLength: 280)
+        }
+      }
+    }
+  }
+`

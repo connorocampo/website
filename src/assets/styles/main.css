@@ -52,7 +52,7 @@ a:hover {
 }
 
 .bio-button:hover {
-  background: #0081C2;
+  background: #189BDB;
   transition: 0.35s;
   text-decoration: none;  
 }
@@ -73,6 +73,16 @@ a:hover {
 
 .card-icon {
   height: 100px;
+}
+
+/* Blog Page */
+
+.post-title{
+  font-size: 32px;
+  font-weight: bold;
+}
+.post-subtitle {
+  font-size: 14px;
 }
 
 /* Shop Page */

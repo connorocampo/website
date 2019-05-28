@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { ThemeProvider } from "styled-components";
 
-// import { graphql } from "gatsby";
 import { Link, graphql } from "gatsby"
 
 
@@ -47,10 +46,19 @@ const CategoryFilterDropdown = styled.select`
   width: 260px;
 `;
 
+const RecentPosts = styled.div`
+  margin: 100px 0;
+`;
+
 const Subheader = styled.div`
   font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerMedium};
   margin: 100px 0 50px 0;
+`;
+
+const PostTitle = styled.div`
+  font-family: 'Open Sans Heavy';
+  font-size: ${props => props.theme.size.headerMedium};
 `;
 
 // Styles
@@ -78,23 +86,27 @@ export default ({ data }) => (
           </CategoryFilterDropdown>
         </CategoryContainer>
       </HeadingContainer>
-      <Subheader>Recent Posts</Subheader>
+      <RecentPosts>
+        <Subheader>Recent Posts</Subheader>
 
-      <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div key={node.id}>
-          <Link to={node.fields.slug}>
-          <h3>
-            {node.frontmatter.title}{" "}
-            <span>
-              — {node.frontmatter.date}
-            </span>
-          </h3>
-          <p>{node.excerpt}</p>
-          </Link>
-        </div>
-      ))}
+        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <div key={node.id}>
+            <Link to={node.fields.slug}
+              style={{ textDecoration: "none", color: "#474747" }}>
+              <PostTitle>
+                {node.frontmatter.title}{" "}
+              </PostTitle>
+              <p className="post-subtitle">
+                {node.frontmatter.date} - {node.timeToRead} min read
+                </p>
+            </Link>
+            <p>{node.excerpt}</p>
+            <hr style={{ border: "1px solid #eeeeee" }} />
+          </div>
+        ))}
 
+      </RecentPosts>
       <Footer />
     </Container>
   </ThemeProvider>
@@ -109,12 +121,13 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            date(formatString: "MMMM DD, YYYY")
           }
           fields {
             slug
           }
           excerpt(pruneLength: 280)
+          timeToRead
         }
       }
     }

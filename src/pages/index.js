@@ -3,6 +3,8 @@ import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { ThemeProvider } from 'styled-components';
 
+import { graphql } from "gatsby";
+
 import themeSettings from '../components/base/settings';
 
 // Components
@@ -24,11 +26,11 @@ const Container = styled.div`
   margin-top: 40px;
 `;
 
-export default () => (
+export default ({ data }) => (
   <ThemeProvider theme={themeSettings}>
     <Container>
       <Helmet>
-        <title>Connor Ocampo's Website</title>
+        <title>{data.site.siteMetadata.title}</title>
         <meta name="Connor Ocampo's Website" content="Connor Ocampo's Website" />
         <meta name="theme-color" content="#0090D9" />
       </Helmet>
@@ -39,3 +41,13 @@ export default () => (
     </Container>
   </ThemeProvider>
 )
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`

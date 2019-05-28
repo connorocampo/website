@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { ThemeProvider } from 'styled-components';
+import themeSettings from '../../components/base/settings';
 
 import { Link } from 'gatsby';
 
@@ -41,18 +43,22 @@ export const SubTitle = styled.div`
 class Bio extends React.Component {
   render() {
     return (
-      <Container>
-        <Image src={Avatar} />
-        <div>
-          <Tagline>
-            A simple guy doing his best to make his way in the world
+      <ThemeProvider theme={themeSettings}>
+
+        <Container>
+          <Image src={Avatar} />
+          <div>
+            <Tagline>
+              A simple guy doing his best to make his way in the world
           </Tagline>
-          <SubTitle>Front-end developer, author, LGBT advocate, health/fitness practitioner, and personal finance buff</SubTitle>
-          <Link
-            to="/about"
-            className="bio-button">Learn More</Link>
-        </div>
-      </Container>
+            <SubTitle>Front-end developer, author, LGBT advocate, health/fitness practitioner, and personal finance buff</SubTitle>
+            <Link
+              to="/about"
+              className="bio-button">Learn More</Link>
+          </div>
+        </Container>
+      </ThemeProvider>
+
     );
   }
 }

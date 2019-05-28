@@ -3,7 +3,8 @@ import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { ThemeProvider } from "styled-components";
 
-import { graphql } from "gatsby";
+// import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby"
 
 
 import themeSettings from '../components/base/settings';
@@ -82,14 +83,15 @@ export default ({ data }) => (
       <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
-          <h3
-          >
+          <Link to={node.fields.slug}>
+          <h3>
             {node.frontmatter.title}{" "}
             <span>
               — {node.frontmatter.date}
             </span>
           </h3>
           <p>{node.excerpt}</p>
+          </Link>
         </div>
       ))}
 
@@ -108,6 +110,9 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
+          }
+          fields {
+            slug
           }
           excerpt(pruneLength: 280)
         }

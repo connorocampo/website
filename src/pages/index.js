@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from 'react-helmet';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 import { ThemeProvider } from 'styled-components';
 
 import { graphql } from "gatsby";
@@ -20,15 +20,15 @@ import "../assets/styles/main.css";
 import "../assets/styles/header.css";
 import "../assets/styles/footer.css";
 
-const Container = styled.div`
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 40px;
-`;
+// const Container = styled.div`
+//   max-width: 1000px;
+//   margin: 0 auto;
+//   margin-top: 40px;
+// `;
 
 export default ({ data }) => (
   <ThemeProvider theme={themeSettings}>
-    <Container>
+    <div>
       <Helmet>
         <title>{data.site.siteMetadata.title}</title>
         <meta name="Connor Ocampo's Website" content="Connor Ocampo's Website" />
@@ -38,7 +38,7 @@ export default ({ data }) => (
       <Bio />
       <Writings />
       <Footer />
-    </Container>
+    </div>
   </ThemeProvider>
 )
 

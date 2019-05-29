@@ -45,7 +45,7 @@ class Bio extends React.Component {
     return (
       <ThemeProvider theme={themeSettings}>
         <Container>
-          <Image src={Avatar} />
+          <Image src={Avatar} alt="Connor Ocampo" />
           <div>
             <Tagline>
               A simple guy doing his best to make his way in the world

@@ -23,9 +23,11 @@ export default ({ data }) => (
   <ThemeProvider theme={themeSettings}>
     <Layout>
       <Helmet>
+        <html lang="en" />
         <title>{data.site.siteMetadata.title}</title>
         <meta name="Connor Ocampo's Website" content="Connor Ocampo's Website" />
         <meta name="theme-color" content="#0090D9" />
+        <meta name="description" description="Connor Ocampo's Website." />
       </Helmet>
       <Header />
       <Bio />

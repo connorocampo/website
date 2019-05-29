@@ -9,14 +9,9 @@ import "../assets/styles/header.css"
 
 // Components
 
+import Layout from "../components/base/Layout";
 import Header from "../components/base/Header";
 import Footer from "../components/base/Footer";
-
-const Container = styled.div`
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 40px;
-`;
 
 const Heading = styled.div`
   font-size: ${props => props.theme.size.headerBig};
@@ -39,7 +34,7 @@ const Text = styled.p`
 
 export default () => (
   <ThemeProvider theme={themeSettings}>
-    <Container>
+    <Layout>
       <Helmet>
         <title>Privacy Policy | Connor Ocampo's Website</title>
         <meta name="Privacy Policy | Connor Ocampo's Website" content="Privacy Policy | Connor Ocampo's Website" />
@@ -121,6 +116,6 @@ export default () => (
         </Text>
       <div>Icons made by <a href="https://www.freepik.com/" title="Freepik" target="_blank" rel="noopener noreferrer">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener noreferrer">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" rel="noopener noreferrer">CC 3.0 BY</a></div>
       <Footer />
-    </Container>
+    </Layout>
   </ThemeProvider>
 )

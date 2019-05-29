@@ -12,14 +12,15 @@ import "../assets/styles/header.css";
 
 // Components
 
+import Layout from "../components/base/Layout";
 import Header from "../components/base/Header";
 import Footer from "../components/base/Footer";
 
-const Container = styled.div`
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 40px;
-`;
+// const Container = styled.div`
+//   max-width: 1100px;
+//   margin: 0 auto;
+//   margin-top: 40px;
+// `;
 
 const HeadingContainer = styled.div`
   display: flex;
@@ -65,7 +66,7 @@ const PostTitle = styled.div`
 
 export default ({ data }) => (
   <ThemeProvider theme={themeSettings}>
-    <Container>
+    <Layout>
       <Helmet>
         <title>Blog | Connor Ocampo's Website</title>
         <meta name="Blog | Connor Ocampo's Website" content="Blog | About Connor Ocampo's Website" />
@@ -108,7 +109,7 @@ export default ({ data }) => (
 
       </RecentPosts>
       <Footer />
-    </Container>
+    </Layout>
   </ThemeProvider>
 )
 

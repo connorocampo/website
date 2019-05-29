@@ -1,5 +1,5 @@
 ---
-title: "Front-End Development is Aight"
+title: "Front-End Development Is Aight"
 date: "2019-05-28"
 ---
 

@@ -7,17 +7,12 @@ import themeSettings from '../components/base/settings';
 
 // Components
 
+import Layout from "../components/base/Layout";
 import Header from "../components/base/Header";
 import BookSection from "../components/shop/BookSection";
 import MysteryBook from "../components/shop/MysteryBook";
 import RecommendedProducts from "../components/shop/RecommendedProducts";
 import Footer from "../components/base/Footer";
-
-const Container = styled.div`
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 40px;
-`;
 
 const Heading = styled.div`
   font-family: 'Open Sans Heavy';
@@ -30,7 +25,7 @@ const Heading = styled.div`
 
 export default () => (
   <ThemeProvider theme={themeSettings}>
-    <Container>
+    <Layout>
       <Helmet>
         <title>Shop | Connor Ocampo's Website</title>
         <meta name="Shop | Connor Ocampo's Website" content="Shop | Connor Ocampo's Website" />
@@ -42,7 +37,7 @@ export default () => (
       <MysteryBook />
       <RecommendedProducts />
       <Footer />
-    </Container>
+    </Layout>
   </ThemeProvider>
 )
 

@@ -1,16 +1,15 @@
 import React from "react"
-import styled from 'styled-components';
 import { graphql } from "gatsby"
 
-const Container = styled.div`
-  margin: 0 auto;
-  max-width: 1000px;
-`;
+// Components
+
+import Layout from "../components/base/Layout";
+
 
 export default ({ data }) => {
   console.log(data)
   return (
-    <Container>
+    <Layout>
       <div>
         <h1>My Site's Files</h1>
         <table>
@@ -34,7 +33,7 @@ export default ({ data }) => {
           </tbody>
         </table>
       </div>
-    </Container>
+    </Layout>
   )
 }
 

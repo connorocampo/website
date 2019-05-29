@@ -7,14 +7,15 @@ import themeSettings from '../components/base/settings';
 
 // Components
 
+import Layout from "../components/base/Layout";
 import Header from "../components/base/Header";
 import Footer from "../components/base/Footer";
 
-const Container = styled.div`
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 40px;
-`;
+// const Container = styled.div`
+//   max-width: 1100px;
+//   margin: 0 auto;
+//   margin-top: 40px;
+// `;
 
 const Heading = styled.div`
   font-family: 'Open Sans Heavy';
@@ -30,7 +31,7 @@ const Text = styled.p`
 
 export default () => (
   <ThemeProvider theme={themeSettings}>
-    <Container>
+    <Layout>
       <Helmet>
         <title>About | Connor Ocampo's Website</title>
         <meta name="About Connor Ocampo's Website" content="About Connor Ocampo's Website" />
@@ -40,6 +41,6 @@ export default () => (
       <Heading>About Connor</Heading>
       <Text>I believe that everyone has a unique lens of experiences, and furthermore, I believe there are people out there that could greatly benefit from those experiences being made visible. This goes double if the sharer is part of a historically depressed, minority class of people.</Text>
       <Footer />
-    </Container>
+    </Layout>
   </ThemeProvider>
 )

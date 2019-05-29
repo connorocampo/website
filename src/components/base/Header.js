@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-
 import { Link } from "gatsby";
+
 
 /*
  * Styles
@@ -22,7 +22,6 @@ export const Brand = styled.span`
 
 export const NavItems = styled.span`
   font-size: ${props => props.theme.size.bodySmall};
-  ${'' /* font-family: ${props => props.theme.font.spacemono}; */}
 `;
 
 /*

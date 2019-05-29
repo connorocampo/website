@@ -7,14 +7,9 @@ import themeSettings from '../components/base/settings';
 
 // Components
 
+import Layout from "../components/base/Layout";
 import Header from "../components/base/Header";
 import Footer from "../components/base/Footer";
-
-const Container = styled.div`
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 40px;
-`;
 
 const Heading = styled.div`
   font-family: 'Open Sans Heavy';
@@ -38,7 +33,7 @@ export const Text = styled.div`
 
 export default () => (
   <ThemeProvider theme={themeSettings}>
-    <Container>
+    <Layout>
       <Helmet>
         <title>Hire Me | Connor Ocampo's Website</title>
         <meta name="Hire Me | Connor Ocampo's Website" content="Hire Me | Connor Ocampo's Website" />
@@ -49,6 +44,6 @@ export default () => (
       <Subheading>Speaking</Subheading>
       <Text>Expenses (airfare and hotel) are extra. If we mutually agree that this is a good fit, you’ll receive a firm quotation on the fee and the expenses. I’ll make my own travel arrangements. The fee and expenses will be due (to be received) two weeks before the actual date.</Text>
       <Footer />
-    </Container>
+    </Layout>
   </ThemeProvider>
 )

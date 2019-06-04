@@ -11,12 +11,6 @@ import Layout from "../components/base/Layout";
 import Header from "../components/base/Header";
 import Footer from "../components/base/Footer";
 
-// const Container = styled.div`
-//   max-width: 1100px;
-//   margin: 0 auto;
-//   margin-top: 40px;
-// `;
-
 const Heading = styled.div`
   font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerBig};

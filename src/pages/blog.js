@@ -16,12 +16,6 @@ import Layout from "../components/base/Layout";
 import Header from "../components/base/Header";
 import Footer from "../components/base/Footer";
 
-// const Container = styled.div`
-//   max-width: 1100px;
-//   margin: 0 auto;
-//   margin-top: 40px;
-// `;
-
 const HeadingContainer = styled.div`
   display: flex;
   align-items: center;
@@ -75,7 +69,7 @@ export default ({ data }) => (
       <Header />
       <HeadingContainer>
         <Heading>Blog</Heading>
-        <CategoryContainer>
+        {/* <CategoryContainer>
           <CategoryFilterText>Read By Category</CategoryFilterText>
           <CategoryFilterDropdown>
             <option value="Personal Development">Personal Development</option>
@@ -85,7 +79,7 @@ export default ({ data }) => (
             <option value="LGBT">LGBT</option>
             <option value="Notes">Notes</option>
           </CategoryFilterDropdown>
-        </CategoryContainer>
+        </CategoryContainer> */}
       </HeadingContainer>
       <RecentPosts>
         <Subheader>Recent Posts</Subheader>

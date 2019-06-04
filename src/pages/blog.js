@@ -83,7 +83,6 @@ export default ({ data }) => (
       </HeadingContainer>
       <RecentPosts>
         <Subheader>Recent Posts</Subheader>
-
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>

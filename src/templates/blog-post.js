@@ -30,7 +30,10 @@ export default ({ data }) => {
         <Header />
         <Heading>Blog Post</Heading>
         <PostTitle>{post.frontmatter.title}</PostTitle>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} style={{ marginBottom: '100px' }} />
+        <p className="post-subtitle">
+          {post.frontmatter.date} - {post.timeToRead} min read
+        </p>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} style={{ marginTop: '50px', marginBottom: '100px' }} />
         <Footer />
       </Layout>
     </ThemeProvider>
@@ -43,7 +46,9 @@ export const query = graphql`
       html
       frontmatter {
         title
+        date(formatString: "MMMM DD, YYYY")
       }
+      timeToRead
     }
   }
 `

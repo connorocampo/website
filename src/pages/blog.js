@@ -28,18 +28,18 @@ const Heading = styled.div`
   text-transform: uppercase;
 `;
 
-const CategoryContainer = styled.div`
-  display: flex;
-  align-items: center;
-`;
+// const CategoryContainer = styled.div`
+//   display: flex;
+//   align-items: center;
+// `;
 
-const CategoryFilterText = styled.p`
-  margin-right: 15px;
-`;
+// const CategoryFilterText = styled.p`
+//   margin-right: 15px;
+// `;
 
-const CategoryFilterDropdown = styled.select`
-  width: 260px;
-`;
+// const CategoryFilterDropdown = styled.select`
+//   width: 260px;
+// `;
 
 const RecentPosts = styled.div`
   margin-bottom: 50px;

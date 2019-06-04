@@ -17,6 +17,11 @@ const Heading = styled.div`
   text-transform: uppercase;
 `;
 
+const PostTitle = styled.div`
+  font-family: 'Open Sans Heavy';
+  font-size: ${props => props.theme.size.headerMedium};
+`;
+
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
@@ -24,8 +29,8 @@ export default ({ data }) => {
       <Layout>
         <Header />
         <Heading>Blog Post</Heading>
-        <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} style={{ marginBottom:'100px'}} />
+        <PostTitle>{post.frontmatter.title}</PostTitle>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} style={{ marginBottom: '100px' }} />
         <Footer />
       </Layout>
     </ThemeProvider>

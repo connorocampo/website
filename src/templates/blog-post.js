@@ -36,29 +36,31 @@ export default ({ data, pageContext }) => {
         <p className="post-subtitle">
           {post.frontmatter.date} - {post.timeToRead} min read
           </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} style={{ marginTop: '50px', marginBottom: '100px' }} />
-        {previous && (
-          <Link
-            to={previous.fields.slug}
-            rel="prev"
-            className="btn btn-secondary"
-          >
-            ← {previous.frontmatter.title}
-          </Link>
-        )}
+        <div dangerouslySetInnerHTML={{ __html: post.html }} style={{ marginTop: '50px', marginBottom: '50px' }} />
+        <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "100px" }}>
+          {previous && (
+            <Link
+              to={previous.fields.slug}
+              rel="prev"
+              className="btn btn-secondary"
+            >
+              ← {previous.frontmatter.title}
+            </Link>
+          )}
 
-        {next && (
-          <Link
-            to={next.fields.slug}
-            rel="next"
-            className="btn btn-secondary"
-          >
-            {next.frontmatter.title} →
+          {next && (
+            <Link
+              to={next.fields.slug}
+              rel="next"
+              className="btn btn-secondary"
+            >
+              {next.frontmatter.title} →
                   </Link>
-        )}
+          )}
+        </div>
         <Footer />
       </Layout>
-    </ThemeProvider>
+    </ThemeProvider >
   )
 }
 

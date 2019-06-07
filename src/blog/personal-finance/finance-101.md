@@ -1,7 +1,6 @@
 ---
 title: "Finance 101 Title"
 date: "2019-06-05"
-tags: ["Money", "Personal Finance"]
 ---
 
 LGBT people are really sweet. Here's a video of a panda eating sweets. Another sentence for filler text. Another sentence for filler text. Another sentence for filler text. Another sentence for filler text. LGBT people are really sweet. Here's a video of a panda eating sweets. Another sentence for filler text. Another sentence for filler text. Another sentence for filler text. Another sentence for filler text.

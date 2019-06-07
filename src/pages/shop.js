@@ -30,6 +30,7 @@ export default () => (
         <title>Shop | Connor Ocampo's Website</title>
         <meta name="Shop | Connor Ocampo's Website" content="Shop | Connor Ocampo's Website" />
         <meta name="theme-color" content="#0090D9" />
+        <meta name="description" content="The shop page for Connor Ocampo's website." />
       </Helmet>
       <Header />
       <Heading>Shop</Heading>

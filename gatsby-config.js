@@ -45,6 +45,14 @@ module.exports = {
         templatePath: `${__dirname}/src/templates/category.js`,
       },
     },
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        useMozJpeg: false,
+        stripMetadata: true,
+        defaultQuality: 75,
+      },
+    },
   ]
 }
 

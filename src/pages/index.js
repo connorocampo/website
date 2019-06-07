@@ -27,7 +27,7 @@ export default ({ data }) => (
         <title>{data.site.siteMetadata.title}</title>
         <meta name="Connor Ocampo's Website" content="Connor Ocampo's Website" />
         <meta name="theme-color" content="#0090D9" />
-        <meta name="description" description="Connor Ocampo's Website." />
+        <meta name="description" content="The home page for Connor Ocampo's website." />
       </Helmet>
       <Header />
       <Bio />

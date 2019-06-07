@@ -39,6 +39,7 @@ export default () => (
         <title>Hire Me | Connor Ocampo's Website</title>
         <meta name="Hire Me | Connor Ocampo's Website" content="Hire Me | Connor Ocampo's Website" />
         <meta name="theme-color" content="#0090D9" />
+        <meta name="description" content="The hire me page for Connor Ocampo's website." />
       </Helmet>
       <Header />
       <Heading>Hire Connor Ocampo</Heading>

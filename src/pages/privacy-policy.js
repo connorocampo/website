@@ -39,6 +39,7 @@ export default () => (
         <title>Privacy Policy | Connor Ocampo's Website</title>
         <meta name="Privacy Policy | Connor Ocampo's Website" content="Privacy Policy | Connor Ocampo's Website" />
         <meta name="theme-color" content="#0090D9" />
+        <meta name="description" content="The privacy policy page for Connor Ocampo's website." />
       </Helmet>
       <Header />
       <Heading>Privacy Policy and Disclaimer</Heading>

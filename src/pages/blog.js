@@ -65,6 +65,7 @@ export default ({ data }) => (
         <title>Blog | Connor Ocampo's Website</title>
         <meta name="Blog | Connor Ocampo's Website" content="Blog | About Connor Ocampo's Website" />
         <meta name="theme-color" content="#0090D9" />
+        <meta name="description" content="The about page for Connor Ocampo's website." />
       </Helmet>
       <Header />
       <HeadingContainer>

@@ -29,6 +29,7 @@ const CategoryTemplate = ({ location, pageContext, data }) => {
           <title>{category} | Connor Ocampo's Website</title>
           <meta name="Connor Ocampo's Website" content="Connor Ocampo's Website" />
           <meta name="theme-color" content="#0090D9" />
+          <meta name="description" content="The category page for Connor Ocampo's website." />
         </Helmet>
         <Header />
         <div>

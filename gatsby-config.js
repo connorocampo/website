@@ -39,6 +39,12 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       }
     },
+    {
+      resolve: "gatsby-plugin-categories",
+      options: {
+        templatePath: `${__dirname}/src/templates/category.js`,
+      },
+    },
   ]
 }
 

@@ -41,10 +41,10 @@ export default () => (
         <meta name="theme-color" content="#0090D9" />
       </Helmet>
       <Header />
-      <Heading>Hire Connor</Heading>
+      <Heading>Hire Connor Ocampo</Heading>
       <Subheading>Speaking</Subheading>
       <Text>Expenses (airfare and hotel) are extra. If we mutually agree that this is a good fit, you’ll receive a firm quotation on the fee and the expenses. I’ll make my own travel arrangements. The fee and expenses will be due (to be received) two weeks before the actual date.</Text>
-      <ContactForm/>
+      <ContactForm />
       <Footer />
     </Layout>
   </ThemeProvider>

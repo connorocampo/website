@@ -66,27 +66,27 @@ class Writings extends React.Component {
             <Subtitle>by category</Subtitle>
           </HeaderContainer>
           <Cards>
-            <Link to="/" className="card">
+            <Link to="/category/personal-development" className="card">
               <img src="https://image.flaticon.com/icons/svg/201/201557.svg" alt="" className="card-icon" />
               <CardTitle>Personal Development</CardTitle>
             </Link>
-            <Link to="/" className="card">
+            <Link to="/category/personal-finance" className="card">
               <img src="https://image.flaticon.com/icons/svg/236/236840.svg" alt="" className="card-icon" />
               <CardTitle>Personal Finance</CardTitle>
             </Link>
-            <Link to="/" className="card">
+            <Link to="/category/front-end-development" className="card">
               <img src="https://image.flaticon.com/icons/svg/204/204296.svg" alt="" className="card-icon" />
               <CardTitle>Front-End Development</CardTitle>
             </Link>
-            <Link to="/" className="card">
+            <Link to="/category/health-and-fitness" className="card">
               <img src="https://image.flaticon.com/icons/svg/387/387569.svg" alt="" className="card-icon" />
               <CardTitle>Health and Fitness</CardTitle>
             </Link>
-            <Link to="/" className="card">
+            <Link to="/category/lgbt" className="card">
               <img src="https://image.flaticon.com/icons/svg/1256/1256661.svg" alt="" className="card-icon" />
               <CardTitle>LGBT</CardTitle>
             </Link>
-            <Link to="/" className="card">
+            <Link to="/category/notes" className="card">
               <img src="https://image.flaticon.com/icons/svg/1205/1205495.svg" alt="" className="card-icon" />
               <CardTitle>Notes</CardTitle>
             </Link>

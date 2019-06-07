@@ -86,20 +86,21 @@ export default ({ data }) => (
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
-            <Link to={node.fields.slug}
-              style={{ textDecoration: "none", color: "#474747" }}>
-              <PostTitle>
-                {node.frontmatter.title}{" "}
-              </PostTitle>
-              <p className="post-subtitle">
-                {node.frontmatter.date} - {node.timeToRead} min read
-                </p>
-            </Link>
-            <p>{node.excerpt}</p>
+            <div style={{ margin: "25px 0" }}>
+              <Link to={node.fields.slug}
+                style={{ textDecoration: "none", color: "#474747" }}>
+                <PostTitle>
+                  {node.frontmatter.title}{" "}
+                </PostTitle>
+                <p className="post-subtitle">
+                  {node.frontmatter.date} - {node.timeToRead} min read
+                    </p>
+              </Link>
+              <p>{node.excerpt}</p>
+            </div>
             <hr style={{ border: "1px solid #eeeeee" }} />
           </div>
         ))}
-
       </RecentPosts>
       <Footer />
     </Layout>

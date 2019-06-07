@@ -1,6 +1,7 @@
 ---
 title: "Personal Development Title"
 date: "2019-06-04"
+category: Personal Development
 ---
 
 LGBT people are really sweet. Here's a video of a panda eating sweets. Another sentence for filler text. Another sentence for filler text. Another sentence for filler text. Another sentence for filler text. LGBT people are really sweet. Here's a video of a panda eating sweets. Another sentence for filler text. Another sentence for filler text. Another sentence for filler text. Another sentence for filler text.

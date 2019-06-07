@@ -32,7 +32,7 @@ export default ({ data }) => {
         <PostTitle>{post.frontmatter.title}</PostTitle>
         <p className="post-subtitle">
           {post.frontmatter.date} - {post.timeToRead} min read
-        </p>
+          </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} style={{ marginTop: '50px', marginBottom: '100px' }} />
         <Footer />
       </Layout>

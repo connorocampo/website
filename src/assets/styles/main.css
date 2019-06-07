@@ -95,3 +95,21 @@ a:hover {
 .product-link:last-child {
   margin-bottom: 0;
 }
+
+/* Hire Me Page */
+
+.hire-me-submit-btn {
+  -webkit-appearance: none;
+  background: #0090D9;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.hire-me-submit-btn:hover {
+  background: #189BDB;
+  cursor: pointer;
+  transition: 0.35s;
+}

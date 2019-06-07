@@ -81,11 +81,11 @@ class ContactForm extends React.Component {
             <FormContainer>
               <LeftForm>
                 <FormLabel type="text" htmlFor="fname-label">First Name</FormLabel>
-                <FormInput type="text" htmlFor="name" />
+                <FormInput type="text" htmlFor="name" required />
                 <FormLabel type="text" htmlFor="lname-label">Last Name</FormLabel>
-                <FormInput type="text" htmlFor="name" />
+                <FormInput type="text" htmlFor="name" required />
                 <FormLabel type="text" htmlFor="email-label">Email</FormLabel>
-                <FormInput type="email" htmlFor="_replyto" />
+                <FormInput type="email" htmlFor="_replyto" required />
               </LeftForm>
               <RightForm>
                 <FormLabel type="text" htmlFor="state-label">State</FormLabel>
@@ -143,7 +143,7 @@ class ContactForm extends React.Component {
                   <option value="WY">Wyoming</option>
                 </FormSelect>
                 <FormLabel type="text" htmlFor="date-label">Preferred Date</FormLabel>
-                <FormInput type="date"></FormInput>
+                <FormInput type="date" required></FormInput>
                 <FormLabel type="text" htmlFor="speaking-type-label">Speaking Type</FormLabel>
                 <FormSelect>
                   <option value="AZ">Conference</option>
@@ -165,7 +165,7 @@ class ContactForm extends React.Component {
               </FormSelect>
               <FormLabel type="text" htmlFor="comments-label">Comments</FormLabel>
               <textarea name="message" placeholder="Enter your comments here..." style={{ height: '150px', fontSize: '16px', marginBottom: '25px' }}></textarea>
-              <button type="submit" value="Send" style={{ background: '#0090D9', border: 'none', color: '#ffffff', fontSize: '16px', padding: '10px 0' }}>Submit</button>
+              <button type="submit" value="Send" className="hire-me-submit-btn">Submit</button>
             </BottomForm>
           </form>
         </Container>

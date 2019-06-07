@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from 'react-helmet';
 import { graphql } from "gatsby"
 import { Link } from "gatsby"
 import styled from 'styled-components';
@@ -30,6 +31,11 @@ export default ({ data, pageContext }) => {
   return (
     <ThemeProvider theme={themeSettings}>
       <Layout>
+        <Helmet>
+          <title>{post.frontmatter.title} | Connor Ocampo's Website</title>
+          <meta name="{frontmatter.title} | Connor Ocampo's Website" content="Blog | About Connor Ocampo's Website" />
+          <meta name="theme-color" content="#0090D9" />
+        </Helmet>
         <Header />
         <Heading>Blog Post</Heading>
         <PostTitle>{post.frontmatter.title}</PostTitle>
@@ -60,7 +66,7 @@ export default ({ data, pageContext }) => {
         </div>
         <Footer />
       </Layout>
-    </ThemeProvider >
+    </ThemeProvider>
   )
 }
 

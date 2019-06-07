@@ -90,6 +90,7 @@ class ContactForm extends React.Component {
               <RightForm>
                 <FormLabel type="text" htmlFor="state-label">State</FormLabel>
                 <FormSelect>
+                  <option value="nul">Select a state</option>
                   <option value="AL">Alabama</option>
                   <option value="AK">Alaska</option>
                   <option value="AZ">Arizona</option>
@@ -146,6 +147,7 @@ class ContactForm extends React.Component {
                 <FormInput type="date" required></FormInput>
                 <FormLabel type="text" htmlFor="speaking-type-label">Speaking Type</FormLabel>
                 <FormSelect>
+                  <option value="nul">Select a speaking type</option>
                   <option value="AZ">Conference</option>
                   <option value="AL">Internal</option>
                   <option value="AK">Keynote</option>

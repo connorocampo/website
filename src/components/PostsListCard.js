@@ -1,15 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
 import { graphql } from "gatsby"
+import styled from 'styled-components';
 
+const PostTitle = styled.div`
+  font-family: 'Open Sans Heavy';
+  font-size: ${props => props.theme.size.headerMedium};
+`;
 
 const PostsListCard = ({ timeToRead, frontmatter, fields, excerpt }) => {
   const title = frontmatter.title || fields.slug
 
   return (
     <div>
-      <div>
-        <h2 className="card-title">{title}</h2>
+      <div style={{ margin: "25px 0" }}>
+        <PostTitle>{title}</PostTitle>
         <p className="post-subtitle">
           {frontmatter.date} - {timeToRead} min read
         </p>
@@ -17,11 +22,14 @@ const PostsListCard = ({ timeToRead, frontmatter, fields, excerpt }) => {
           dangerouslySetInnerHTML={{
             __html: frontmatter.description || excerpt,
           }}
+
+          style={{ margin: "25px 0" }}
         />
         <Link to={`/${fields.slug}/`}>
           Read More &rarr;
         </Link>
       </div>
+        <hr style={{ border: "1px solid #eeeeee" }} />
     </div>
   )
 }

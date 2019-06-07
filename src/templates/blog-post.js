@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { Link } from "gatsby"
 import styled from 'styled-components';
 import { ThemeProvider } from "styled-components";
 
@@ -22,8 +23,10 @@ const PostTitle = styled.div`
   font-size: ${props => props.theme.size.headerMedium};
 `;
 
-export default ({ data }) => {
+export default ({ data, pageContext }) => {
   const post = data.markdownRemark
+  const { previous, next } = pageContext
+
   return (
     <ThemeProvider theme={themeSettings}>
       <Layout>
@@ -34,6 +37,25 @@ export default ({ data }) => {
           {post.frontmatter.date} - {post.timeToRead} min read
           </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} style={{ marginTop: '50px', marginBottom: '100px' }} />
+        {previous && (
+          <Link
+            to={previous.fields.slug}
+            rel="prev"
+            className="btn btn-secondary"
+          >
+            ← {previous.frontmatter.title}
+          </Link>
+        )}
+
+        {next && (
+          <Link
+            to={next.fields.slug}
+            rel="next"
+            className="btn btn-secondary"
+          >
+            {next.frontmatter.title} →
+                  </Link>
+        )}
         <Footer />
       </Layout>
     </ThemeProvider>

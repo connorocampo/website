@@ -44,11 +44,11 @@ export const pageQuery = graphql`
             slug
             category
           }
-          excerpt
+          excerpt(pruneLength: 280)
           timeToRead
           frontmatter {
             title
-            date
+            date(formatString: "MMMM DD, YYYY")
           }
         }
       }

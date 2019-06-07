@@ -97,6 +97,9 @@ export default ({ data }) => (
                     </p>
               </Link>
               <p>{node.excerpt}</p>
+              <Link to={node.fields.slug}>
+                Read More &rarr;
+              </Link>
             </div>
             <hr style={{ border: "1px solid #eeeeee" }} />
           </div>

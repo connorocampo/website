@@ -2,10 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from "gatsby";
 
-
-/*
- * Styles
- */
+// Styles
 
 export const Container = styled.div`
   display: flex;
@@ -24,9 +21,7 @@ export const NavItems = styled.span`
   font-size: ${props => props.theme.size.bodySmall};
 `;
 
-/*
- * Component
- */
+// Component
 
 class Header extends React.Component {
   render() {
@@ -35,7 +30,7 @@ class Header extends React.Component {
         <Brand>
           <Link to="/" className="brand">Connor Ocampo</Link>
         </Brand>
-        <NavItems className="nav-items">
+        <NavItems className="nav-items navbar-nav">
           <Link to="/" className="nav-item">Home</Link>
           <Link to="/about/" className="nav-item">About</Link>
           <Link to="/blog/" className="nav-item">Blog</Link>

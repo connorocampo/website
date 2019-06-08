@@ -14,7 +14,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 100px;
-  padding: 50px 0;
+  padding: 100px;
 `;
 
 const Heading = styled.div`

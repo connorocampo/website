@@ -7,6 +7,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   margin: 100px 0;
+  padding: 0 2rem;
   width: 1100px;
 `;
 

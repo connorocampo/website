@@ -24,3 +24,14 @@
   cursor: pointer;
   font-weight: bold;
 }
+
+
+@media (max-width: 540px) {
+  .align-left {
+    text-align: left;
+  }
+
+  .newletter-header {
+    margin-top: 50px;
+  }
+}

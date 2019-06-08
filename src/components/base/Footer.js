@@ -13,16 +13,17 @@ export const MaxWidth = styled.div`
   background: #F5F7F8;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
+  padding: 100px 2rem 0rem 2rem;  
 `;
 
 export const Container = styled.div`
-  padding-top: 100px;
   margin: 0 auto;
   max-width: 1100px; 
 `;
 
 export const FooterContent = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 `;
 
@@ -91,9 +92,9 @@ class Footer extends React.Component {
             </div>
             <div>
               <Newsletter>
-                <NewsletterHeader>Stay Updated</NewsletterHeader>
-                <NewsletterText>Get the latest articles delivered directly to your inbox</NewsletterText>
-                <Form action="https://connorocampo.us20.list-manage.com/subscribe/post?u=3e14727ae8295d990a776994a&amp;id=ddd8552a5d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+                <NewsletterHeader className="align-left newletter-header">Stay Updated</NewsletterHeader>
+                <NewsletterText className="align-left">Get the latest articles delivered directly to your inbox</NewsletterText>
+                <Form action="https://connorocampo.us20.list-manage.com/subscribe/post?u=3e14727ae8295d990a776994a&amp;id=ddd8552a5d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate className="align-left">
                   <input type="submit" value="Subscribe!" name="subscribe" className="subscribe-link" />
                 </Form>
               </Newsletter>

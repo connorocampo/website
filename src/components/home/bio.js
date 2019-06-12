@@ -50,7 +50,7 @@ class Bio extends React.Component {
             <Tagline>
               A simple guy doing his best to make his way in the world
           </Tagline>
-            <SubTitle>Front-end developer, co-author, LGBT advocate, health/fitness practitioner, and personal finance buff</SubTitle>
+            <SubTitle>Actual human, co-author, LGBT advocate, health/fitness practitioner, and personal finance buff</SubTitle>
             <Link
               to="/about"
               className="bio-button">Learn More</Link>

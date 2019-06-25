@@ -2,6 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from "gatsby";
 
+import '../SideDrawer/DrawerToggleButton';
+import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
+import SideDrawer from "../../components/SideDrawer/SideDrawer";
+
+
 // Styles
 
 export const Container = styled.div`
@@ -24,7 +29,22 @@ export const NavItems = styled.span`
 // Component
 
 class Header extends React.Component {
+  state = {
+    sideDrawerOpen: false
+  };
+
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen }
+    });
+  };
+
   render() {
+    let sideDrawer;
+
+    if (this.state.sideDrawerOpen) {
+      sideDrawer = <SideDrawer />;
+    }
     return (
       <Container>
         <Brand>
@@ -35,8 +55,12 @@ class Header extends React.Component {
           <Link to="/about/" className="nav-item">About</Link>
           <Link to="/blog/" className="nav-item">Blog</Link>
           <Link to="/shop/" className="nav-item">Shop</Link>
-          <Link to="/hire-me/" className=" nav-item">Hire Me</Link>
+          {/* <Link to="/hire-me/" className=" nav-item">Hire Me</Link> */}
         </NavItems>
+        <div drawerClickHandler={this.drawerToggleClickHandler}>
+          <DrawerToggleButton click={this.props.drawerClickHandler} />
+        </div>
+        {SideDrawer}
       </Container>
     );
   }

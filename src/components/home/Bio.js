@@ -44,16 +44,17 @@ class Bio extends React.Component {
   render() {
     return (
       <ThemeProvider theme={themeSettings}>
-        <Container>
-          <Image src={Avatar} alt="Connor Ocampo" />
+        <Container className="bio-content">
+          <Image src={Avatar} alt="Connor Ocampo" className="bio-thumbnail" />
           <div>
-            <Tagline>
+            <Tagline className="tagline">
               A simple guy doing his best to make his way in the world
-          </Tagline>
-            <SubTitle>Actual human, co-author, LGBT advocate, health/fitness practitioner, and personal finance buff</SubTitle>
+            </Tagline>
+            <SubTitle className="subtitle">Actual human, co-author, LGBT advocate, health/fitness practitioner, and personal finance buff</SubTitle>
             <Link
               to="/about"
-              className="bio-button">Learn More</Link>
+              className="bio-button">Learn More
+            </Link>
           </div>
         </Container>
       </ThemeProvider>

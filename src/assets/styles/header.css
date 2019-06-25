@@ -31,3 +31,15 @@
 .nav-item:hover:after { 
   width: 100%; 
 }
+
+/* Responsive */
+
+@media screen and (max-width: 700px) {
+  .brand {
+    font-size: 24px;
+  }
+
+  .nav-items {
+    display: none;
+  }
+}

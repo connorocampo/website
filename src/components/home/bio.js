@@ -5,7 +5,6 @@ import themeSettings from '../../components/base/settings';
 
 import { Link } from 'gatsby';
 
-// import Avatar from '../../assets/images/Avatar.jpg';
 import Avatar from '../../assets/images/Cat.png';
 
 

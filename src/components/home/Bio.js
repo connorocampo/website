@@ -5,7 +5,9 @@ import themeSettings from '../../components/base/settings';
 
 import { Link } from 'gatsby';
 
-import Avatar from '../../assets/images/Avatar.jpg';
+// import Avatar from '../../assets/images/Avatar.jpg';
+import Avatar from '../../assets/images/Cat.png';
+
 
 /*
  * Styles
@@ -24,7 +26,7 @@ export const Image = styled.img`
 export const Tagline = styled.div`
   font-size: ${props => props.theme.size.headerBig};
   font-family: 'Open Sans Heavy';
-  margin-top: 0;
+  margin-top: -10px;
   margin-bottom: 15px;
   max-width: 720px;
 `;

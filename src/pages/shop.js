@@ -27,10 +27,10 @@ export default () => (
   <ThemeProvider theme={themeSettings}>
     <Layout>
       <Helmet>
-        <title>Shop | Connor Ocampo's Website</title>
-        <meta name="Shop | Connor Ocampo's Website" content="Shop | Connor Ocampo's Website" />
+        <title>Shop | Cat Ocampo's Website</title>
+        <meta name="Shop | Cat Ocampo's Website" content="Shop | Cat Ocampo's Website" />
         <meta name="theme-color" content="#0090D9" />
-        <meta name="description" content="The shop page for Connor Ocampo's website." />
+        <meta name="description" content="The shop page for Cat Ocampo's website." />
       </Helmet>
       <Header />
       <Heading>Shop</Heading>

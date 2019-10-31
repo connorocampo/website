@@ -30,14 +30,12 @@ export const Container = styled.div`
 
 export const HeaderContainer = styled.div`
   align-items: center;
-  /* display: flex; */
   margin-bottom: 50px;
 `;
 
 export const Header = styled.h2`
   font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerMedium};
-  margin-right: 100px;
   margin-bottom: 0;
 `;
 
@@ -72,12 +70,10 @@ export const BookText = styled.p`
 `;
 
 export const Blockquote = styled.p`
-  border-left: 10px solid #404040;
+  border-left: 8px solid #404040;
   margin-top: 0;
   padding-left: 15px;
-
 `;
-
 
 /*
  * Component
@@ -89,8 +85,8 @@ class Book extends React.Component {
       <MaxWidth>
         <Container>
           <HeaderContainer>
-            <Header>Co-author of <i>Your First Year in Code</i></Header>
-            <Subtitle>A complete guide for new & aspiring developers</Subtitle>
+            <Header className="book-header">Co-author of the book <i>Your First Year in Code</i></Header>
+            <Subtitle className="book-subtitle">A complete guide for new & aspiring developers</Subtitle>
           </HeaderContainer>
           <YourFirstYearInCode>
             <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer">

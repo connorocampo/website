@@ -39,6 +39,13 @@ export const SubTitle = styled.div`
   max-width: 620px;
 `;
 
+export const TechCredit = styled.div`
+  font-size: ${props => props.theme.size.bodySmall};
+  line-height: 1.5;
+  margin-bottom: 30px;
+  max-width: 620px;
+`;
+
 /*
  * Component
  */
@@ -53,11 +60,12 @@ class Bio extends React.Component {
             <Tagline className="tagline">
               Front-end Developer based in Boca Raton, Florida, USA
             </Tagline>
-            <SubTitle className="subtitle"><span role="img" aria-label="emoji">⚡</span> This website was built on <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">Gatsby</a> and <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a> <span role="img" aria-label="emoji">⚡</span></SubTitle>
+            <SubTitle className="subtitle">Amatuer singer-songwriter, painter, and vegan chef.</SubTitle>
             <Link
               to="/about"
               className="bio-button">Learn More
             </Link>
+            <TechCredit className="tech-credit">*This website was built on <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">Gatsby</a> and <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a> <span role="img" aria-label="emoji">⚡</span></TechCredit>
           </div>
         </Container>
       </ThemeProvider>

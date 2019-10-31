@@ -128,7 +128,7 @@ a:hover {
   .bio-thumbnail {
     height: 70px !important;
     margin-top: -50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width: 70px !important;
   }
 
@@ -137,9 +137,22 @@ a:hover {
     max-width: 500px;
   }
 
-  .subtitle {
-    font-size: 16px;
+  .subtitle, .book-subtitle {
+    font-size: 14px;
     max-width: 500px;
+  }
+
+  .tech-credit {
+    font-size: 12px;
+    max-width: 500px;
+  }
+
+  .book-header {
+    font-size: 24px !important;
+  }
+
+  .cJQdRk {
+    padding: 0 1rem;
   }
 }
 

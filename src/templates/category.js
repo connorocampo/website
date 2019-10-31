@@ -26,10 +26,10 @@ const CategoryTemplate = ({ location, pageContext, data }) => {
     <ThemeProvider theme={themeSettings}>
       <Layout location={location} title={`Posts in category "${category}"`}>
         <Helmet>
-          <title>{category} | Connor Ocampo's Website</title>
-          <meta name="Connor Ocampo's Website" content="Connor Ocampo's Website" />
+          <title>{category} | Cat Ocampo's Website</title>
+          <meta name=" Ocampo's Website" content="Cat Ocampo's Website" />
           <meta name="theme-color" content="#0090D9" />
-          <meta name="description" content="The category page for Connor Ocampo's website." />
+          <meta name="description" content="The category page for Cat Ocampo's website." />
         </Helmet>
         <Header />
         <div>

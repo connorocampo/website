@@ -36,13 +36,13 @@ export default () => (
   <ThemeProvider theme={themeSettings}>
     <Layout>
       <Helmet>
-        <title>Hire Me | Connor Ocampo's Website</title>
-        <meta name="Hire Me | Connor Ocampo's Website" content="Hire Me | Connor Ocampo's Website" />
+        <title>Hire Me | Cat Ocampo's Website</title>
+        <meta name="Hire Me | Cat Ocampo's Website" content="Hire Me | Cat Ocampo's Website" />
         <meta name="theme-color" content="#0090D9" />
-        <meta name="description" content="The hire me page for Connor Ocampo's website." />
+        <meta name="description" content="The hire me page for Cat Ocampo's website." />
       </Helmet>
       <Header />
-      <Heading>Hire Connor Ocampo</Heading>
+      <Heading>Hire Cat Ocampo</Heading>
       <Subheading>Speaking</Subheading>
       <Text>Expenses (airfare and hotel) are extra. If we mutually agree that this is a good fit, you’ll receive a firm quotation on the fee and the expenses. I’ll make my own travel arrangements. The fee and expenses will be due (to be received) two weeks before the actual date.</Text>
       <ContactForm />

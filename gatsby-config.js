@@ -1,15 +1,16 @@
 module.exports = {
+  pathPrefix: "/catherineocampo",
   siteMetadata: {
     title: `Cat Ocampo's Website`,
     author: `Cat Ocampo`,
     description: `Cat Ocampo's Website.`,
-    siteUrl: `https://www.connorocampo.com/`,
+    siteUrl: `https://catherineocampo.github.io/catherineocampo/`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Car Ocampo`,
+        name: `Cat Ocampo`,
         short_name: `Cat`,
         start_url: `/`,
         background_color: `#ffffff`,

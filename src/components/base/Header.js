@@ -19,6 +19,7 @@ export const Container = styled.div`
 export const Brand = styled.span`
   font-size: ${props => props.theme.size.headerMedium};
   letter-spacing: 5px;
+  line-height: 1;
   text-transform: uppercase;
 `;
 

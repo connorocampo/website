@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { ThemeProvider } from "styled-components";
 
 import themeSettings from '../components/base/settings';
+import favicon from '../../static/favicon.ico';
 
 // Components
 
@@ -30,6 +31,7 @@ export default () => (
         <title>About | Cat Ocampo's Website</title>
         <meta name="About Connor Ocampo's Website" content="About Connor Ocampo's Website" />
         <meta name="theme-color" content="#0090D9" />
+        <link rel="icon" href={favicon} />
       </Helmet>
       <Header />
       <Heading>About Cat Ocampo</Heading>

@@ -36,32 +36,32 @@ export const SocialMediaHeader = styled.div`
 export const SocialMediaLinks = styled.span`
 `;
 
-export const Newsletter = styled.span`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-`;
+// export const Newsletter = styled.span`
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+// `;
 
-export const NewsletterHeader = styled.div`
-  font-family: 'Open Sans Heavy';
-  font-size: ${props => props.theme.size.headerMedium};
-  margin-bottom: 50px;
-  text-align: right;
-`;
+// export const NewsletterHeader = styled.div`
+//   font-family: 'Open Sans Heavy';
+//   font-size: ${props => props.theme.size.headerMedium};
+//   margin-bottom: 50px;
+//   text-align: right;
+// `;
 
-export const NewsletterText = styled.div`
-  text-align: right;
-  line-height: 1.5;
-  margin-bottom: 25px;
-  margin-left: auto;
-  text-align: right;  
-  width: 260px;
-`;
+// export const NewsletterText = styled.div`
+//   text-align: right;
+//   line-height: 1.5;
+//   margin-bottom: 25px;
+//   margin-left: auto;
+//   text-align: right;  
+//   width: 260px;
+// `;
 
-export const Form = styled.form`
-  font-size: ${props => props.theme.size.bodySmall};
-  text-align: right;
-`;
+// export const Form = styled.form`
+//   font-size: ${props => props.theme.size.bodySmall};
+//   text-align: right;
+// `;
 
 export const Copyright = styled.p`
   font-size: ${props => props.theme.size.bodySmall};
@@ -88,13 +88,13 @@ class Footer extends React.Component {
               </SocialMediaLinks>
             </div>
             <div>
-              <Newsletter>
+              {/* <Newsletter>
                 <NewsletterHeader className="align-left newletter-header">My Newsletter</NewsletterHeader>
                 <NewsletterText className="align-left">Get email updates straight to your inbox.</NewsletterText>
                 <Form action="https://connorocampo.us20.list-manage.com/subscribe/post?u=3e14727ae8295d990a776994a&amp;id=ddd8552a5d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate className="align-left">
                   <input type="submit" value="Subscribe!" name="subscribe" className="subscribe-link" />
                 </Form>
-              </Newsletter>
+              </Newsletter> */}
             </div>
           </FooterContent>
           <Copyright>© 2019 Cat Ocampo | <Link to="/privacy-policy" className="regular-link" >Privacy Policy</Link></Copyright>

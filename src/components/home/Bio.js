@@ -53,7 +53,7 @@ class Bio extends React.Component {
             <Tagline className="tagline">
               Front-end Developer based in Boca Raton, Florida, USA
             </Tagline>
-            <SubTitle className="subtitle">⚡ This website was built on <a href="https://www.gatsbyjs.org/" target="_blank" rel="nofollow">Gatsby</a> ⚡</SubTitle>
+            <SubTitle className="subtitle"><span role="img" aria-label="emoji">⚡</span> This website was built on <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">Gatsby</a> and <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a> <span role="img" aria-label="emoji">⚡</span></SubTitle>
             <Link
               to="/about"
               className="bio-button">Learn More

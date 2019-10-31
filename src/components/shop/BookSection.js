@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Book from '../../assets/images/Book.jpg';
+import MyBook from '../../assets/images/MyBook.jpg';
 
 /*
  * Styles
@@ -47,7 +47,7 @@ class BookSection extends React.Component {
           </CTAText>
           <CTAText>(Coming out in July 2019)</CTAText>
         </CTAContainer>
-        <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer"><Image src={Book} alt="Your First Year In Code Book" /></a>
+        <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer"><Image src={MyBook} alt="Your First Year In Code Book" /></a>
       </Container>
     );
   }

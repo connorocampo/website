@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import { Link } from "gatsby";
 
 import '../SideDrawer/DrawerToggleButton';
-import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
-import SideDrawer from "../../components/SideDrawer/SideDrawer";
+// import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
+// import SideDrawer from "../../components/SideDrawer/SideDrawer";
 
 
 // Styles
@@ -29,22 +29,22 @@ export const NavItems = styled.span`
 // Component
 
 class Header extends React.Component {
-  state = {
-    sideDrawerOpen: false
-  };
+  // state = {
+  //   sideDrawerOpen: false
+  // };
 
-  drawerToggleClickHandler = () => {
-    this.setState((prevState) => {
-      return { sideDrawerOpen: !prevState.sideDrawerOpen }
-    });
-  };
+  // drawerToggleClickHandler = () => {
+  //   this.setState((prevState) => {
+  //     return { sideDrawerOpen: !prevState.sideDrawerOpen }
+  //   });
+  // };
 
   render() {
-    let sideDrawer;
+    // let sideDrawer;
 
-    if (this.state.sideDrawerOpen) {
-      sideDrawer = <SideDrawer />;
-    }
+    // if (this.state.sideDrawerOpen) {
+    //   sideDrawer = <SideDrawer />;
+    // }
     return (
       <Container>
         <Brand>
@@ -53,15 +53,16 @@ class Header extends React.Component {
         <NavItems className="nav-items navbar-nav">
           <Link to="/" className="nav-item">Home</Link>
           <Link to="/about/" className="nav-item">About</Link>
-          <Link to="/blog/" className="nav-item">Blog</Link>
+          {/* <Link to="/blog/" className="nav-item">Blog</Link> */}
+          <Link to="/contact/" className="nav-item">Contact</Link>
           {/* <Link to="/shop/" className="nav-item">Shop</Link> */}
           {/* <Link to="/hire-me/" className=" nav-item">Hire Me</Link> */}
         </NavItems>
         {/* <div drawerClickHandler={this.drawerToggleClickHandler}>
           <DrawerToggleButton click={this.props.drawerClickHandler} />
         </div> */}
-        {SideDrawer}
-      </Container>
+        {/* {SideDrawer} */}
+      </Container >
     );
   }
 }

@@ -16,7 +16,8 @@ import "../assets/styles/footer.css";
 import Layout from "../components/base/Layout";
 import Header from "../components/base/Header";
 import Bio from "../components/home/Bio";
-import Writings from "../components/home/Writings";
+import Book from "../components/home/Book";
+// import Writings from "../components/home/Writings";
 import Footer from "../components/base/Footer";
 
 export default ({ data }) => (
@@ -31,7 +32,8 @@ export default ({ data }) => (
       </Helmet>
       <Header />
       <Bio />
-      <Writings />
+      <Book />
+      {/* <Writings /> */}
       <Footer />
     </Layout>
   </ThemeProvider>

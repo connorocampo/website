@@ -83,11 +83,8 @@ class Footer extends React.Component {
             <div>
               <SocialMediaHeader>Other Platforms</SocialMediaHeader>
               <SocialMediaLinks className="social-media-links">
-                {/* <a href="https://www.instagram.com/connor_ocampo/" target="_blank" rel="noopener noreferrer">Instagram</a> */}
-                {/* <a href="https://www.youtube.com/channel/UCzgDTD9EKa3BhWRkdoOYEdg?view_as=subscriber" target="_blank" rel="noopener noreferrer">YouTube</a> */}
-                <a href="https://www.linkedin.com/in/connorocampo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://github.com/connorocampo" target="_blank" rel="noopener noreferrer">GitHub</a>
-                {/* <a href="https://twitter.com/connorocampo" target="_blank" rel="noopener noreferrer">Twitter</a> */}
+                <a href="https://www.linkedin.com/in/catherineocampo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/catherineocampo" target="_blank" rel="noopener noreferrer">GitHub</a>
               </SocialMediaLinks>
             </div>
             <div>

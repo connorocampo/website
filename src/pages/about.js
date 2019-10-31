@@ -28,7 +28,7 @@ export default () => (
     <Layout>
       <Helmet>
         <title>About | Cat Ocampo's Website</title>
-        <meta name="About Cat Ocampo's Website" content="About Cat Ocampo's Website" />
+        <meta name="About Connor Ocampo's Website" content="About Connor Ocampo's Website" />
         <meta name="theme-color" content="#0090D9" />
       </Helmet>
       <Header />

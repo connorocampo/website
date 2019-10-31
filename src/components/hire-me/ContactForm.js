@@ -76,7 +76,7 @@ class ContactForm extends React.Component {
     return (
       <ThemeProvider theme={themeSettings}>
         <Container>
-          <Heading>Have Cat Speak at Your Event</Heading>
+          <Heading>Have Connor Speak at Your Event</Heading>
           <form action="https://formspree.io/connorocampo@gmail.com" method="POST">
             <FormContainer>
               <LeftForm>

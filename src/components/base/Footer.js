@@ -85,6 +85,7 @@ class Footer extends React.Component {
               <SocialMediaLinks className="social-media-links">
                 <a href="https://www.linkedin.com/in/catherineocampo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 <a href="https://github.com/catherineocampo" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://codepen.io/catocampo/" target="_blank" rel="noopener noreferrer">CodePen</a>
               </SocialMediaLinks>
             </div>
             <div>

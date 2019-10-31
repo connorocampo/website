@@ -33,7 +33,10 @@ export default () => (
       </Helmet>
       <Header />
       <Heading>Contact Cat Ocampo</Heading>
-      <Text>Email me directly at <a href="mailto:cmosofla@gmail.com" target="_blank" rel="noopener noreferrer">cmosofla@gmail.com</a>.</Text>
+      <Text>Oh, hey stranger. Looks like you want to get in touch with me about something. That's cool.
+      <br />
+        <br />
+        You can send me an email directly at <a href="mailto:cmosofla@gmail.com" target="_blank" rel="noopener noreferrer">cmosofla@gmail.com</a>.</Text>
       <Footer />
     </Layout>
   </ThemeProvider>

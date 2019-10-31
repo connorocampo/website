@@ -126,14 +126,14 @@ a:hover {
   }
 
   .bio-thumbnail {
-    height: 70px;
+    height: 70px !important;
     margin-top: -50px;
     margin-bottom: 20px;
-    width: 70px;
+    width: 70px !important;
   }
 
   .tagline {
-    font-size: 24px;
+    font-size: 24px !important;
     max-width: 500px;
   }
 

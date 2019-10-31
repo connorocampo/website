@@ -41,7 +41,8 @@
   }
 
   .nav-items {
-    /* display: none; */
-    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
 }

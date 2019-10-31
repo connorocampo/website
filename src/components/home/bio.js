@@ -65,7 +65,7 @@ class Bio extends React.Component {
               to="/about"
               className="bio-button">Learn More
             </Link>
-            <TechCredit className="tech-credit">*This website was built on <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">Gatsby</a> and <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a> <span role="img" aria-label="emoji">⚡</span></TechCredit>
+            <TechCredit className="tech-credit">*This website was built using <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">Gatsby</a> and <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a> <span role="img" aria-label="emoji">⚡</span></TechCredit>
           </div>
         </Container>
       </ThemeProvider>

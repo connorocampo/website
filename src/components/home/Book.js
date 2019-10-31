@@ -90,10 +90,10 @@ class Book extends React.Component {
           </HeaderContainer>
           <YourFirstYearInCode>
             <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer">
-              <Image src={MyBook} />
-              <Disclaimer><i>*Published name is Connor Ocampo</i></Disclaimer>
+              <Image src={MyBook} className="book-photo" />
+              <Disclaimer className="disclaimer"><i>*Published name is Connor Ocampo</i></Disclaimer>
             </a>
-            <BookTextContainer>
+            <BookTextContainer className="book-text-container">
               <BookText>Together with 15 generous contributing authors of the book <i>Your First Year in Code</i>, we've created a publication dedicated to new and aspiring developers. Fortunately, I was able to contribute an inclusion section focusing on minority/LGBTQ+ people for the "Do I fit in?" chapter. Read a snippet of my contribution below:</BookText>
               <Blockquote>
                 Do you identify as an LGBT person? Are you in the process of applying for jobs? Are you concerned with how you might fit in and want some tips on how to best go about including this information in your application? If yes, then this section is for you.

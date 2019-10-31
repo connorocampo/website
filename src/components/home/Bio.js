@@ -21,6 +21,7 @@ export const Image = styled.img`
   border-radius: 50%;
   height: 156px;
   margin-right: 50px;
+  margin-left: 2px;
 `;
 
 export const Tagline = styled.div`
@@ -50,7 +51,7 @@ class Bio extends React.Component {
           <Image src={Avatar} alt="Cat Ocampo" className="bio-thumbnail" />
           <div>
             <Tagline className="tagline">
-              Front-end Developer based in South Florida, USA
+              Front-end Developer based in Boca Raton, Florida, USA
             </Tagline>
             <SubTitle className="subtitle">⚡ This website was built on <a href="https://www.gatsbyjs.org/" target="_blank" rel="nofollow">Gatsby</a> ⚡</SubTitle>
             <Link

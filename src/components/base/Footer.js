@@ -67,7 +67,7 @@ export const Copyright = styled.p`
   font-size: ${props => props.theme.size.bodySmall};
   margin-top: 100px;
   margin-bottom: 0;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 `;
 
 /*
@@ -89,7 +89,7 @@ class Footer extends React.Component {
             </div>
             <div>
               <Newsletter>
-                <NewsletterHeader className="align-left newletter-header">Newsletter</NewsletterHeader>
+                <NewsletterHeader className="align-left newletter-header">My Newsletter</NewsletterHeader>
                 <NewsletterText className="align-left">Get email updates straight to your inbox.</NewsletterText>
                 <Form action="https://connorocampo.us20.list-manage.com/subscribe/post?u=3e14727ae8295d990a776994a&amp;id=ddd8552a5d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate className="align-left">
                   <input type="submit" value="Subscribe!" name="subscribe" className="subscribe-link" />

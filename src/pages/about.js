@@ -33,7 +33,7 @@ export default () => (
       </Helmet>
       <Header />
       <Heading>About Cat Ocampo</Heading>
-      <Text>I believe that everyone has a unique lens of experiences, and furthermore, I believe there are people out there that could greatly benefit from those experiences being made visible. This goes double if the sharer is part of a historically depressed, minority class of people.</Text>
+      <Text>I’m a native South Floridian who graduated college at UCF in 2016. Since then I’ve went on to gain employment in web technologies at a financial publishing company and then later at a web development agency. When I’m not working, I enjoy cooking, painting, playing guitar and singing.</Text>
       <Footer />
     </Layout>
   </ThemeProvider>

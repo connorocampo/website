@@ -81,23 +81,23 @@ class Footer extends React.Component {
         <Container>
           <FooterContent>
             <div>
-              <SocialMediaHeader>Lets Connect</SocialMediaHeader>
+              <SocialMediaHeader>Other Platforms</SocialMediaHeader>
               <SocialMediaLinks className="social-media-links">
-                <a href="https://www.linkedin.com/in/connorocampo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://github.com/connorocampo" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/catherineocampo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/catherineocampo" target="_blank" rel="noopener noreferrer">GitHub</a>
               </SocialMediaLinks>
             </div>
             <div>
               <Newsletter>
-                <NewsletterHeader className="align-left newletter-header">Stay Updated</NewsletterHeader>
-                <NewsletterText className="align-left">Get the latest articles delivered directly to your inbox</NewsletterText>
+                <NewsletterHeader className="align-left newletter-header">Newsletter</NewsletterHeader>
+                <NewsletterText className="align-left">Get email updates straight to your inbox.</NewsletterText>
                 <Form action="https://connorocampo.us20.list-manage.com/subscribe/post?u=3e14727ae8295d990a776994a&amp;id=ddd8552a5d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate className="align-left">
                   <input type="submit" value="Subscribe!" name="subscribe" className="subscribe-link" />
                 </Form>
               </Newsletter>
             </div>
           </FooterContent>
-          <Copyright>© 2019 Connor Ocampo | <Link to="/privacy-policy" className="regular-link" >Privacy Policy</Link></Copyright>
+          <Copyright>© 2019 Cat Ocampo | <Link to="/privacy-policy" className="regular-link" >Privacy Policy</Link></Copyright>
         </Container>
       </MaxWidth>
     );

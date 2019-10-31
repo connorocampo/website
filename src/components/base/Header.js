@@ -62,7 +62,7 @@ class Header extends React.Component {
           <DrawerToggleButton click={this.props.drawerClickHandler} />
         </div> */}
         {/* {SideDrawer} */}
-      </Container >
+      </Container>
     );
   }
 }

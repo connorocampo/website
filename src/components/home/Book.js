@@ -53,7 +53,6 @@ export const YourFirstYearInCode = styled.div`
 `;
 
 export const Image = styled.img`
-  /* margin-right: 25px; */
   width: 325px;
 `;
 
@@ -75,7 +74,7 @@ export const BookText = styled.p`
 export const Blockquote = styled.p`
   border-left: 10px solid #404040;
   margin-top: 0;
-  padding-left: 25px;
+  padding-left: 15px;
 
 `;
 

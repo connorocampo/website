@@ -48,18 +48,18 @@ class Header extends React.Component {
     return (
       <Container>
         <Brand>
-          <Link to="/" className="brand">Connor Ocampo</Link>
+          <Link to="/" className="brand">Cat Ocampo</Link>
         </Brand>
         <NavItems className="nav-items navbar-nav">
           <Link to="/" className="nav-item">Home</Link>
           <Link to="/about/" className="nav-item">About</Link>
           <Link to="/blog/" className="nav-item">Blog</Link>
-          <Link to="/shop/" className="nav-item">Shop</Link>
+          {/* <Link to="/shop/" className="nav-item">Shop</Link> */}
           {/* <Link to="/hire-me/" className=" nav-item">Hire Me</Link> */}
         </NavItems>
-        <div drawerClickHandler={this.drawerToggleClickHandler}>
+        {/* <div drawerClickHandler={this.drawerToggleClickHandler}>
           <DrawerToggleButton click={this.props.drawerClickHandler} />
-        </div>
+        </div> */}
         {SideDrawer}
       </Container>
     );

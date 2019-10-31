@@ -27,12 +27,12 @@ export default () => (
   <ThemeProvider theme={themeSettings}>
     <Layout>
       <Helmet>
-        <title>About | Connor Ocampo's Website</title>
+        <title>About | Cat Ocampo's Website</title>
         <meta name="About Connor Ocampo's Website" content="About Connor Ocampo's Website" />
         <meta name="theme-color" content="#0090D9" />
       </Helmet>
       <Header />
-      <Heading>About Connor Ocampo</Heading>
+      <Heading>About Cat Ocampo</Heading>
       <Text>I believe that everyone has a unique lens of experiences, and furthermore, I believe there are people out there that could greatly benefit from those experiences being made visible. This goes double if the sharer is part of a historically depressed, minority class of people.</Text>
       <Footer />
     </Layout>

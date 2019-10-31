@@ -45,12 +45,12 @@ class Bio extends React.Component {
     return (
       <ThemeProvider theme={themeSettings}>
         <Container className="bio-content">
-          <Image src={Avatar} alt="Connor Ocampo" className="bio-thumbnail" />
+          <Image src={Avatar} alt="Cat Ocampo" className="bio-thumbnail" />
           <div>
             <Tagline className="tagline">
-              A simple guy doing his best to make his way in the world
+              Front-end Developer based in South Florida, USA
             </Tagline>
-            <SubTitle className="subtitle">Actual human, co-author, LGBT advocate, health/fitness practitioner, and personal finance buff</SubTitle>
+            <SubTitle className="subtitle">This website was built on Gatsby</SubTitle>
             <Link
               to="/about"
               className="bio-button">Learn More

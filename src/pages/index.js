@@ -25,9 +25,9 @@ export default ({ data }) => (
       <Helmet>
         <html lang="en" />
         <title>{data.site.siteMetadata.title}</title>
-        <meta name="Connor Ocampo's Website" content="Connor Ocampo's Website" />
+        <meta name="Cat Ocampo's Website" content="Cat Ocampo's Website" />
         <meta name="theme-color" content="#0090D9" />
-        <meta name="description" content="The home page for Connor Ocampo's website." />
+        <meta name="description" content="The home page for Cat Ocampo's website." />
       </Helmet>
       <Header />
       <Bio />

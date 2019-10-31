@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Connor Ocampo's Website`,
-    author: `Connor Ocampo`,
-    description: `Connor Ocampo's Website.`,
+    title: `Cat Ocampo's Website`,
+    author: `Cat Ocampo`,
+    description: `Cat Ocampo's Website.`,
     siteUrl: `https://www.connorocampo.com/`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Connor Ocampo`,
-        short_name: `Connor`,
+        name: `Car Ocampo`,
+        short_name: `Cat`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#345d7e`,

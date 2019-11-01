@@ -48,7 +48,7 @@ class Header extends React.Component {
     // }
     return (
       <Container>
-        <Brand>
+        <Brand className="brand-container">
           <Link to="/" className="brand">Cat Ocampo</Link>
         </Brand>
         <NavItems className="nav-items navbar-nav">

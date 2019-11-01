@@ -146,10 +146,6 @@ a:hover {
     max-width: 500px;
   }
 
-  .book-subtitle {
-    padding: 0 1rem;
-  }
-
   .tech-credit {
     font-size: 12px;
     max-width: 500px;
@@ -157,15 +153,6 @@ a:hover {
 
   .book-header {
     font-size: 24px !important;
-    padding: 0 1rem;
-  }
-
-  .dpzGUl {
-    font-size: 24px !important;
-  }
-
-  .cJQdRk{
-    padding: 0 1rem;
   }
 
   .disclaimer {
@@ -180,8 +167,8 @@ a:hover {
   }
 
   .book-text-container {
+    margin-top: 25px;
     max-width: 525px;
-    padding: 0 1rem;
   }
 
   .bye-cat {

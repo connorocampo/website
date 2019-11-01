@@ -90,7 +90,7 @@ class Book extends React.Component {
           </HeaderContainer>
           <YourFirstYearInCode>
             <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer">
-              <Image src={BookCover} className="book-photo" />
+              <Image src={BookCover} className="book-photo" alt="Book cover for the book Your First Year in Code" />
               <Disclaimer className="disclaimer"><i>*Published name is Connor Ocampo</i></Disclaimer>
             </a>
             <BookTextContainer className="book-text-container">

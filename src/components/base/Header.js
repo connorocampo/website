@@ -47,7 +47,7 @@ class Header extends React.Component {
     //   sideDrawer = <SideDrawer />;
     // }
     return (
-      <Container>
+      <Container className="header-container">
         <Brand className="brand-container">
           <Link to="/" className="brand">Cat Ocampo</Link>
         </Brand>

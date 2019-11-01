@@ -120,6 +120,10 @@ a:hover {
 /* Responsive */
 
 @media screen and (max-width: 700px) {
+  .page-title {
+    font-size: 24px !important;
+  }
+
   .bio-content {
     display: flex;
     flex-direction: column;

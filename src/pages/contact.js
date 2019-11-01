@@ -41,7 +41,7 @@ export default () => (
         <link rel="icon" href={favicon} />
       </Helmet>
       <Header />
-      <Heading>Contact Cat Ocampo</Heading>
+      <Heading className="page-title">Contact Cat Ocampo</Heading>
       <Text>Oh, hey stranger. Looks like you want to get in touch with me about something. That's cool.
       <br />
         <br />

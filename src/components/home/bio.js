@@ -28,6 +28,7 @@ export const Tagline = styled.div`
   font-family: 'Open Sans Heavy';
   margin-top: -10px;
   margin-bottom: 15px;
+  margin-left: -2px;
   max-width: 720px;
 `;
 
@@ -59,7 +60,7 @@ class Bio extends React.Component {
             <Tagline className="tagline">
               Front-end Developer based in Boca Raton, Florida, USA
             </Tagline>
-            <SubTitle className="subtitle">Amatuer singer-songwriter, painter, and vegan chef.</SubTitle>
+            <SubTitle className="subtitle">Also, amatuer singer-songwriter, painter, and vegan chef <span role="img" aria-label="emoji">🤘🏼</span></SubTitle>
             <Link
               to="/about"
               className="bio-button">Learn More

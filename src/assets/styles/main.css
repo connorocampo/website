@@ -137,9 +137,12 @@ a:hover {
     max-width: 500px;
   }
 
-  .subtitle, .book-subtitle {
+  .subtitle {
     font-size: 14px;
     max-width: 500px;
+  }
+
+  .book-subtitle {
     padding: 0 1rem;
   }
 
@@ -169,7 +172,7 @@ a:hover {
   .book-photo {
     display: block;
     margin: 0 auto;
-    width: 90%;
+    width: 90% !important;
   }
 
   .book-text-container {

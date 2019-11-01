@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 // import { Link } from "gatsby";
 
-import MyBook from "../../assets/images/MyBook.jpg";
+import BookCover from "../../assets/images/BookCover.jpeg";
 
 
 /*
@@ -61,7 +61,7 @@ export const Disclaimer = styled.p`
 `;
 
 export const BookTextContainer = styled.div`
-  margin-top: 0;
+  margin-top: -5px;
   max-width: 700px;
 `;
 
@@ -85,16 +85,16 @@ class Book extends React.Component {
       <MaxWidth>
         <Container>
           <HeaderContainer>
-            <Header className="book-header">Co-author of the book <i>Your First Year in Code</i></Header>
+            <Header className="book-header">Co-author of the book <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer"><i>Your First Year in Code</i></a></Header>
             <Subtitle className="book-subtitle">A complete guide for new & aspiring developers</Subtitle>
           </HeaderContainer>
           <YourFirstYearInCode>
             <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer">
-              <Image src={MyBook} className="book-photo" />
+              <Image src={BookCover} className="book-photo" />
               <Disclaimer className="disclaimer"><i>*Published name is Connor Ocampo</i></Disclaimer>
             </a>
             <BookTextContainer className="book-text-container">
-              <BookText>Together with 15 generous contributing authors of the book <i>Your First Year in Code</i>, we've created a publication dedicated to new and aspiring developers. Fortunately, I was able to contribute an inclusion section focusing on minority/LGBTQ+ people for the "Do I fit in?" chapter. Read a snippet of my contribution below:</BookText>
+              <BookText>Together with 15 generous contributing authors of the book <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer"><i>Your First Year in Code</i></a>, we've created a publication dedicated to new and aspiring developers. Fortunately, I was able to contribute an inclusion section focusing on minority/LGBTQ+ people for the "Do I fit in?" chapter. Read a snippet of my contribution below:</BookText>
               <Blockquote>
                 Do you identify as an LGBT person? Are you in the process of applying for jobs? Are you concerned with how you might fit in and want some tips on how to best go about including this information in your application? If yes, then this section is for you.
                 <br />

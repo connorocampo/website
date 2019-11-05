@@ -48,7 +48,7 @@ export default () => (
         <br />
         <br />
         <h2>Tech I've Worked With</h2>
-        <b><u>Front-end:</u></b> Github, Atom, VS Code (my fav), GIT, CSS, SCSS, Tailwind, React, Gatsby, Netlify, Surge.sh. The design aspect is in my wheelhouse in terms of front-end development.
+        <b><u>Front-end:</u></b> Github, Atom, VS Code (my fav), GIT, CSS, SCSS, Tailwind, React, styled-components, Gatsby, Netlify, Surge.sh. The design aspect is in my wheelhouse in terms of front-end development.
         <br />
         <br />
         <b><u>Design:</u></b> Sketch, Abstract, Photoshop, and good ol' sketch paper.

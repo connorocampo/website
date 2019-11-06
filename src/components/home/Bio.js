@@ -60,7 +60,7 @@ class Bio extends React.Component {
             <Tagline className="tagline">
               Front-end Developer based in Boca Raton, Florida, USA
             </Tagline>
-            <SubTitle className="subtitle">Also, amatuer singer-songwriter, painter, and vegan chef <span role="img" aria-label="emoji">🤘🏼</span></SubTitle>
+            <SubTitle className="subtitle">Also, hobby singer-songwriter, painter, vegan chef, and blogger <span role="img" aria-label="emoji">🤘🏼</span></SubTitle>
             <Link
               to="/about"
               className="bio-button">Learn More

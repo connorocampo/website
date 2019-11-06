@@ -54,7 +54,7 @@ export default () => (
         <b><u>Design:</u></b> Sketch, Abstract, Photoshop, and good ol' sketch paper.
         <br />
         <br />
-        <b><u>Marketing:</u></b> Google Analytics, SEMrush, Hootsuite, Yoast, MailChimp, Buffer. Most of my marketing work consists of monitoring analytics, copywriting headlines and optimizing articles.
+        <b><u>Marketing:</u></b> Google Analytics, SEMrush, Hootsuite, Yoast, MailChimp, Buffer. Most of my marketing work consists of monitoring/reporting analytics, copywriting headlines and optimizing articles, and organic social media marketing.
       </Text>
       <Footer />
     </Layout>

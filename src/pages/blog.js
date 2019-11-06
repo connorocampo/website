@@ -93,6 +93,7 @@ export default ({ data }) => (
                 <PostTitle>
                   {node.frontmatter.title}{" "}
                 </PostTitle>
+                <p>Add featured image functionality here</p>
                 <p className="post-subtitle">
                   {node.frontmatter.date} - {node.timeToRead} min read
                     </p>

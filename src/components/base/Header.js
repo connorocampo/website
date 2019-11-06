@@ -30,22 +30,7 @@ export const NavItems = styled.span`
 // Component
 
 class Header extends React.Component {
-  // state = {
-  //   sideDrawerOpen: false
-  // };
-
-  // drawerToggleClickHandler = () => {
-  //   this.setState((prevState) => {
-  //     return { sideDrawerOpen: !prevState.sideDrawerOpen }
-  //   });
-  // };
-
   render() {
-    // let sideDrawer;
-
-    // if (this.state.sideDrawerOpen) {
-    //   sideDrawer = <SideDrawer />;
-    // }
     return (
       <Container className="header-container">
         <Brand className="brand-container">
@@ -59,10 +44,6 @@ class Header extends React.Component {
           {/* <Link to="/shop/" className="nav-item">Shop</Link> */}
           {/* <Link to="/hire-me/" className=" nav-item">Hire Me</Link> */}
         </NavItems>
-        {/* <div drawerClickHandler={this.drawerToggleClickHandler}>
-          <DrawerToggleButton click={this.props.drawerClickHandler} />
-        </div> */}
-        {/* {SideDrawer} */}
       </Container>
     );
   }

@@ -54,6 +54,6 @@ module.exports = {
         defaultQuality: 75,
       },
     },
-  ]
+  ],
 }
 

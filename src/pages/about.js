@@ -24,6 +24,10 @@ const Text = styled.p`
   margin-bottom: 100px;
 `;
 
+const CallToAction = styled.p`
+  font-family: 'Open Sans Heavy';
+`;
+
 export default () => (
   <ThemeProvider theme={themeSettings}>
     <Layout>
@@ -44,8 +48,8 @@ export default () => (
         I also run a blog about my ongoing experience with <a href="https://www.quittingsocialmedia.com/" target="_blank" rel="noopener noreferrer">quitting social media for one year</a>. As a millennial who has been on social media for nearly half my life, I thought it'd be a good idea to quit social media for a while to see what life is like. So far, so good!
         <br />
         <br />
-        Currently, I'm looking for job opportunities utilizing skills I already have and/or learning new things. If you think I'd be a good match to your company mission and culture, <a href="https://catherineocampo.github.io/catherineocampo/contact/" target="_blank" rel="noopener noreferrer">let's chat</a>!
-        <br />
+        <CallToAction>
+          Currently, I'm looking for job opportunities utilizing skills I already have and/or learning new things. If you think I'd be a good match to your company mission and culture, <a href="https://catherineocampo.github.io/catherineocampo/contact/" target="_blank" rel="noopener noreferrer">let's chat</a>!</CallToAction>
         <br />
         <h2>Tech I've Worked With</h2>
         <b><u>Front-end:</u></b> Github, Atom, VS Code (my fav), GIT, CSS, SCSS, Tailwind, React, styled-components, Gatsby, Netlify, Surge.sh. The design aspect is in my wheelhouse in terms of front-end development.

@@ -111,11 +111,7 @@ export default () => (
 
         <Subheading>Our contact information</Subheading>
         For questions regarding your data and how we use it, you can reach us at cmosofla@gmail.com.  You can also email us here if you would like an extract of all of your personal information stored on our website or to request that we delete all of your information stored on our website.
-
-        <Subheading>Disclaimer</Subheading>
-        Disclaimer: This website is written by a regular human. I am not a financial adviser. Please get professional advice tailored to your own situation when it comes to your finances.
         </Text>
-      <p>Icons made by <a href="https://www.freepik.com/" title="Freepik" target="_blank" rel="noopener noreferrer">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener noreferrer">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" rel="noopener noreferrer">CC 3.0 BY</a></p>
       <Footer />
     </Layout>
   </ThemeProvider>

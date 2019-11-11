@@ -7,6 +7,10 @@
   text-decoration: none;
 }
 
+.cat {
+  font-weight: bold;
+}
+
 .nav-item {
   color: #474747;
   margin-left: 50px;

@@ -37,7 +37,7 @@ Making a list for grocery store trips have eliminated the classic situation wher
 
 The reason this particular situation bugs me so much that I'm writing about it is that I value my time so much. If I forgot something that just means another trip to the grocery store — that’s time spent driving in traffic, navigating through the store and it's shoppers, and waiting in line and waiting for John to ring up Mrs. Jones. I'd rather spend that time cooking ...  or eating! Haha.
 
-<h3>#2 Dry-erase Board</h3>
+<h2>#2 Dry-erase Board</h2>
 This is my favorite one because it’s not on a screen (I work with computer screens all day).
 
 Dry erase boards are great for flexible, on-the-fly notes (lists included)!

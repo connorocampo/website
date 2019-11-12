@@ -88,7 +88,7 @@ class Book extends React.Component {
               <p><a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer"><i>Your First Year in Code</i></a> was a collaborative literary project spearheaded by Issac Lyman. Together with 15 contributing authors, we've created a publication dedicated to new and aspiring developers.</p>
               <p>
                 I was honored to be able to contribute an inclusion section focusing on minority/LGBTQ+ people for the "Do I fit in?" chapter.</p>
-              <p>Today, both electronic and <a href="https://smile.amazon.com/Your-First-Year-Code-developers/dp/0578564998/ref=sr_1_1?keywords=your+first+year+in+code&qid=1573567474&sr=8-1" target="_blank" rel="noopener noreferrer">physical copies</a> of the book are available for purchase (or free for those who can't afford it).</p>
+              <p>Today, both electronic and <a href="https://smile.amazon.com/Your-First-Year-Code-developers/dp/0578564998/ref=sr_1_1?keywords=your+first+year+in+code&qid=1573567474&sr=8-1" target="_blank" rel="noopener noreferrer">physical copies</a> of the book are available for purchase. The electronic version can be downloaded for free to those without the financial means to purchase it.</p>
             </BookTextContainer>
           </YourFirstYearInCode>
         </Container>

@@ -41,7 +41,7 @@ export default () => (
         <link rel="icon" href={favicon} />
       </Helmet>
       <Header />
-      <Heading className="page-title">Contact Cat Ocampo</Heading>
+      <Heading className="page-title">Contact</Heading>
       <Text>Oh, hey stranger. Looks like you want to get in touch with me about something. That's cool. You can send me an email directly at <a href="mailto:cmosofla@gmail.com" target="_blank" rel="noopener noreferrer">cmosofla@gmail.com</a>. I'll be sure to get back to you as soon as I can.
       <br />
         <br />

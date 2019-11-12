@@ -47,7 +47,7 @@ export default () => (
         <link rel="icon" href={favicon} />
       </Helmet>
       <Header />
-      <Heading className="page-title">About Cat Ocampo</Heading>
+      <Heading className="page-title">About</Heading>
       <Text>I’m a native South Floridian who graduated college at UCF in 2016 with a Bachelor of Science Degree. Since then I’ve went on to gain employment in web technologies at a financial publishing company and then later at a web development agency. Professionally, I have a history of work in front-end development, search engine optimization (SEO), and a bit of web design.
       <br />
         <br />
@@ -70,7 +70,7 @@ export default () => (
         <b><u>Design:</u></b> Sketch, Abstract, Photoshop, and good ol' sketch paper. As far as design goes, I've done a bit of work on wireframing personal and professional projects.
         <br />
         <br />
-        <b><u>Marketing:</u></b> Google Analytics, SEMrush, Hootsuite, Yoast, MailChimp, Buffer. Most of my marketing work consists of monitoring/reporting analytics, copywriting headlines and optimizing articles, and organic social media marketing.
+        <b><u>Marketing:</u></b> Google Analytics, SEMrush, Hootsuite, Yoast, MailChimp, Buffer. Most of my marketing work consists of monitoring/reporting analytics, copywriting and optimizing articles, and organic social media marketing.
       </Text>
       <Footer />
     </Layout>

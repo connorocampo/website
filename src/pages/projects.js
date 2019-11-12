@@ -12,6 +12,7 @@ import Layout from "../components/base/Layout";
 import Header from "../components/base/Header";
 import Footer from "../components/base/Footer";
 
+import Portfolio from "../assets/images/Portfolio.png";
 import ToDoList from "../assets/images/ToDoList.jpg";
 import Dribbble from "../assets/images/Dribbble.jpg";
 import Dribbble02 from "../assets/images/Dribbble02.jpg";
@@ -60,6 +61,13 @@ export default () => (
       <Heading className="page-title">Projects</Heading>
       <Disclaimer className="projects-disclaimer">Due to signing an NDA with previous employers, I am legally obligated to refrain from disclosing any previous works with them.</Disclaimer>
       <div className="projects">
+        <div className="project">
+          <a href="/" target="blank" rel="noopener noreferrer"><Image src={Portfolio} alt="My portfolio" className="project-item" /></a>
+          <div>
+            <ProjectTitle>This Website!</ProjectTitle>
+            <ProjectDescription>This site was built using Gatsby and React and was published on GitHub Pages. Other technology used was Git, VS Code, CSS, and styled-components. View the source code in Github <a href="https://github.com/catherineocampo/catherineocampo" target="blank" rel="noopener noreferrer">here</a>.</ProjectDescription>
+          </div>
+        </div>
         <div className="project">
           <a href="https://catherineocampo.github.io/react-app/" target="blank" rel="noopener noreferrer"><Image src={ToDoList} alt="To Do List React App" className="project-item" /></a>
           <div>

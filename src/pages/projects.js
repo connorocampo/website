@@ -63,7 +63,7 @@ export default () => (
         <div className="project">
           <a href="https://catherineocampo.github.io/react-app/" target="blank" rel="noopener noreferrer"><Image src={ToDoList} alt="To Do List React App" className="project-item" /></a>
           <div>
-            <ProjectTitle>To Do React App</ProjectTitle>
+            <ProjectTitle>To Do List React App</ProjectTitle>
             <ProjectDescription>After following along with <a href="https://www.youtube.com/watch?v=A71aqufiNtQ&t=" target="blank" rel="noopener noreferrer">Brad Traversy's React JS Crash Course</a> I made a little React app and published it on GitHub Pages. The technology used was Git, GitHub, Atom.io, CSS, React. View the source code in Github <a href="https://github.com/catherineocampo/react-app" target="blank" rel="noopener noreferrer">here</a>.</ProjectDescription>
           </div>
         </div>

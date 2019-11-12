@@ -14,14 +14,17 @@ We’re an on-the-go society and are constantly juggling thoughts, one mental no
 Anyway, these tools have helped me stay organized and in return has increased my focus and productivity levels significantly.
 
 <h2>Two Important Organizational Tools To Increase Productivity</h2>
+
 We’ll start with the one you probably have, which is a cell phone … well, sort of. It’s an app that you probably already have installed in your cell phone.
 
 <h3>#1 Notes App</h3>
+
 It’s a notes app! (Notes app for Apple, Google Keep for Android.) Both of these run offline which makes that easy to access and use when you need to take a mental note out of your head and save it for later.
 
 Doing this allows you to free up much-needed headspace or “bandwidth” for you to carry on and about your day while staying sharp on the immediate matters at hand.
 
 <h3>Organize With Lists</h3>
+
 I found the best way to get and stay organized is to break lists up into categories. So, instead of having one giant To Do list for all the thoughts in your head, break them up.
 
 Here are some common list examples: Grocery List, House Work List, Ideas List.
@@ -37,6 +40,7 @@ Making a list for grocery store trips have eliminated the classic situation wher
 The reason this particular situation bugs me so much is that I value my time so much and that just means another trip to the grocery store—that’s time spent driving in traffic, navigating the store, and waiting in line.
 
 <h3>#2 Dry-erase Board</h3>
+s
 This is my favorite one because it’s not on a screen (I work with computer screens all day). I love dry-erase boards!
 
 They’re great for flexible, on-the-fly notes (lists included)!

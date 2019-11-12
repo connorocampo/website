@@ -13,6 +13,7 @@ Don’t get me wrong, I LOVE the fact that technology has allowed us to be so co
 That said, here are 3 simple and free ways to cut down on distractions and be more productive.
 
 <h2>#1 Do Not Disturb Mode on a Mac [Focus Assist on PC]</h2>
+
 <img src="https://i2.wp.com/www.connorocampo.com/wp-content/uploads/2019/05/1.gif?zoom=2&w=840&ssl=1" 
     alt="How to Be More Productive: 3 Simple Hacks"
 />
@@ -22,6 +23,7 @@ This is a great way to disable call and text messaging notifications seen on you
 The valuable benefit here is that you’re letting your mind stay focused on the work, uninterrupted!
 
 <h2>#2 Set Your Phone to Do Not Disturb Mode</h2>
+
 <img src="https://i1.wp.com/www.connorocampo.com/wp-content/uploads/2019/05/2.jpg?w=528&ssl=1"
   alt="Do Not Disturb mode on iphone"
 />
@@ -31,6 +33,7 @@ Same concept here but on your phone as well. Don’t fool yourself into thinking
 You won’t feel a vibration when a text or social media notification comes through when Do Not Disturb mode is turned on. Instead, your phone will receive the notification but it won’t disturb you with the normal vibration or sound that comes along with it.
 
 <h2>#3 Set Your Phone on Airplane Mode</h2>
+
 <img src="https://i1.wp.com/www.connorocampo.com/wp-content/uploads/2019/05/3.jpg?w=530&ssl=1"
 alt="Airplane mode on iphone"
 />

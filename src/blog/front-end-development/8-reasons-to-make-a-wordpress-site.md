@@ -12,6 +12,7 @@ You also know that your digital presence on today’s popular social media platf
 In other words, these popular networks, for whatever reason, may lose their active users and become a ghost town like many platforms before have (Myspace, LiveJournal, etc). If and when that happens, where will your digital presence survive and live now?
 
 <h2>You Need a Website</h2>
+
 So, you’re convinced that you need a website and you start to lurk the internet for answers. The thing is after you’ve done all your research on how to make a website, you’ve run into a problem: which platform should I use?
 
 There are many platforms that make it possible to build a website and don’t require coding skills: WIX, Squarespace, Shopify, Drupal – just to name a few. But which platform should you choose?
@@ -41,6 +42,7 @@ The above platforms may be good for specific user needs, but this article will e
 The above benefits listed are all absolutely free, with the exception of buying a domain name of course.
 
 <h2>WordPress Theme Customization</h2>
+
 Later on down the road, should you desire further customized development work beyond the in-dashboard customization options WordPress offers, there are plenty of competent WordPress developers around for hire.
 
 They know the power and popularly that WordPress holds (over 30% of websites today are powered by WordPress).
@@ -53,6 +55,7 @@ width="400"
 Because of this, many developers have invested in learning WordPress theming and its main language PHP. It’s safe to say that you’ll be taken care of if you were to ever need help with your WordPress website.
 
 <h2>Buying a Theme</h2>
+
 In the event that you buy a theme from a place like Theme Forest, there is often an option to purchase theme support (usually for 6 months at a time). Theme support is a service where you receive assistance with any theme customization you have (e.g. Can you change the color of this? Can you move this element here?) via support tickets.
 
 In my experience, once a support ticket is submitted, response times were anywhere from 24 – 48 hours. This pretty fast support service if you ask me.

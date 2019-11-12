@@ -9,9 +9,7 @@ Today I received a message on LinkedIn from one of my connections.
 
 Here’s a screencap of the message preview from my iPhone:
 
-*Screencap somehow got deleted, please enjoy this cat noping into a cardboard box* 🙃
-
-![Social Media](./SocialMedia.jpg)
+*Screencap somehow got deleted, please enjoy this cat noping into a cardboard box instead* 🙃
 
 <img src="http://localhost:8000/static/ByeCat-9eee79419e1a3ba8dd16e9e7b2e79b32.gif" alt="placeholder image" />
 

@@ -69,7 +69,7 @@ export default ({ data }) => (
       </Helmet>
       <Header />
       <HeadingContainer>
-        <Heading>Blog</Heading>
+        <Heading className="page-title blog-title">Blog</Heading>
         {/* <CategoryContainer>
           <CategoryFilterText>Read By Category</CategoryFilterText>
           <CategoryFilterDropdown>

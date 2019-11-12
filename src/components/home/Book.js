@@ -61,11 +61,12 @@ export const Disclaimer = styled.p`
 `;
 
 export const BookTextContainer = styled.div`
-  margin-top: -5px;
+  margin-top: -13px;
   max-width: 700px;
 `;
 
 export const BookText = styled.p`
+  line-height: 2;
   margin-top: 0;
 `;
 
@@ -94,7 +95,7 @@ class Book extends React.Component {
               <Disclaimer className="disclaimer"><i>*Published name is Connor Ocampo</i></Disclaimer>
             </a>
             <BookTextContainer className="book-text-container">
-              <BookText>Together with 15 generous contributing authors of the book <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer"><i>Your First Year in Code</i></a>, we've created a publication dedicated to new and aspiring developers. Fortunately, I was able to contribute an inclusion section focusing on minority/LGBTQ+ people for the "Do I fit in?" chapter. Read a snippet of my contribution below:</BookText>
+              <BookText>Together with 15 generous contributing authors of the book <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer"><i>Your First Year in Code</i></a>, we've created a publication dedicated to new and aspiring developers. I was honored to be able to contribute an inclusion section focusing on minority/LGBTQ+ people for the "Do I fit in?" chapter. Read a snippet of my contribution below:</BookText>
               <Blockquote>
                 Do you identify as an LGBT person? Are you in the process of applying for jobs? Are you concerned with how you might fit in and want some tips on how to best go about including this information in your application? If yes, then this section is for you.
                 <br />

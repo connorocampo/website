@@ -190,6 +190,10 @@ a:hover {
     margin-bottom: 50px;
   }
 
+  .projects-disclaimer {
+    margin-bottom: 50px;
+  }
+
   .project:last-child {
     margin-bottom: 100px;
   }

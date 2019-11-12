@@ -21,8 +21,14 @@ import DroneWorld from "../assets/images/DroneWorld.png";
 const Heading = styled.div`
   font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerBig};
-  margin: 100px 0 50px 0;
+  margin: 100px 0 25px 0;
   text-transform: uppercase;
+`;
+
+const Disclaimer = styled.p`
+  color: #808080;
+  font-size: 14px;
+  margin-bottom: 100px;
 `;
 
 export const Image = styled.img`
@@ -52,6 +58,7 @@ export default () => (
       </Helmet>
       <Header />
       <Heading className="page-title">Projects</Heading>
+      <Disclaimer className="projects-disclaimer">Due to signing an NDA with previous employers, I am legally obligated to refrain from disclosing any previous works with them.</Disclaimer>
       <div className="projects">
         <div className="project">
           <a href="https://catherineocampo.github.io/react-app/" target="blank" rel="noopener noreferrer"><Image src={ToDoList} alt="To Do List React App" className="project-item" /></a>

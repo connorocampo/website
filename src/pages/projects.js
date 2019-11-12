@@ -62,38 +62,38 @@ export default () => (
       <Disclaimer className="projects-disclaimer">Due to signing an NDA with previous employers, I am legally obligated to refrain from disclosing any previous works with them.</Disclaimer>
       <div className="projects">
         <div className="project">
-          <a href="/" target="blank" rel="noopener noreferrer"><Image src={Portfolio} alt="My portfolio" className="project-item" /></a>
+          <a href="https://catherineocampo.github.io/catherineocampo/" target="_blank" rel="noopener noreferrer"><Image src={Portfolio} alt="My portfolio" className="project-item" /></a>
           <div>
             <ProjectTitle>This Website!</ProjectTitle>
-            <ProjectDescription>This site was built using Gatsby and React and was published on GitHub Pages. Other technology used was Git, VS Code, CSS, and styled-components. View the source code in Github <a href="https://github.com/catherineocampo/catherineocampo" target="blank" rel="noopener noreferrer">here</a>.</ProjectDescription>
+            <ProjectDescription>This site was built using Gatsby and React and was published on GitHub Pages. Other technology used was Git, VS Code, CSS, and styled-components. View the source code in Github <a href="https://github.com/catherineocampo/catherineocampo" target="_blank" rel="noopener noreferrer">here</a>.</ProjectDescription>
           </div>
         </div>
         <div className="project">
-          <a href="https://catherineocampo.github.io/react-app/" target="blank" rel="noopener noreferrer"><Image src={ToDoList} alt="To Do List React App" className="project-item" /></a>
+          <a href="https://catherineocampo.github.io/react-app/" target="_blank" rel="noopener noreferrer"><Image src={ToDoList} alt="To Do List React App" className="project-item" /></a>
           <div>
             <ProjectTitle>To Do List React App</ProjectTitle>
-            <ProjectDescription>After following along with <a href="https://www.youtube.com/watch?v=A71aqufiNtQ&t=" target="blank" rel="noopener noreferrer">Brad Traversy's React JS Crash Course</a> I made a little React app and published it on GitHub Pages. The technology used was Git, GitHub, Atom.io, CSS, React. View the source code in Github <a href="https://github.com/catherineocampo/react-app" target="blank" rel="noopener noreferrer">here</a>.</ProjectDescription>
+            <ProjectDescription>After following along with <a href="https://www.youtube.com/watch?v=A71aqufiNtQ&t=" target="_blank" rel="noopener noreferrer">Brad Traversy's React JS Crash Course</a> I made a little React app and published it on GitHub Pages. The technology used was Git, GitHub, Atom.io, CSS, React. View the source code in Github <a href="https://github.com/catherineocampo/react-app" target="_blank" rel="noopener noreferrer">here</a>.</ProjectDescription>
           </div>
         </div>
         <div className="project">
-          <a href="https://catherineocampo.github.io/vans/" target="blank" rel="noopener noreferrer"><Image src={Dribbble} alt="Handcoding a Dribbble Design" className="project-item" /></a>
+          <a href="https://catherineocampo.github.io/vans/" target="_blank" rel="noopener noreferrer"><Image src={Dribbble} alt="Handcoding a Dribbble Design" className="project-item" /></a>
           <div>
             <ProjectTitle>Handcoding a Dribbble Design</ProjectTitle>
-            <ProjectDescription>This is a Van's landing page design found on Dribbble. The technology used was HTML5, SASS and JavaScript. You can see the Dribbble Design<a href="https://dribbble.com/shots/2200416-Vans-Redesign-Concept/attachments/407258" target="blank" rel="noopener noreferrer"> here</a>. View the source code in Github <a href="https://github.com/catherineocampo/vans" target="blank" rel="noopener noreferrer">here</a>.</ProjectDescription>
+            <ProjectDescription>This is a Van's landing page design found on Dribbble. The technology used was HTML5, SASS and JavaScript. You can see the Dribbble Design<a href="https://dribbble.com/shots/2200416-Vans-Redesign-Concept/attachments/407258" target="_blank" rel="noopener noreferrer"> here</a>. View the source code in Github <a href="https://github.com/catherineocampo/vans" target="_blank" rel="noopener noreferrer">here</a>.</ProjectDescription>
           </div>
         </div>
         <div className="project">
-          <a href="https://catherineocampo.github.io/sibling/" target="blank" rel="noopener noreferrer"><Image src={Dribbble02} alt="Handcoding a Dribbble Design" className="project-item" /></a>
+          <a href="https://catherineocampo.github.io/sibling/" target="_blank" rel="noopener noreferrer"><Image src={Dribbble02} alt="Handcoding a Dribbble Design" className="project-item" /></a>
           <div>
             <ProjectTitle>Handcoding a Dribbble Design</ProjectTitle>
-            <ProjectDescription>This project was inspired by the wonderful folks over at <a href="https://shoptalkshow.com/" target="blank" rel="noopener noreferrer">Shop Talk Show</a>. Thanks Dave, Chris, and all guest speakers for everything you've given to the community. View the source code in Github <a href="https://github.com/catherineocampo/sibling" target="blank" rel="noopener noreferrer">here</a>.</ProjectDescription>
+            <ProjectDescription>This project was inspired by the wonderful folks over at <a href="https://shoptalkshow.com/" target="_blank" rel="noopener noreferrer">Shop Talk Show</a>. Thanks Dave, Chris, and all guest speakers for everything you've given to the community. View the source code in Github <a href="https://github.com/catherineocampo/sibling" target="_blank" rel="noopener noreferrer">here</a>.</ProjectDescription>
           </div>
         </div>
         <div className="project">
-          <a href="https://catherineocampo.github.io/drone-world-product-page/" target="blank" rel="noopener noreferrer"><Image src={DroneWorld} alt="Handcoding a Dribbble Design" className="project-item" /></a>
+          <a href="https://catherineocampo.github.io/drone-world-product-page/" target="_blank" rel="noopener noreferrer"><Image src={DroneWorld} alt="Handcoding a Dribbble Design" className="project-item" /></a>
           <div>
             <ProjectTitle>Drone World Reviews Landing Page</ProjectTitle>
-            <ProjectDescription>This was a creative personal project with an objective to create a product landing page for a hypothetical drone review company using only HTML, CSS and Bootstrap 4. View the source code in Github <a href="https://github.com/catherineocampo/drone-world-product-page" target="blank" rel="noopener noreferrer">here</a>.</ProjectDescription>
+            <ProjectDescription>This was a creative personal project with an objective to create a product landing page for a hypothetical drone review company using only HTML, CSS and Bootstrap 4. View the source code in Github <a href="https://github.com/catherineocampo/drone-world-product-page" target="_blank" rel="noopener noreferrer">here</a>.</ProjectDescription>
           </div>
         </div>
       </div>

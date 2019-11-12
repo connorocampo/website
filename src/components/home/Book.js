@@ -65,17 +65,6 @@ export const BookTextContainer = styled.div`
   max-width: 700px;
 `;
 
-export const BookText = styled.p`
-  line-height: 2;
-  margin-top: 0;
-`;
-
-export const Blockquote = styled.p`
-  border-left: 8px solid #404040;
-  margin-top: 0;
-  padding-left: 15px;
-`;
-
 /*
  * Component
  */
@@ -95,15 +84,11 @@ class Book extends React.Component {
               <Disclaimer className="disclaimer"><i>*Published name is Connor Ocampo</i></Disclaimer>
             </a>
             <BookTextContainer className="book-text-container">
-              <BookText>Together with 15 generous contributing authors of the book <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer"><i>Your First Year in Code</i></a>, we've created a publication dedicated to new and aspiring developers. I was honored to be able to contribute an inclusion section focusing on minority/LGBTQ+ people for the "Do I fit in?" chapter. Read a snippet of my contribution below:</BookText>
-              <Blockquote>
-                Do you identify as an LGBT person? Are you in the process of applying for jobs? Are you concerned with how you might fit in and want some tips on how to best go about including this information in your application? If yes, then this section is for you.
-                <br />
-                <br />
-                There are many reasons why someone may want to include these personal details in their application. The most important one being to avoid employment with a company that discriminates. The fact is, discrimination among all spans of minority groups is still a very real occurrence. Because of this, it’s important to safeguard yourself against any potential threat, be it physical, mental or emotional, that may happen.
-                <br />
-                <br />
-                Everyone wants to work for a company where they are accepted and can work comfortably. The good news is, there are steps we can take to ensure this outcome.</Blockquote>
+              <h2>About The Book</h2>
+              <p><a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer"><i>Your First Year in Code</i></a> was a collaborative literary project spearheaded by Issac Lyman. Together with 15 contributing authors, we've created a publication dedicated to new and aspiring developers.</p>
+              <p>
+                I was honored to be able to contribute an inclusion section focusing on minority/LGBTQ+ people for the "Do I fit in?" chapter.</p>
+              <p>Today, both electronic and <a href="https://smile.amazon.com/Your-First-Year-Code-developers/dp/0578564998/ref=sr_1_1?keywords=your+first+year+in+code&qid=1573567474&sr=8-1" target="_blank" rel="noopener noreferrer">physical copies</a> of the book are available for purchase (or free for those who can't afford it).</p>
             </BookTextContainer>
           </YourFirstYearInCode>
         </Container>

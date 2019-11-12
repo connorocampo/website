@@ -100,6 +100,15 @@ a:hover {
   margin-bottom: 100px;
 }
 
+.project-item {
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+
+.project-item:hover {
+  transform: scale(1.1);
+}
+
 /* Shop Page */
 
 .product-link {

@@ -48,7 +48,7 @@ export default () => (
       </Helmet>
       <Header />
       <Heading className="page-title">About Cat Ocampo</Heading>
-      <Text>I’m a native South Floridian who graduated college at UCF in 2016 with a Bachelor of Science Degree. Since then I’ve went on to gain employment in web technologies at a financial publishing company and then later at a web development agency. Professionally, I have a history of work in front-end development, search engine optimization (SEO) and a bit of web design.
+      <Text>I’m a native South Floridian who graduated college at UCF in 2016 with a Bachelor of Science Degree. Since then I’ve went on to gain employment in web technologies at a financial publishing company and then later at a web development agency. Professionally, I have a history of work in front-end development, search engine optimization (SEO), and a bit of web design.
       <br />
         <br />
         When I’m not working, I enjoy cooking (one pot/pan meals are the best!), painting, playing guitar and singing.

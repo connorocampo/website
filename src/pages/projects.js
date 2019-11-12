@@ -78,7 +78,7 @@ export default () => (
           <a href="https://catherineocampo.github.io/sibling/" target="blank" rel="noopener noreferrer"><Image src={Dribbble02} alt="Handcoding a Dribbble Design" className="project-item" /></a>
           <div>
             <ProjectTitle>Handcoding a Dribbble Design</ProjectTitle>
-            <ProjectDescription>This project was inspired by the wonderful folks over at <a href="https://shoptalkshow.com/" target="blank" rel="noopener noreferrer">Shop Talk Show</a>. Thanks Dave, Chris and all guest speakers for everything that you've given to the community. View the source code in Github <a href="https://github.com/catherineocampo/sibling" target="blank" rel="noopener noreferrer">here</a>.</ProjectDescription>
+            <ProjectDescription>This project was inspired by the wonderful folks over at <a href="https://shoptalkshow.com/" target="blank" rel="noopener noreferrer">Shop Talk Show</a>. Thanks Dave, Chris, and all guest speakers for everything you've given to the community. View the source code in Github <a href="https://github.com/catherineocampo/sibling" target="blank" rel="noopener noreferrer">here</a>.</ProjectDescription>
           </div>
         </div>
         <div className="project">

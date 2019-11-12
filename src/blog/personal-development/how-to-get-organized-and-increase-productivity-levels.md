@@ -5,19 +5,19 @@ tags: ["Personal Development"]
 category: Personal Development
 ---
 
-How does one get organized and increase productivity levels? These days, life happens fast.
+How does one get organized and increase productivity levels? In a tech world where like happens fast, it’s easy for fine, yet important details to get lost in the shuffle. We’re an on-the-go society and are constantly juggling thoughts, one mental note after the other.
 
-Even with the help of modern technology like Google Calendar or Trello boards, it’s easy for fine, yet important details to get lost in the shuffle. We all know what it’s like to have crappy service that prevents us from swiftly getting online to check or update these apps.
+Even with the help of modern technology like Google Calendar or Trello boards, we all know what it’s like to have bad cell phone reception that prevents us from swiftly getting online to check or update these apps.
 
-We’re an on-the-go society and are constantly juggling thoughts, one mental note after the other. In recent years, I’ve started utilizing two specific tools to get and stay organized. You probably have one of these already. In fact, if you’re reading this article on your phone, I’m certain you have it.
+ In recent years, I’ve started utilizing two specific tools to get and stay organized. You probably have one of these already. In fact, if you’re reading this article on your phone, I’m certain you have it.
 
-Anyway, these tools have helped me stay organized and in return has increased my focus and productivity levels significantly.
+These tools have helped me stay organized and in return have increased my focus and productivity levels significantly.
 
 <h2>Two Important Organizational Tools To Increase Productivity</h2>
 
-We’ll start with the one you probably have, which is a cell phone … well, sort of. It’s an app that you probably already have installed in your cell phone.
+We’ll start with the one you probably have, which is a cell phone … well, sort of. It’s an app that you probably already have installed on your phone.
 
-<h3>#1 Notes App</h3>
+<h2>#1 Notes App</h2>
 
 It’s a notes app! (Notes app for Apple, Google Keep for Android.) Both of these run offline which makes that easy to access and use when you need to take a mental note out of your head and save it for later.
 
@@ -25,42 +25,39 @@ Doing this allows you to free up much-needed headspace or “bandwidth” for yo
 
 <h3>Organize With Lists</h3>
 
-I found the best way to get and stay organized is to break lists up into categories. So, instead of having one giant To Do list for all the thoughts in your head, break them up.
+I found the best way to get and stay organized is to break lists up into categories. So, instead of having one giant To Do List for all the thoughts in your head, break them up.
 
 Here are some common list examples: Grocery List, House Work List, Ideas List.
 
 Let’s talk about how this maximizes productivity. Let’s take our Grocery List for example.
 
-If there was no list to go off of, it’d be a battle to remember what you needed when you thought of it at 10 AM or 3 PM or right when you pulled up to the grocery store parking lot. If you made a list on your phone and saved what you needed throughout the day, there would be no time spent wondering what you needed.
-
-Instead, you’d simply look at your list and go directly to the aisle to get the product.
+If there was no list to go off of, it’d be a battle to remember what you needed when you thought of it at 10 AM or 3 PM or right when you pulled up to the grocery store parking lot. If you made a list for it on your phone and saved what you needed throughout the day, you'd probably have a relatively quick grocery run.
 
 Making a list for grocery store trips have eliminated the classic situation where you go to the grocery store needing something only to come back home, groceries in-hand, but you forget to buy what you went there for in the first place.
 
-The reason this particular situation bugs me so much is that I value my time so much and that just means another trip to the grocery store—that’s time spent driving in traffic, navigating the store, and waiting in line.
+The reason this particular situation bugs me so much that I'm writing about it is that I value my time so much. If I forgot something that just means another trip to the grocery store — that’s time spent driving in traffic, navigating through the store and it's shoppers, and waiting in line and waiting for John to ring up Mrs. Jones. I'd rather spend that time cooking ...  or eating! Haha.
 
 <h3>#2 Dry-erase Board</h3>
-s
-This is my favorite one because it’s not on a screen (I work with computer screens all day). I love dry-erase boards!
+This is my favorite one because it’s not on a screen (I work with computer screens all day).
 
-They’re great for flexible, on-the-fly notes (lists included)!
+Dry erase boards are great for flexible, on-the-fly notes (lists included)!
 
-Keeping track of how many months left in my apartment lease
-How many months until I hit my money goals
-Inspirational quotes
-Dentist appointments
-Errands
-I write anything down that I think is important and want to be organized about. The keys to maintaining a frugal living being organized and focused.
+For example:
 
-Dry-erase boards or whiteboards are great organizational tools and mind-hacking tools. I have two of them hanging in my apartment right now. I love having them physically presented to me every day to remind me what and why I am working so hard.
+- Keeping track of how many months left in my apartment lease
+- How many months until I hit my money goals
+- Inspirational quotes
+- Dentist appointments
+- Errands
+
+I write anything down that I think is important and want to be organized about.
+
+At the time of writing, I have two of them hanging in my apartment right now. I love having them physically in front of my face every day to keep me in check.
 
 Every day I stare my goals in the face and work my ass off to accomplish them.
-
-I recommend this one because it’s super sturdy and easy to mount.
 
 <h2>Productivity Levels Are Over 9000!</h2>
 
 <img src="https://vignette.wikia.nocookie.net/dragonball/images/4/4b/VegetaItsOver9000-02.png/revision/latest?cb=20100724145819"
+class="placeholder"
 />
-
-Start making lists out of your mental notes by using a simple notes app on your phone and utilizing the note-taking flexibility and in-your-face presence that dry erase boards have to offer.

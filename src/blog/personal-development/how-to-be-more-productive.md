@@ -4,11 +4,11 @@ date: "2019-05-04"
 category: Personal Development
 ---
 
-If you’re wondering how to be more productive, this article is for you. As someone who works on a laptop for my day job and my side businesses, I know first-hand how easy it is for distractions to pop up on our screens and suck valuable time away from work.
+If you’re wondering how to be more productive, this article is for you. As someone who works on a laptop for my day job and my side hustles, I know first-hand how easy it is for distractions to pop up on our screens and suck valuable time away from work.
 
 Two main distractions I’d like to discuss come in the form of friends & family calling or texting and social media notifications.
 
-Don’t get me wrong, I LOVE the fact that technology has allowed us to be so connected. But without a disciplined mind and proper precautions set in place, what started out as an intentional productivity day can turn around as quick as you can receive a text message.
+Don’t get me wrong, I LOVE the fact that technology has allowed us to be so connected. But without a disciplined mind and proper precautions set in place, what started out as an intentional productivity day can turn around as quickly as you receive a text message.
 
 That said, here are 3 simple and free ways to cut down on distractions and be more productive.
 
@@ -16,16 +16,18 @@ That said, here are 3 simple and free ways to cut down on distractions and be mo
 
 <img src="https://i2.wp.com/www.connorocampo.com/wp-content/uploads/2019/05/1.gif?zoom=2&w=840&ssl=1" 
     alt="How to Be More Productive: 3 Simple Hacks"
+    class="placeholder"
 />
 
 This is a great way to disable call and text messaging notifications seen on your desktop. With this enabled, you won’t be able to see if someone has called or sent you a text from your desktop.
 
-The valuable benefit here is that you’re letting your mind stay focused on the work, uninterrupted!
+The valuable benefit here is that you’re giving your mind boundaries to stay focused on work, uninterrupted!
 
 <h2>#2 Set Your Phone to Do Not Disturb Mode</h2>
 
 <img src="https://i1.wp.com/www.connorocampo.com/wp-content/uploads/2019/05/2.jpg?w=528&ssl=1"
   alt="Do Not Disturb mode on iphone"
+  class="placeholder"
 />
 
 Same concept here but on your phone as well. Don’t fool yourself into thinking that turning your phone on silent will do the trick.
@@ -36,12 +38,13 @@ You won’t feel a vibration when a text or social media notification comes thro
 
 <img src="https://i1.wp.com/www.connorocampo.com/wp-content/uploads/2019/05/3.jpg?w=530&ssl=1"
 alt="Airplane mode on iphone"
+class="placeholder"
 />
 
 Same concept as do not disturb mode but with added measures. I put this on here because let’s be honest, we are all guilty of looking at our phones out of habit.
 
 So, even when you fall short on focus and look to your phone for a quick hit of distraction, you’re not going to get it because your phone turns off all wireless connections.
 
-That means no calls, text messages, notifications from your email account or social media. This is truly the fail-safe of getting focused and setting yourself up in a distraction-free environment.
+That means no calls, text messages, email or social media notifications. This is truly the fail-safe of getting focused and setting yourself up in a distraction-free environment. Well, aside from turning off your phone and throwing it in a ditch somewhere.
 
 With these three simple hacks, you should be able to get and stay in the zone. Good luck!

@@ -15,11 +15,11 @@ These are such simple questions yet candidates fumble words around in attempt to
 
 The interviewee thinks, “Don’t f*ck up, don’t f*ck up, don’t f*ck up.” and then awkward silence begins to pace after the “umms” and “ugghhs”.
 
-At this point, the interviewee’s chances of getting that dream gig is low.
+At this point, the interviewee’s chances of getting that dream gig is getting lower by the "umm".
 
 Think about it. Whether it’s HR or the COO that’s interviewing you, their schedules are booked and their time is valuable. Their objective in all this is to find a candidate that can hang.
 
-The good news is that preventing something like this from happening is 100% controllable. Practice this tip and you’ll breeze through your interview with ease.
+The good news is that you can prepare for this. Practice this tip and you’ll breeze through your interview with ease.
 
 <h2>Step #1: Write It Down ✏️</h2>
 
@@ -43,7 +43,7 @@ Prepare your mind with this information ahead of time so that you’re not too h
 
 <h2>Summing It Up 👍</h2>
 
-This tip is a simple two-step process: write it down and sound it out. With preparation like this, you’ll appear clear, composed and confident as opposed to scattered, unprepared and unsure.
+This tip is a simple two-step process: write it down and sound it out. With preparation like this, you’ll appear clear, composed, and confident as opposed to scattered, unprepared, and unsure.
 
 Time will not be wasted on long awkward pauses or nervous filler words like “umm” or “ughhh”. Instead, time will be used to provide valuable information that the interviewer needs to gauge you as a potential new hire.
 
@@ -53,7 +53,7 @@ This technique has helped me stay focused on what is important for an interviewe
 
 Since starting my journey into front-end development (and after leaving a tech-related position), I’ve interviewed with a number of companies and 9/10 times have gotten the green light to advance to the next round.
 
-Unfortunately, circumstances have come up where I had to decline moving forward. DM for details if interested.
+Unfortunately, circumstances have come up where I had to decline moving forward.
 
 I do not claim to be a master of the front-end, in fact, there is so much for me to learn. Naturally, in this ever-changing industry, there always will be.
 
@@ -61,7 +61,7 @@ I don’t think my skills on their own were what earned me a signal forward, tho
 
 So that coupled with my care and preparation for the interview process is what I think were of interest to these interviewers.
 
-And until the right one and I meet, I will continue to learn, grow and prepare while sticking to this quote:
+And until the right company and I meet, I will continue to learn, grow and prepare while sticking to this quote:
 
 “Luck happens when opportunity meets preparation.”
 

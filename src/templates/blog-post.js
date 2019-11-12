@@ -37,7 +37,7 @@ export default ({ data, pageContext }) => {
           <meta name="theme-color" content="#0090D9" />
         </Helmet>
         <Header />
-        <Heading>Blog Post</Heading>
+        <Heading className="page-title">Blog Post</Heading>
         <PostTitle>{post.frontmatter.title}</PostTitle>
         <p className="post-subtitle">
           {post.frontmatter.date} - {post.timeToRead} min read

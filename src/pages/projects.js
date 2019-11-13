@@ -13,7 +13,7 @@ import Header from "../components/base/Header";
 import Footer from "../components/base/Footer";
 
 import Portfolio from "../assets/images/Portfolio.png";
-import ToDoList from "../assets/images/ToDoList.jpg";
+import ToDoList from "../assets/images/ToDoList.png";
 import Dribbble from "../assets/images/Dribbble.jpg";
 import Dribbble02 from "../assets/images/Dribbble02.jpg";
 import DroneWorld from "../assets/images/DroneWorld.png";

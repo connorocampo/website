@@ -79,7 +79,7 @@ export default () => (
           <a href="https://catherineocampo.github.io/vans/" target="_blank" rel="noopener noreferrer"><Image src={Dribbble} alt="Handcoding a Dribbble Design" className="project-item" /></a>
           <div>
             <ProjectTitle>Handcoding a Dribbble Design</ProjectTitle>
-            <ProjectDescription>This is a Van's landing page design found on Dribbble. The technology used was HTML5, SASS and JavaScript. You can see the Dribbble Design<a href="https://dribbble.com/shots/2200416-Vans-Redesign-Concept/attachments/407258" target="_blank" rel="noopener noreferrer"> here</a>. View the source code in Github <a href="https://github.com/catherineocampo/vans" target="_blank" rel="noopener noreferrer">here</a>.</ProjectDescription>
+            <ProjectDescription>This is a handcoded Van's landing page design found on Dribbble. The technology used was HTML5, SASS and JavaScript. You can see the Dribbble Design<a href="https://dribbble.com/shots/2200416-Vans-Redesign-Concept/attachments/407258" target="_blank" rel="noopener noreferrer"> here</a>. View the source code in Github <a href="https://github.com/catherineocampo/vans" target="_blank" rel="noopener noreferrer">here</a>.</ProjectDescription>
           </div>
         </div>
         <div className="project">

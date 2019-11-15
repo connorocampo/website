@@ -62,7 +62,7 @@ export default () => (
         I also run a blog about my ongoing experience with <a href="https://www.quittingsocialmedia.com/" target="_blank" rel="noopener noreferrer">quitting social media for one year</a>. As a millennial who has been on social media for nearly half my life, I thought it'd be a good idea to quit social media for a while to see what life is like. So far, so good!
       </p>
       <CallToAction>
-        Currently, I'm looking for job opportunities utilizing skills I already have and/or learning new things. If you think I'd be a good match to your company mission and culture, <a href="https://catherineocampo.github.io/catherineocampo/contact/" target="_blank" rel="noopener noreferrer">let's chat</a>!
+        Currently, I'm looking for job opportunities utilizing skills I already have and/or learning new things. If you think I'd be a good match to your company mission and culture, <a href="https://connorocampo.github.io/connorocampo/contact/" target="_blank" rel="noopener noreferrer">let's chat</a>!
       </CallToAction>
       <br />
       <h2>Tech I've Worked With</h2>

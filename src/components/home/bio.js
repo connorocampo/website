@@ -7,7 +7,6 @@ import { Link } from 'gatsby';
 
 import Avatar from '../../assets/images/Cat.png';
 
-
 /*
  * Styles
  */
@@ -55,7 +54,7 @@ class Bio extends React.Component {
     return (
       <ThemeProvider theme={themeSettings}>
         <Container className="bio-content">
-          <Image src={Avatar} alt="Cat Ocampo" className="bio-thumbnail" />
+          <Image src={Avatar} alt="Connor Ocampo" className="bio-thumbnail" />
           <div>
             <Tagline className="tagline">
               Front-end Developer based in Boca Raton, Florida, USA

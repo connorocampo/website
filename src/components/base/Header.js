@@ -3,9 +3,6 @@ import styled from 'styled-components';
 import { Link } from "gatsby";
 
 import '../SideDrawer/DrawerToggleButton';
-// import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
-// import SideDrawer from "../../components/SideDrawer/SideDrawer";
-
 
 // Styles
 
@@ -34,7 +31,7 @@ class Header extends React.Component {
     return (
       <Container className="header-container">
         <Brand className="brand-container">
-          <Link to="/" className="brand"><span className="cat">Cat</span> Ocampo</Link>
+          <Link to="/" className="brand">Connor Ocampo</Link>
         </Brand>
         <NavItems className="nav-items navbar-nav">
           <Link to="/" className="nav-item">Home</Link>

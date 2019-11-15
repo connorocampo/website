@@ -17,7 +17,6 @@ import Layout from "../components/base/Layout";
 import Header from "../components/base/Header";
 import Bio from "../components/home/Bio";
 import Book from "../components/home/Book";
-// import Writings from "../components/home/Writings";
 import Footer from "../components/base/Footer";
 
 import favicon from '../../static/favicon.ico';
@@ -28,15 +27,14 @@ export default ({ data }) => (
       <Helmet>
         <html lang="en" />
         <title>{data.site.siteMetadata.title}</title>
-        <meta name="Cat Ocampo's Website" content="Cat Ocampo's Website" />
+        <meta name="Connor Ocampo's Website" content="Connor Ocampo's Website" />
         <meta name="theme-color" content="#0090D9" />
-        <meta name="description" content="The home page for Cat Ocampo's website." />
+        <meta name="description" content="The home page for Connor Ocampo's website." />
         <link rel="icon" href={favicon} />
       </Helmet>
       <Header />
       <Bio />
       <Book />
-      {/* <Writings /> */}
       <Footer />
     </Layout>
   </ThemeProvider>

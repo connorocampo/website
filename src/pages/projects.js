@@ -52,8 +52,8 @@ export default () => (
   <ThemeProvider theme={themeSettings}>
     <Layout>
       <Helmet>
-        <title>Projects | Cat Ocampo's Website</title>
-        <meta name="Projects from Connor Ocampo's Website" content="Projects from Cat Ocampo" />
+        <title>Projects | Connor Ocampo's Website</title>
+        <meta name="Projects from Connor Ocampo's Website" content="Projects from Connor Ocampo" />
         <meta name="theme-color" content="#0090D9" />
         <link rel="icon" href={favicon} />
       </Helmet>

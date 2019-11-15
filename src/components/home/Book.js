@@ -54,12 +54,6 @@ export const Image = styled.img`
   width: 325px;
 `;
 
-export const Disclaimer = styled.p`
-  color: #404040;
-  font-size: 10px;
-  text-decoration: none;
-`;
-
 export const BookTextContainer = styled.div`
   margin-top: -13px;
   max-width: 700px;
@@ -81,7 +75,6 @@ class Book extends React.Component {
           <YourFirstYearInCode>
             <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer">
               <Image src={BookCover} className="book-photo" alt="Book cover for the book Your First Year in Code" />
-              <Disclaimer className="disclaimer"><i>*Published name is Connor Ocampo</i></Disclaimer>
             </a>
             <BookTextContainer className="book-text-container">
               <h2>About The Book</h2>

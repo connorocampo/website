@@ -83,9 +83,9 @@ class Footer extends React.Component {
             <div>
               <SocialMediaHeader>Other Platforms</SocialMediaHeader>
               <SocialMediaLinks className="social-media-links">
-                <a href="https://www.linkedin.com/in/catherineocampo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://github.com/catherineocampo" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="https://codepen.io/catocampo/" target="_blank" rel="noopener noreferrer">CodePen</a>
+                <a href="https://www.linkedin.com/in/connorocampo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/connorocampo" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://codepen.io/connorocampo/" target="_blank" rel="noopener noreferrer">CodePen</a>
               </SocialMediaLinks>
             </div>
             <div>
@@ -98,7 +98,7 @@ class Footer extends React.Component {
               </Newsletter> */}
             </div>
           </FooterContent>
-          <Copyright>© 2019 Cat Ocampo | <Link to="/privacy-policy" className="regular-link" >Privacy Policy</Link></Copyright>
+          <Copyright>© 2019 Connor Ocampo | <Link to="/privacy-policy" className="regular-link" >Privacy Policy</Link></Copyright>
         </Container>
       </MaxWidth>
     );

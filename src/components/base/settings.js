@@ -21,4 +21,7 @@ module.exports = {
   weight: {
     heavy: "800",
   },
+  name: {
+    name: "Connor Ocampo",
+  }
 };

@@ -79,3 +79,14 @@ export default () => (
     </Layout>
   </ThemeProvider>
 )
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        author
+      }
+    }
+  }
+`

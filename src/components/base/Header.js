@@ -2,8 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from "gatsby";
 
-import '../SideDrawer/DrawerToggleButton';
-
 // Styles
 
 export const Container = styled.div`

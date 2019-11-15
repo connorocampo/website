@@ -40,7 +40,7 @@ export default () => (
   <ThemeProvider theme={themeSettings}>
     <Layout>
       <Helmet>
-        <title>About | {data.site.siteMetadata.author}'s Website</title>
+        <title>About | Connor Ocampo's Website</title>
         <meta name="About Connor Ocampo's Website" content="About Connor Ocampo's Website" />
         <meta name="theme-color" content="#0090D9" />
         <link rel="icon" href={favicon} />
@@ -79,14 +79,3 @@ export default () => (
     </Layout>
   </ThemeProvider>
 )
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-        author
-      }
-    }
-  }
-`

@@ -36,10 +36,10 @@ export default () => (
   <ThemeProvider theme={themeSettings}>
     <Layout>
       <Helmet>
-        <title>Privacy Policy | Cat Ocampo's Website</title>
-        <meta name="Privacy Policy | Cat Ocampo's Website" content="Privacy Policy | Cat Ocampo's Website" />
+        <title>Privacy Policy | Connor Ocampo's Website</title>
+        <meta name="Privacy Policy | Connor Ocampo's Website" content="Privacy Policy | Connor Ocampo's Website" />
         <meta name="theme-color" content="#0090D9" />
-        <meta name="description" content="The privacy policy page for Cat Ocampo's website." />
+        <meta name="description" content="The privacy policy page for Connor Ocampo's website." />
       </Helmet>
       <Header />
       <Heading>Privacy Policy and Disclaimer</Heading>
@@ -48,7 +48,7 @@ export default () => (
         At chttps://catherineocampo.github.io/catherineocampo/, we recognize that privacy of your personal information is important. Here is information on what types of personal information we receive and collect when you use and visit https://catherineocampo.github.io/catherineocampo/, and how we safeguard your information. We never sell your personal information to third parties.
 
         <Subheading>Who we are</Subheading>
-        Our website address is: https://catherineocampo.github.io/catherineocampo/.  This site is owned an operated by Cat Ocampo, a sole proprietor in the state of Florida in the United States.  He can be reached at cmosofla@gmail.com.
+        Our website address is: https://catherineocampo.github.io/catherineocampo/.  This site is owned an operated by Connor Ocampo, a sole proprietor in the state of Florida in the United States.  He can be reached at cmosofla@gmail.com.
 
         What personal data we collect and why we collect it
 

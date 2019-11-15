@@ -32,8 +32,8 @@ export default ({ data, pageContext }) => {
     <ThemeProvider theme={themeSettings}>
       <Layout>
         <Helmet>
-          <title>{post.frontmatter.title} | Cat Ocampo's Website</title>
-          <meta name="{frontmatter.title} | Cat Ocampo's Website" content="Blog | About Cat Ocampo's Website" />
+          <title>{post.frontmatter.title} | Connor Ocampo's Website</title>
+          <meta name="{frontmatter.title} | Connor Ocampo's Website" content="Blog | About Connor Ocampo's Website" />
           <meta name="theme-color" content="#0090D9" />
         </Helmet>
         <Header />

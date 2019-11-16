@@ -5,6 +5,8 @@ import { Link } from "gatsby";
 
 import '../../assets/styles/footer.css';
 
+import RainbowFlag from "../../assets/images/RainbowFlag.png"
+
 /*
  * Styles
  */
@@ -34,6 +36,11 @@ export const SocialMediaHeader = styled.div`
 `;
 
 export const SocialMediaLinks = styled.span`
+`;
+
+export const Image = styled.img`
+  margin-top: 40px;
+  max-width: 250px;
 `;
 
 // export const Newsletter = styled.span`
@@ -89,6 +96,7 @@ class Footer extends React.Component {
               </SocialMediaLinks>
             </div>
             <div>
+              <Image src={RainbowFlag} />
               {/* <Newsletter>
                 <NewsletterHeader className="align-left newletter-header">My Newsletter</NewsletterHeader>
                 <NewsletterText className="align-left">Get email updates straight to your inbox.</NewsletterText>

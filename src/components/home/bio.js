@@ -21,6 +21,7 @@ export const Image = styled.img`
   height: 156px;
   margin-right: 50px;
   margin-left: 2px;
+  width: 156px;
 `;
 
 export const Tagline = styled.div`

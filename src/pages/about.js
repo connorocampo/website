@@ -7,6 +7,7 @@ import themeSettings from '../components/base/settings';
 import favicon from '../../static/favicon.ico';
 
 import VeganBeef from "../assets/images/VeganBeef.jpg";
+import Painting from "../assets/images/Painting.jpg";
 
 
 // Components
@@ -27,8 +28,19 @@ const CallToAction = styled.p`
   margin: 0;
 `;
 
-export const Image = styled.img`
-  margin-top: 30px;
+export const Hobbies = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+`;
+
+export const Image1 = styled.img`
+  margin-top: 40px;
+  max-width: 310px;
+`;
+
+export const Image2 = styled.img`
+  margin-top: 40px;
   max-width: 310px;
 `;
 
@@ -53,13 +65,22 @@ export default () => (
       <p>
         When I’m not working, I enjoy cooking (one pot/pan meals are the best!), painting, playing guitar and singing.
       </p>
-      <Image src={VeganBeef} alt="Sweet and spicy ginger vegan beef" className="vegan-beef" />
-      <br />
-      <i>Sweet and spicy ginger vegan beef</i>
+      <Hobbies>
+        <div>
+          <Image1 src={VeganBeef} alt="Sweet and spicy ginger seitan" />
+          <br />
+          <i>Sweet and spicy ginger seitan</i>
+        </div>
+        <div>
+          <Image2 src={Painting} alt="An abstract painting" />
+          <br />
+          <i>An abstract painting</i>
+        </div>
+      </Hobbies>
       <br />
       <br />
       <p>
-        I also run a blog about my ongoing experience with <a href="https://www.quittingsocialmedia.com/" target="_blank" rel="noopener noreferrer">quitting social media for one year</a>. As a millennial who has been on social media for nearly half my life, I thought it'd be a good idea to quit social media for a while to see what life is like. So far, so good!
+        I also run a blog about my ongoing experience with <a href="https://www.quittingsocialmedia.com/" target="_blank" rel="noopener noreferrer">quitting social media for one year</a>. As a millennial who has been on social media for nearly half my life, I thought it'd be a good idea to quit social media for a while to see what life was like without it. So far, so good!
       </p>
       <CallToAction>
         Currently, I'm looking for job opportunities utilizing skills I already have and/or learning new things. If you think I'd be a good match to your company mission and culture, <a href="https://connorocampo.github.io/connorocampo/contact/" target="_blank" rel="noopener noreferrer">let's chat</a>!

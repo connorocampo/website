@@ -88,7 +88,7 @@ export default () => (
       <br />
       <h2>Tech I've Worked With</h2>
       <p>
-        <b><u>Front-end:</u></b> Github, Atom, VS Code (my fav), GIT, CSS, SCSS, Tailwind, React, styled-components, Gatsby, Netlify, Surge.sh. The design aspect is in my wheelhouse in terms of front-end development.
+        <b><u>Front-end:</u></b> Github, Atom, VS Code (my fav), GIT, Homebrew, CSS, SCSS, Tailwind, React, styled-components, Gatsby, Netlify, Surge.sh. The design aspect is in my wheelhouse in terms of front-end development.
       </p>
       <p>
         <b><u>Design:</u></b> Sketch, Abstract, Photoshop, and good ol' sketch paper. As far as design goes, I've done a bit of work on wireframing personal and professional projects.
@@ -96,7 +96,7 @@ export default () => (
       <LastParagraph>
         <b><u>Marketing:</u></b> Google Analytics, SEMrush, Hootsuite, Yoast, MailChimp, Buffer. Most of my marketing work consists of monitoring/reporting analytics, copywriting and optimizing articles, and organic social media marketing.
       </LastParagraph>
-      <Footer />
+      <Footer/>
     </Layout>
   </ThemeProvider>
 )

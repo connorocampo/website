@@ -4,7 +4,7 @@ date: "2019-11-18"
 category: Personal Development
 ---
 
-
+*This article was originally posted on <a href="https://www.linkedin.com/pulse/catherine-connor-let-me-explain-connor-ocampo/" target="_blank" rel="noopenner noreferrer">LinkedIn</a>.
 
 <b>TL;DR</b>: In 2016, I medically transitioned from female-to-male. After three years of negative health and health insurance repercussions I started to make the transition back hormonally as well as updating my legal name and gender marker back to what it was at birth. Because of legal obstructions in the legal name change process, I'm keeping my current name but still moving forward with changing my gender marker back.
 

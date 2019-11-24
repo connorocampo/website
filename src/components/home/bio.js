@@ -7,7 +7,6 @@ import { Link } from 'gatsby';
 
 import Avatar from '../../assets/images/Cat.png';
 
-
 /*
  * Styles
  */
@@ -26,7 +25,7 @@ export const Image = styled.img`
 
 export const Tagline = styled.div`
   font-size: ${props => props.theme.size.headerBig};
-  font-family: 'Open Sans Heavy';
+  font-family: 'Inter Black';
   margin-top: -10px;
   margin-bottom: 15px;
   margin-left: -2px;

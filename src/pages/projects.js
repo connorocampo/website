@@ -19,8 +19,8 @@ import Dribbble02 from "../assets/images/Dribbble02.jpg";
 import DroneWorld from "../assets/images/DroneWorld.png";
 
 
-const Heading = styled.div`
-  font-family: 'Open Sans Heavy';
+const Heading = styled.h1`
+  font-family: 'Inter Black', 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerBig};
   margin: 100px 0 25px 0;
   text-transform: uppercase;
@@ -39,7 +39,7 @@ export const Image = styled.img`
 `;
 
 export const ProjectTitle = styled.h2`
-  font-family: 'Open Sans Heavy';
+  font-family: 'Inter Black', 'Open Sans Heavy';
   margin-top: 30px;
 `;
 

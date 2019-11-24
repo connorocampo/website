@@ -17,8 +17,7 @@ export const Container = styled.div`
   padding: 100px;
 `;
 
-const Heading = styled.div`
-  font-family: 'Open Sans Heavy';
+const Heading = styled.h2`
   font-size: ${props => props.theme.size.headerMedium};
   margin-bottom: 50px;
   text-align: center;

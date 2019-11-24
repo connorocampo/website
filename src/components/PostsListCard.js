@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import styled from 'styled-components';
 
 const PostTitle = styled.div`
-  font-family: 'Open Sans Heavy';
+  font-family: 'Inter Black', 'Open Sans';
   font-size: ${props => props.theme.size.headerMedium};
 `;
 

@@ -29,8 +29,7 @@ export const FooterContent = styled.div`
   justify-content: space-between;
 `;
 
-export const SocialMediaHeader = styled.div`
-  font-family: 'Open Sans Heavy';
+export const SocialMediaHeader = styled.h2`
   font-size: ${props => props.theme.size.headerMedium};
   margin-bottom: 50px;
 `;
@@ -50,7 +49,6 @@ export const Image = styled.img`
 // `;
 
 // export const NewsletterHeader = styled.div`
-//   font-family: 'Open Sans Heavy';
 //   font-size: ${props => props.theme.size.headerMedium};
 //   margin-bottom: 50px;
 //   text-align: right;

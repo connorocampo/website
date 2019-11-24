@@ -5,7 +5,6 @@ import { ThemeProvider } from "styled-components";
 
 import { Link, graphql } from "gatsby"
 
-
 import themeSettings from '../components/base/settings';
 
 import "../assets/styles/header.css";
@@ -22,10 +21,11 @@ const HeadingContainer = styled.div`
   justify-content: space-between;
 `;
 
-const Heading = styled.div`
-  font-family: 'Open Sans Heavy';
-  font-size: ${props => props.theme.size.headerBig};
-  text-transform: uppercase;
+const Heading = styled.h1`
+font-family: 'Inter Black', 'Open Sans Heavy';
+font-size: ${props => props.theme.size.headerBig};
+margin: 0;
+text-transform: uppercase;
 `;
 
 // const CategoryContainer = styled.div`
@@ -46,13 +46,13 @@ const RecentPosts = styled.div`
 `;
 
 const Subheader = styled.div`
-  font-family: 'Open Sans Heavy';
+  font-family: 'Inter Black', 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerMedium};
   margin: 50px 0;
 `;
 
 const PostTitle = styled.div`
-  font-family: 'Open Sans Heavy';
+  font-family: 'Inter Black', 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerMedium};
 `;
 

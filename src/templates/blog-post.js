@@ -13,14 +13,14 @@ import Header from '../components/base/Header';
 import Footer from '../components/base/Footer';
 
 const Heading = styled.div`
-  font-family: 'Open Sans Heavy';
+  font-family: 'Inter Black', 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerBig};
   margin: 100px 0 50px 0;
   text-transform: uppercase;
 `;
 
-const PostTitle = styled.div`
-  font-family: 'Open Sans Heavy';
+const PostTitle = styled.h1`
+  font-family: 'Inter Black', 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerMedium};
 `;
 

@@ -16,8 +16,7 @@ import Layout from "../components/base/Layout";
 import Header from "../components/base/Header";
 import Footer from "../components/base/Footer";
 
-const Heading = styled.div`
-  font-family: 'Open Sans Heavy';
+const Heading = styled.h1`
   font-size: ${props => props.theme.size.headerBig};
   margin: 100px 0 50px 0;
   text-transform: uppercase;

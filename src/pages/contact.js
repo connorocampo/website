@@ -14,11 +14,11 @@ import Footer from "../components/base/Footer";
 
 import ByeCat from "../assets/images/ByeCat.gif";
 
-const Heading = styled.div`
-  font-family: 'Open Sans Heavy';
-  font-size: ${props => props.theme.size.headerBig};
-  margin: 100px 0 50px 0;
-  text-transform: uppercase;
+const Heading = styled.h1`
+font-family: 'Inter Black', 'Open Sans Heavy';
+font-size: ${props => props.theme.size.headerBig};
+margin: 100px 0 50px 0;
+text-transform: uppercase;
 `;
 
 const Text = styled.p`

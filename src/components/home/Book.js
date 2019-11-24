@@ -34,7 +34,6 @@ export const HeaderContainer = styled.div`
 `;
 
 export const Header = styled.h2`
-  font-family: 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerMedium};
   margin-bottom: 0;
 `;

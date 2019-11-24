@@ -31,8 +31,7 @@ export const HeaderContainer = styled.div`
   margin-bottom: 50px;
 `;
 
-export const Header = styled.span`
-  font-family: 'Open Sans Heavy';
+export const Header = styled.h1`
   font-size: ${props => props.theme.size.headerMedium};
 `;
 
@@ -49,7 +48,7 @@ export const Cards = styled.div`
 `;
 
 export const CardTitle = styled.span`
-  font-family: 'Open Sans Heavy', 'Open Sans';
+  font-family: 'Inter Black', 'Open Sans';
   margin-top: 20px;
 `;
 

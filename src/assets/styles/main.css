@@ -15,6 +15,11 @@
   src: local('Space Mono'), url(../../assets/fonts/SpaceMono-Regular.woff) format('woff');
 }
 
+@font-face {
+  font-family: 'Inter Black';
+  src: local('Inter Black'), url(../../assets/fonts/Inter-Black.woff) format('woff');
+}
+
 html {
   height: 100%;
 }
@@ -29,7 +34,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans Heavy';
+  font-family: 'Inter Black';
 }
 
 p {

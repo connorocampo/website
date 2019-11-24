@@ -34,19 +34,13 @@ All of this legal stuff in the air hasn't stopped me from finding work. I've app
 
 But, if I have any connections on here that know of a company hiring and think I may be a good fit with their company mission and culture, then please share this post with them.
 
-I've already made the name change updates to my Gatsby/React site and my LinkedIn URL.
-
-Website: https://connorocampo.github.io/website/
-
-LinkedIn: https://www.linkedin.com/in/connorocampo/
+I've already made the name change updates to my <a href="https://connorocampo.github.io/website/" target="_blank" rel="noopenner noreferrer">Gatsby/React site</a> and my <a href="https://www.linkedin.com/in/connorocampo/" target="_blank" rel="noopenner noreferrer">LinkedIn URL</a>.
 
 Thank you for reading all the way through and for supporting me in this strange dilemma. It has been a tough year but I am persevering.
 
 <h2>Stack Overflow's Developer Survey Demographics for 2019</h2>
 
-For anyone interested in what the 2019 developer demographics are among race, gender, and sexual orientation, click the link below:
-
-https://insights.stackoverflow.com/survey/2019#demographics
+For anyone interested in what the 2019 developer demographics are among race, gender, and sexual orientation, Stack Overflow published their <a href="https://insights.stackoverflow.com/survey/2019#demographics" target="_blank" rel="noopenner noreferrer">annual developer survery on their website</a>.
 
 <b>From the article</b>:
 

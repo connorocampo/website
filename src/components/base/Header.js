@@ -32,7 +32,7 @@ class Header extends React.Component {
           <Link to="/" className="brand">Connor Ocampo</Link>
         </Brand>
         <NavItems className="nav-items navbar-nav">
-          <Link to="/" className="nav-item">Home</Link>
+          {/* <Link to="/" className="nav-item">Home</Link> */}
           <Link to="/about/" className="nav-item">About</Link>
           <Link to="/projects/" className="nav-item">Projects</Link>
           <Link to="/blog/" className="nav-item">Blog</Link>

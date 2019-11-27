@@ -35,6 +35,7 @@ export const SocialMediaHeader = styled.h2`
 `;
 
 export const SocialMediaLinks = styled.span`
+  font-family: 'Roboto Mono', 'Inter';
 `;
 
 export const Image = styled.img`
@@ -69,6 +70,7 @@ export const Image = styled.img`
 // `;
 
 export const Copyright = styled.p`
+  font-family: 'Open Sans';
   font-size: ${props => props.theme.size.bodySmall};
   margin-top: 100px;
   margin-bottom: 0;

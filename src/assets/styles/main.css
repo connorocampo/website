@@ -25,6 +25,11 @@
   src: local('Inter'), url(../../assets/fonts/Inter-Regular.woff) format('woff');
 }
 
+@font-face {
+  font-family: 'Roboto Mono';
+  src: local('Roboto Mono'), url(../../assets/fonts/RobotoMono-Regular.woff) format('woff');
+}
+
 html {
   height: 100%;
 }

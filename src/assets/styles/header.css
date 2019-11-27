@@ -1,5 +1,6 @@
 .brand {
   color: #474747;
+  font-family: 'Open Sans';
   text-decoration: none;
 }
 
@@ -9,6 +10,7 @@
 
 .nav-item {
   color: #474747;
+  font-family: 'Inter', 'Open Sans';
   margin-left: 50px;
   position: relative;
 }

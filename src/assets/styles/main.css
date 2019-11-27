@@ -20,6 +20,11 @@
   src: local('Inter Black'), url(../../assets/fonts/Inter-Black.woff) format('woff');
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url(../../assets/fonts/Inter-Regular.woff) format('woff');
+}
+
 html {
   height: 100%;
 }
@@ -27,6 +32,7 @@ html {
 body {
   color: #474747;
   font-family: 'open sans';
+  font-family: 'Inter', 'Open Sans';
   font-size: 18px;
   height: 100%;
   overflow-x: hidden;

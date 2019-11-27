@@ -204,7 +204,7 @@ a:hover {
   }
 
   .book-text-container {
-    margin-top: 25px;
+    margin-top: 50px;
     max-width: 525px;
   }
 
@@ -213,9 +213,6 @@ a:hover {
   }
 
   /* Blog Page */
-  .blog-title {
-    margin-top: 40px;
-  }
 
   .placeholder {
     width: 300px;

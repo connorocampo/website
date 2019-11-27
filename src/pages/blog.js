@@ -15,17 +15,10 @@ import Layout from "../components/base/Layout";
 import Header from "../components/base/Header";
 import Footer from "../components/base/Footer";
 
-const HeadingContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-`;
-
 const Heading = styled.h1`
-font-family: 'Inter Black', 'Open Sans Heavy';
-font-size: ${props => props.theme.size.headerBig};
-margin: 0;
-text-transform: uppercase;
+  font-size: ${props => props.theme.size.headerBig};
+  margin: 100px 0 50px 0;
+  text-transform: uppercase;
 `;
 
 // const CategoryContainer = styled.div`
@@ -68,20 +61,18 @@ export default ({ data }) => (
         <meta name="description" content="The about page for Connor Ocampo's website." />
       </Helmet>
       <Header />
-      <HeadingContainer>
-        <Heading className="page-title blog-title">Blog</Heading>
-        {/* <CategoryContainer>
-          <CategoryFilterText>Read By Category</CategoryFilterText>
-          <CategoryFilterDropdown>
-            <option value="Personal Development">Personal Development</option>
-            <option value="Personal Finance">Personal Finance</option>
-            <option value="Front-End Development">Front-End Development</option>
-            <option value="Health and Fitness">Health and Fitness</option>
-            <option value="LGBT">LGBT</option>
-            <option value="Notes">Notes</option>
-          </CategoryFilterDropdown>
-        </CategoryContainer> */}
-      </HeadingContainer>
+      <Heading className="page-title">Blog</Heading>
+      {/* <CategoryContainer>
+        <CategoryFilterText>Read By Category</CategoryFilterText>
+        <CategoryFilterDropdown>
+          <option value="Personal Development">Personal Development</option>
+          <option value="Personal Finance">Personal Finance</option>
+          <option value="Front-End Development">Front-End Development</option>
+          <option value="Health and Fitness">Health and Fitness</option>
+          <option value="LGBT">LGBT</option>
+          <option value="Notes">Notes</option>
+        </CategoryFilterDropdown>
+      </CategoryContainer> */}
       <RecentPosts>
         <Subheader>Recent Posts</Subheader>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>

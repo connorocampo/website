@@ -18,7 +18,6 @@ import Dribbble from "../assets/images/Dribbble.jpg";
 import Dribbble02 from "../assets/images/Dribbble02.jpg";
 import DroneWorld from "../assets/images/DroneWorld.png";
 
-
 const Heading = styled.h1`
   font-family: 'Inter Black', 'Open Sans Heavy';
   font-size: ${props => props.theme.size.headerBig};
@@ -33,7 +32,7 @@ const Disclaimer = styled.p`
 `;
 
 export const Image = styled.img`
-  border-radius: 5px;
+  // border-radius: 5px;
   box-shadow: 10px 10px 20px #e0e0e0;
   max-width: 500px;
 `;
@@ -97,7 +96,7 @@ export default () => (
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer/>
     </Layout>
   </ThemeProvider>
 )

@@ -54,7 +54,6 @@ export const Image = styled.img`
 `;
 
 export const BookTextContainer = styled.div`
-  margin-top: -13px;
   max-width: 700px;
 `;
 

@@ -58,6 +58,10 @@ a:hover {
 
 /* Bio section */
 
+.bio-content {
+  margin-top: 20vh;
+}
+
 .bio-button {
   align-items: center;
   background: #0090D9;
@@ -67,7 +71,8 @@ a:hover {
   font-size: 16px;
   justify-content: center;
   height: 50px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
+  margin-bottom: 30vh;
   text-decoration: none;
   width: 140px;
 }
@@ -118,10 +123,15 @@ a:hover {
 .project-item {
   transition-property: transform;
   transition-duration: 0.3s;
+  position: relative;
 }
 
 .project-item:hover {
-  transform: scale(1.1);
+  box-shadow: 10px 10px 0 #0090d9;
+  top: -5px;
+  left: -5px;
+  transition: left .2s ease, top .2s ease,box-shadow .2s ease;
+  will-change: left, top;
 }
 
 /* Shop Page */
@@ -163,6 +173,11 @@ a:hover {
   .bio-content {
     display: flex;
     flex-direction: column;
+    margin-top: 0;
+  }
+
+  .bio-button {
+    margin-bottom: 20vh;
   }
 
   .bio-thumbnail {
@@ -183,7 +198,7 @@ a:hover {
   }
 
   .tech-credit {
-    font-size: 12px;
+    font-size: 12px !important;
     max-width: 500px;
   }
 

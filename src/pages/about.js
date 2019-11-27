@@ -91,7 +91,7 @@ export default () => (
         <b><u>Front-end:</u></b> Github, Atom, VS Code (my fav), GIT, Homebrew, CSS, SCSS, Tailwind, React, styled-components, Gatsby, Netlify, Surge.sh. The design aspect is in my wheelhouse in terms of front-end development.
       </p>
       <p>
-        <b><u>Design:</u></b> Sketch, Abstract, Photoshop, good ol' sketch paper, DaVinci Resolve.
+        <b><u>Video/Graphics:</u></b> Sketch, Abstract, Photoshop, good ol' sketch paper, DaVinci Resolve.
       </p>
       <LastParagraph>
         <b><u>Marketing:</u></b> Google Analytics, SEMrush, Hootsuite, Yoast, MailChimp, Buffer. Most of my marketing work consists of monitoring/reporting analytics, copywriting and optimizing articles, and organic social media marketing.

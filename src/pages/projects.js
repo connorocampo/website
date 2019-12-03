@@ -12,6 +12,7 @@ import Layout from "../components/base/Layout";
 import Header from "../components/base/Header";
 import Footer from "../components/base/Footer";
 
+import WordPressTutorial from "../assets/images/WordPressTutorial.png";
 import Portfolio from "../assets/images/Portfolio.png";
 import ToDoList from "../assets/images/ToDoList.png";
 import Dribbble from "../assets/images/Dribbble.jpg";
@@ -61,6 +62,13 @@ export default () => (
       <Disclaimer className="projects-disclaimer">Due to signing an NDA with previous employers, I am legally obligated to refrain from disclosing any previous works with them.</Disclaimer>
       <div className="projects">
         <div className="project">
+          <a href="https://github.com/connorocampo/tutorial" target="_blank" rel="noopener noreferrer"><Image src={WordPressTutorial} alt="My portfolio" className="project-item" /></a>
+          <div>
+            <ProjectTitle>WordPress Tutorial</ProjectTitle>
+            <ProjectDescription>Currently, I'm learning WordPress development through Tania Rascia's extremely thorough <a href="https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/" target="_blank" rel="noopener noreferrer">WordPress tutorial</a>. Utimately, the goal of this project is to learn how to implement designs into custom WordPress themes.</ProjectDescription>
+          </div>
+        </div>
+        <div className="project">
           <a href="https://connorocampo.github.io/website/" target="_blank" rel="noopener noreferrer"><Image src={Portfolio} alt="My portfolio" className="project-item" /></a>
           <div>
             <ProjectTitle>This Website!</ProjectTitle>
@@ -96,7 +104,7 @@ export default () => (
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </Layout>
   </ThemeProvider>
 )

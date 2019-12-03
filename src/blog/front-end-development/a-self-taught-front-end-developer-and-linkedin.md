@@ -9,7 +9,7 @@ Today I received a message on LinkedIn from one of my connections. Here’s a sc
 
 *The screencap somehow got deleted, please enjoy this cat noping into a cardboard box instead* 🙃
 
-<img src="http://localhost:8000/static/ByeCat-9eee79419e1a3ba8dd16e9e7b2e79b32.gif" class="placeholder image" />
+<img src="https://media.giphy.com/media/b9TLVAyi8U6wE/giphy.gif" class="placeholder image" />
 
 To summarize what the screencap was about, my friend on LinkedIn sent me a message congratulating and encouraging me on breaking into the tech scene as a self-taught developer. They said watching my progress and achievements inspired them to go into the field and learn on their own.
 

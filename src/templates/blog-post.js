@@ -1,28 +1,28 @@
 import React from "react"
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
 import { Link } from "gatsby"
-import styled from 'styled-components';
-import { ThemeProvider } from "styled-components";
+import styled from "styled-components"
+import { ThemeProvider } from "styled-components"
 
-import themeSettings from '../components/base/settings';
+import themeSettings from "../components/base/settings"
 
 // Components
-import Layout from "../components/base/Layout";
-import Header from '../components/base/Header';
-import Footer from '../components/base/Footer';
+import Layout from "../components/base/Layout"
+import Header from "../components/base/Header"
+import Footer from "../components/base/Footer"
 
 const Heading = styled.div`
-  font-family: 'Inter Black', 'Open Sans Heavy';
+  font-family: "Inter Black", "Open Sans Heavy";
   font-size: ${props => props.theme.size.headerBig};
   margin: 100px 0 50px 0;
   text-transform: uppercase;
-`;
+`
 
 const PostTitle = styled.h1`
-  font-family: 'Inter Black', 'Open Sans Heavy';
+  font-family: "Inter Black", "Open Sans Heavy";
   font-size: ${props => props.theme.size.headerMedium};
-`;
+`
 
 export default ({ data, pageContext }) => {
   const post = data.markdownRemark
@@ -33,7 +33,10 @@ export default ({ data, pageContext }) => {
       <Layout>
         <Helmet>
           <title>{post.frontmatter.title} | Connor Ocampo's Website</title>
-          <meta name="{frontmatter.title} | Connor Ocampo's Website" content="Blog | About Connor Ocampo's Website" />
+          <meta
+            name="{frontmatter.title} | Connor Ocampo's Website"
+            content="Blog | About Connor Ocampo's Website"
+          />
           <meta name="theme-color" content="#0090D9" />
         </Helmet>
         <Header />
@@ -41,9 +44,18 @@ export default ({ data, pageContext }) => {
         <PostTitle>{post.frontmatter.title}</PostTitle>
         <p className="post-subtitle">
           {post.frontmatter.date} - {post.timeToRead} min read
-          </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} style={{ marginTop: '50px', marginBottom: '50px' }} />
-        <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "100px" }}>
+        </p>
+        <div
+          dangerouslySetInnerHTML={{ __html: post.html }}
+          style={{ marginTop: "50px", marginBottom: "50px" }}
+        />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            marginBottom: "100px",
+          }}
+        >
           {previous && (
             <Link
               to={previous.fields.slug}
@@ -61,7 +73,7 @@ export default ({ data, pageContext }) => {
               className="btn btn-secondary"
             >
               {next.frontmatter.title} →
-                  </Link>
+            </Link>
           )}
         </div>
         <Footer />

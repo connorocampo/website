@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "connor-ocampos-website",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Front-end Developer based in Boca Raton, Florida, USA",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -38,9 +38,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/connorocampo/website"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/connorocampo/website/issues"
   }
 }

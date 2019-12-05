@@ -1,11 +1,11 @@
-import React from 'react';
-import styled from 'styled-components';
-import { ThemeProvider } from 'styled-components';
-import themeSettings from '../../components/base/settings';
+import React from "react"
+import styled from "styled-components"
+import { ThemeProvider } from "styled-components"
+import themeSettings from "../../components/base/settings"
 
-import { Link } from 'gatsby';
+import { Link } from "gatsby"
 
-import Avatar from '../../assets/images/Connor.png';
+import Avatar from "../../assets/images/Connor-Square.png"
 
 /*
  * Styles
@@ -13,7 +13,7 @@ import Avatar from '../../assets/images/Connor.png';
 
 export const Container = styled.div`
   display: flex;
-`;
+`
 
 export const Image = styled.img`
   border-radius: 50%;
@@ -21,30 +21,30 @@ export const Image = styled.img`
   margin-right: 50px;
   margin-left: 2px;
   width: 156px;
-`;
+`
 
 export const Tagline = styled.div`
   font-size: ${props => props.theme.size.headerBig};
-  font-family: 'Inter Black';
+  font-family: "Inter Black";
   margin-top: -10px;
   margin-bottom: 15px;
   margin-left: -2px;
   max-width: 720px;
-`;
+`
 
 export const SubTitle = styled.div`
   font-size: ${props => props.theme.size.bodyMedium};
   line-height: 1.5;
   margin-bottom: 30px;
   max-width: 620px;
-`;
+`
 
 export const TechCredit = styled.div`
   font-size: ${props => props.theme.size.bodySmall};
   line-height: 1.5;
   margin-bottom: 30px;
   max-width: 620px;
-`;
+`
 
 /*
  * Component
@@ -60,17 +60,41 @@ class Bio extends React.Component {
             <Tagline className="tagline">
               Front-end Developer based in Boca Raton, Florida, USA
             </Tagline>
-            <SubTitle className="subtitle">Also, hobby painter and vegan chef <span role="img" aria-label="emoji">🤘🏼</span></SubTitle>
-            <Link
-              to="/about"
-              className="bio-button">Learn More
+            <SubTitle className="subtitle">
+              Also, hobby painter and vegan chef{" "}
+              <span role="img" aria-label="emoji">
+                🤘🏼
+              </span>
+            </SubTitle>
+            <Link to="/about" className="bio-button">
+              About Connor
             </Link>
-            <TechCredit className="tech-credit">*This website was built using <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">Gatsby</a> and <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a> <span role="img" aria-label="emoji">⚡</span></TechCredit>
+            <TechCredit className="tech-credit">
+              *This website was built using{" "}
+              <a
+                href="https://www.gatsbyjs.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Gatsby
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://reactjs.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                React
+              </a>{" "}
+              <span role="img" aria-label="emoji">
+                ⚡
+              </span>
+            </TechCredit>
           </div>
         </Container>
       </ThemeProvider>
-    );
+    )
   }
 }
 
-export default Bio;
+export default Bio

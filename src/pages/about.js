@@ -58,18 +58,12 @@ export default () => (
       <Header />
       <Heading className="page-title">About</Heading>
       <p>
-        I’m a native South Floridian who graduated college at UCF in 2016 with a
-        Bachelor of Science Degree. Since then I’ve went on to gain employment
-        in web technologies at a financial publishing company and then later at
-        a web development agency.
-      </p>
-      <p>
+        I'm a self-taught front-end/UI nerd who loves learning and staying
+        up-to-date with modern tech that helps companies work smarter.
         Professionally, I have a history of work in front-end development,
-        search engine optimization (SEO), and web design.
-      </p>
-      <p>
-        When I’m not working, I enjoy cooking (one pot/pan meals are the best!),
-        painting, playing guitar and singing.
+        search engine optimization (SEO), and web design. When I’m not working,
+        I enjoy cooking (one pot/pan meals are the best!), painting, playing
+        guitar and singing.
       </p>
       <br />
       {/* <Hobbies>
@@ -95,15 +89,15 @@ export default () => (
       <br />
       <h3>Front-end</h3>
       <p>
-        Github, Atom, VS Code (my fav), GIT, Homebrew, CSS, SCSS, Bootstrap,
+        GitHub, Atom, VS Code (my fav), GIT, Homebrew, CSS, SCSS, Bootstrap,
         Flexbox, Tailwind, React, styled-components, Gatsby, GraphQL, Netlify,
         Surge.sh. The design aspect is in my wheelhouse in terms of front-end
         development.
       </p>
-      <h3>Video/Design</h3>
+      <h3>Video/Graphics</h3>
       <p>
-        Figma, Sketch, Abstract, Photoshop, good ol' sketch paper, DaVinci
-        Resolve.
+        DaVinci Resolve, Figma, Sketch, Abstract, Photoshop, and good ol' sketch
+        paper.
       </p>
       <p>
         <b>
@@ -120,8 +114,8 @@ export default () => (
       <p>
         <h3>Marketing</h3>
         Google Analytics, SEMrush, Hootsuite, Yoast, MailChimp, Buffer. Most of
-        my marketing work consists of monitoring/reporting analytics,
-        copywriting and optimizing articles, and organic social media marketing.
+        my marketing work consists of copywriting and optimizing articles,
+        reporting/improving analytics, and organic social media management.
       </p>
       <br />
       <h2>

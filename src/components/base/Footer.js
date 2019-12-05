@@ -114,7 +114,7 @@ class Footer extends React.Component {
               </SocialMediaLinks>
             </div>
             <div>
-              <Image src={RainbowFlag} />
+              <Image src={RainbowFlag} alt="Pride Flag" />
               {/* <Newsletter>
                 <NewsletterHeader className="align-left newletter-header">My Newsletter</NewsletterHeader>
                 <NewsletterText className="align-left">Get email updates straight to your inbox.</NewsletterText>

@@ -1,4 +1,5 @@
 .social-media-links > * {
+  color: #474747;
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
@@ -12,19 +13,19 @@
 .subscribe-link {
   padding: 0 0 10px 0;
   -webkit-appearance: none;
-  font-family: 'open sans';
+  font-family: "open sans";
   font-size: 24px;
   border: none;
-  background-color: #F5F7F8;
-  border-bottom: 4px solid #0090D9;
+  background-color: #f5f7f8;
+  border-bottom: 4px solid #0090d9;
   -webkit-appearance: none;
 }
 
 .subscribe-link:hover {
   cursor: pointer;
   font-weight: bold;
+  text-decoration: underline;
 }
-
 
 @media (max-width: 700px) {
   .align-left {

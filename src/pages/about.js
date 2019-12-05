@@ -120,6 +120,16 @@ export default () => (
         </b>{" "}
         Figma, Sketch, Abstract, Photoshop, good ol' sketch paper, DaVinci
         Resolve.
+        <p>
+          <b>Sample Design</b>
+        </p>
+        <a
+          href="https://raw.githubusercontent.com/connorocampo/website/master/src/assets/images/DesignOne.png"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Design One - Super Awesome
+        </a>
       </p>
       <LastParagraph>
         <b>

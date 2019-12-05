@@ -105,6 +105,7 @@ export default () => (
         </a>{" "}
         to view live code.
       </p>
+      <br />
       <h3>Video/Graphics</h3>
       <p>
         DaVinci Resolve, Figma, Sketch, Abstract, Photoshop, and good ol' sketch
@@ -127,13 +128,14 @@ export default () => (
         Design One - Super Awesome
       </a> */}
       <a
-        href="https://connorocampo.github.io/website/static/DesignOne-6389a0434024f4f32f91068355d54700.svg"
+        href="https://connorocampo.github.io/website/static/DesignOne-515a3b85313558d413b1efe83eece381.svg"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img src={DesignOne} alt="Design One" className="design-one" />
       </a>
       <p>
+        <br />
         <h3>Marketing</h3>
         Google Analytics, SEMrush, Hootsuite, Yoast, MailChimp, Buffer. Most of
         my marketing work consists of copywriting and optimizing articles,

@@ -79,7 +79,7 @@ export default () => (
             />
           </a>
           <div>
-            <ProjectTitle>WordPress Tutorial</ProjectTitle>
+            <ProjectTitle>WordPress Tutorial (Not Live)</ProjectTitle>
             <ProjectDescription>
               Currently, I'm learning WordPress development through Tania
               Rascia's extremely thorough{" "}

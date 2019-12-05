@@ -1,9 +1,9 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react"
+import styled from "styled-components"
 
-import { Link } from "gatsby";
+// import { Link } from "gatsby"
 
-import '../../assets/styles/footer.css';
+import "../../assets/styles/footer.css"
 
 import RainbowFlag from "../../assets/images/RainbowFlag.png"
 
@@ -12,36 +12,36 @@ import RainbowFlag from "../../assets/images/RainbowFlag.png"
  */
 
 export const MaxWidth = styled.div`
-  background: #F5F7F8;
+  background: #f5f7f8;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-  padding: 100px 2rem 0rem 2rem;  
-`;
+  padding: 100px 2rem 0rem 2rem;
+`
 
 export const Container = styled.div`
   margin: 0 auto;
-  max-width: 1100px; 
-`;
+  max-width: 1100px;
+`
 
 export const FooterContent = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-`;
+`
 
 export const SocialMediaHeader = styled.h2`
   font-size: ${props => props.theme.size.headerMedium};
   margin-bottom: 50px;
-`;
+`
 
 export const SocialMediaLinks = styled.span`
-  font-family: 'Roboto Mono', 'Inter';
-`;
+  font-family: "Roboto Mono", "Inter";
+`
 
 export const Image = styled.img`
   margin-top: 40px;
   max-width: 250px;
-`;
+`
 
 // export const Newsletter = styled.span`
 //   display: flex;
@@ -60,7 +60,7 @@ export const Image = styled.img`
 //   line-height: 1.5;
 //   margin-bottom: 25px;
 //   margin-left: auto;
-//   text-align: right;  
+//   text-align: right;
 //   width: 260px;
 // `;
 
@@ -70,12 +70,12 @@ export const Image = styled.img`
 // `;
 
 export const Copyright = styled.p`
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: ${props => props.theme.size.bodySmall};
   margin-top: 100px;
   margin-bottom: 0;
   padding-bottom: 15px;
-`;
+`
 
 /*
  * Component
@@ -90,9 +90,27 @@ class Footer extends React.Component {
             <div>
               <SocialMediaHeader>Other Platforms</SocialMediaHeader>
               <SocialMediaLinks className="social-media-links">
-                <a href="https://www.linkedin.com/in/connorocampo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://github.com/connorocampo" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="https://codepen.io/connorocampo/" target="_blank" rel="noopener noreferrer">CodePen</a>
+                <a
+                  href="https://www.linkedin.com/in/connorocampo/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+                <a
+                  href="https://github.com/connorocampo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://codepen.io/connorocampo/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CodePen
+                </a>
               </SocialMediaLinks>
             </div>
             <div>
@@ -106,11 +124,14 @@ class Footer extends React.Component {
               </Newsletter> */}
             </div>
           </FooterContent>
-          <Copyright>© 2019 Connor Ocampo | <Link to="/privacy-policy" className="regular-link" >Privacy Policy</Link></Copyright>
+          <Copyright>
+            © 2019 Connor Ocampo
+            {/* <Link to="/privacy-policy" className="regular-link" >Privacy Policy</Link> */}
+          </Copyright>
         </Container>
       </MaxWidth>
-    );
+    )
   }
 }
 
-export default Footer;
+export default Footer

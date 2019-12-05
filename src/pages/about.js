@@ -8,7 +8,7 @@ import favicon from "../../static/favicon.ico"
 
 // import VeganBeef from "../assets/images/VeganBeef.jpg"
 // import Painting from "../assets/images/Painting.jpg"
-// import DesignOne from "../assets/images/DesignOne.svg"
+import DesignOne from "../assets/images/DesignOne.svg"
 
 // Components
 
@@ -95,6 +95,16 @@ export default () => (
         Surge.sh. The design aspect is in my wheelhouse in terms of front-end
         development.
       </p>
+      <p>
+        See my{" "}
+        <a
+          href="https://connorocampo.github.io/website/projects/"
+          rel="noopener nofererrer"
+        >
+          Projects page
+        </a>{" "}
+        to view live code.
+      </p>
       <h3>Video/Graphics</h3>
       <p>
         DaVinci Resolve, Figma, Sketch, Abstract, Photoshop, and good ol' sketch
@@ -105,14 +115,24 @@ export default () => (
           <u>Sample Design</u>
         </b>
       </p>
-      <a
+      <p>
+        Click to image to view the design on a larger scale (opens in a new
+        tab).
+      </p>
+      {/* <a
         href="https://raw.githubusercontent.com/connorocampo/website/master/src/assets/images/DesignOne.png"
         target="_blank"
         rel="noopener noreferrer"
       >
         Design One - Super Awesome
+      </a> */}
+      <a
+        href="https://connorocampo.github.io/website/static/DesignOne-6389a0434024f4f32f91068355d54700.svg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={DesignOne} alt="Design One" className="design-one" />
       </a>
-      {/* <img src={DesignOne} /> */}
       <p>
         <h3>Marketing</h3>
         Google Analytics, SEMrush, Hootsuite, Yoast, MailChimp, Buffer. Most of

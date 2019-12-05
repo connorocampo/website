@@ -8,6 +8,7 @@ import favicon from "../../static/favicon.ico"
 
 // import VeganBeef from "../assets/images/VeganBeef.jpg"
 // import Painting from "../assets/images/Painting.jpg"
+// import DesignOne from "../assets/images/DesignOne.svg"
 
 // Components
 
@@ -111,6 +112,7 @@ export default () => (
       >
         Design One - Super Awesome
       </a>
+      {/* <img src={DesignOne} /> */}
       <p>
         <h3>Marketing</h3>
         Google Analytics, SEMrush, Hootsuite, Yoast, MailChimp, Buffer. Most of

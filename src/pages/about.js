@@ -6,8 +6,8 @@ import { ThemeProvider } from "styled-components"
 import themeSettings from "../components/base/settings"
 import favicon from "../../static/favicon.ico"
 
-import VeganBeef from "../assets/images/VeganBeef.jpg"
-import Painting from "../assets/images/Painting.jpg"
+// import VeganBeef from "../assets/images/VeganBeef.jpg"
+// import Painting from "../assets/images/Painting.jpg"
 
 // Components
 
@@ -23,14 +23,14 @@ const Heading = styled.h1`
 
 const CallToAction = styled.p`
   font-family: "Open Sans Heavy";
-  margin: 0;
+  margin-bottom: 100px;
 `
 
-export const Hobbies = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-`
+// export const Hobbies = styled.div`
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-around;
+// `
 
 export const Image1 = styled.img`
   margin-top: 40px;
@@ -43,7 +43,7 @@ export const Image2 = styled.img`
 `
 
 export const LastParagraph = styled.p`
-  margin-bottom: 100px;
+  // margin-bottom: 100px;
 `
 
 export default () => (
@@ -64,15 +64,18 @@ export default () => (
         I’m a native South Floridian who graduated college at UCF in 2016 with a
         Bachelor of Science Degree. Since then I’ve went on to gain employment
         in web technologies at a financial publishing company and then later at
-        a web development agency. Professionally, I have a history of work in
-        front-end development, search engine optimization (SEO), and a bit of
-        web design.
+        a web development agency.
+      </p>
+      <p>
+        Professionally, I have a history of work in front-end development,
+        search engine optimization (SEO), and web design.
       </p>
       <p>
         When I’m not working, I enjoy cooking (one pot/pan meals are the best!),
         painting, playing guitar and singing.
       </p>
-      <Hobbies>
+      <br />
+      {/* <Hobbies>
         <div>
           <Image1 src={VeganBeef} alt="Sweet and spicy ginger seitan" />
           <br />
@@ -83,28 +86,15 @@ export default () => (
           <br />
           <i>An abstract painting</i>
         </div>
-      </Hobbies>
+      </Hobbies> */}
+
       <br />
-      <br />
-      {/* <p>
-        I also run a blog about my ongoing experience with <a href="https://www.quittingsocialmedia.com/" target="_blank" rel="noopener noreferrer">quitting social media for one year</a>. As a millennial who has been on social media for nearly half my life, I thought it'd be a good idea to quit social media for a while to see what life was like without it. So far, so good!
-      </p> */}
-      <h2>Note to Hiring Managers</h2>
-      <CallToAction>
-        Currently, I'm looking for job opportunities utilizing skills I already
-        have and/or learning new things. If you think I'd be a good match to
-        your company mission and culture,{" "}
-        <a
-          href="https://connorocampo.github.io/connorocampo/contact/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          let's chat
-        </a>
-        !
-      </CallToAction>
-      <br />
-      <h2>Tech I've Worked With</h2>
+      <h2>
+        <span role="img" aria-label="emoji">
+          💻
+        </span>{" "}
+        Tech I've Worked With
+      </h2>
       <p>
         <b>
           <u>Front-end:</u>
@@ -121,7 +111,7 @@ export default () => (
         Figma, Sketch, Abstract, Photoshop, good ol' sketch paper, DaVinci
         Resolve.
         <p>
-          <b>Sample Design</b>
+          <b>Sample Design:</b>
         </p>
         <a
           href="https://raw.githubusercontent.com/connorocampo/website/master/src/assets/images/DesignOne.png"
@@ -139,6 +129,27 @@ export default () => (
         my marketing work consists of monitoring/reporting analytics,
         copywriting and optimizing articles, and organic social media marketing.
       </LastParagraph>
+      <br />
+      <h2>
+        <span role="img" aria-label="emoji">
+          🗒️
+        </span>{" "}
+        Note to Hiring Managers
+      </h2>
+      <CallToAction>
+        Currently, I'm looking for job opportunities utilizing skills I already
+        have and/or learning new things. If you think I'd be a good match to
+        your company mission and culture,{" "}
+        <a
+          href="https://connorocampo.github.io/website/contact/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          let's chat
+        </a>
+        !
+        <br />
+      </CallToAction>
       <Footer />
     </Layout>
   </ThemeProvider>

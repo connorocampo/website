@@ -1,10 +1,9 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react"
+import styled from "styled-components"
 
 // import { Link } from "gatsby";
 
-import BookCover from "../../assets/images/BookCover.jpeg";
-
+import BookCover from "../../assets/images/BookCover.jpeg"
 
 /*
  * Styles
@@ -18,7 +17,7 @@ export const MaxWidth = styled.div`
   justify-content: center;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-`;
+`
 
 export const Container = styled.div`
   display: flex;
@@ -26,36 +25,36 @@ export const Container = styled.div`
   margin: 100px 0;
   padding: 0 2rem;
   width: 1100px;
-`;
+`
 
 export const HeaderContainer = styled.div`
   align-items: center;
   margin-bottom: 50px;
-`;
+`
 
 export const Header = styled.h2`
   font-size: ${props => props.theme.size.headerMedium};
   margin-bottom: 0;
-`;
+`
 
 export const Subtitle = styled.p`
   font-size: ${props => props.theme.size.bodyMedium};
   margin-top: 10px;
-`;
+`
 
 export const YourFirstYearInCode = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-`;
+`
 
 export const Image = styled.img`
   width: 325px;
-`;
+`
 
 export const BookTextContainer = styled.div`
   max-width: 700px;
-`;
+`
 
 /*
  * Component
@@ -67,25 +66,73 @@ class Book extends React.Component {
       <MaxWidth>
         <Container>
           <HeaderContainer>
-            <Header className="book-header">Co-author of the book <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer"><i>Your First Year in Code</i></a></Header>
-            <Subtitle className="book-subtitle">A complete guide for new & aspiring developers</Subtitle>
+            <Header className="book-header">
+              <span role="img" aria-label="emoji">
+                📘
+              </span>{" "}
+              Co-author of the book{" "}
+              <a
+                href="https://leanpub.com/firstyearincode"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i>Your First Year in Code</i>
+              </a>
+            </Header>
+            <Subtitle className="book-subtitle">
+              A complete guide for new & aspiring developers
+            </Subtitle>
           </HeaderContainer>
           <YourFirstYearInCode>
-            <a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer">
-              <Image src={BookCover} className="book-photo" alt="Book cover for the book Your First Year in Code" />
+            <a
+              href="https://leanpub.com/firstyearincode"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={BookCover}
+                className="book-photo"
+                alt="Book cover for the book Your First Year in Code"
+              />
             </a>
             <BookTextContainer className="book-text-container">
               <h2>About The Book</h2>
-              <p><a href="https://leanpub.com/firstyearincode" target="_blank" rel="noopener noreferrer"><i>Your First Year in Code</i></a> was a collaborative literary project spearheaded by Issac Lyman. Together with 15 contributing authors, we've created a publication dedicated to new and aspiring developers.</p>
               <p>
-                I was honored to be able to contribute an inclusion section focusing on minority/LGBTQ+ people for the "Do I fit in?" chapter.</p>
-              <p>Today, both electronic and <a href="https://smile.amazon.com/Your-First-Year-Code-developers/dp/0578564998/ref=sr_1_1?keywords=your+first+year+in+code&qid=1573567474&sr=8-1" target="_blank" rel="noopener noreferrer">physical copies</a> of the book are available for purchase. The electronic version can be downloaded for free to those without the financial means to purchase it.</p>
+                <a
+                  href="https://leanpub.com/firstyearincode"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i>Your First Year in Code</i>
+                </a>{" "}
+                was a collaborative literary project spearheaded by Issac Lyman.
+                Together with 15 contributing authors, we've created a
+                publication dedicated to new and aspiring developers.
+              </p>
+              <p>
+                I was honored to be able to contribute an inclusion section
+                focusing on minority/LGBTQ+ people for the "Do I fit in?"
+                chapter.
+              </p>
+              <p>
+                Today, both electronic and{" "}
+                <a
+                  href="https://smile.amazon.com/Your-First-Year-Code-developers/dp/0578564998/ref=sr_1_1?keywords=your+first+year+in+code&qid=1573567474&sr=8-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  physical copies
+                </a>{" "}
+                of the book are available for purchase. The electronic version
+                can be downloaded for free to those without the financial means
+                to purchase it.
+              </p>
             </BookTextContainer>
           </YourFirstYearInCode>
         </Container>
       </MaxWidth>
-    );
+    )
   }
 }
 
-export default Book;
+export default Book

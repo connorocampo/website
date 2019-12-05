@@ -23,6 +23,7 @@ const Heading = styled.h1`
 
 const CallToAction = styled.p`
   font-family: "Open Sans Heavy";
+  margin-top: 0;
   margin-bottom: 100px;
 `
 
@@ -40,10 +41,6 @@ export const Image1 = styled.img`
 export const Image2 = styled.img`
   margin-top: 40px;
   max-width: 310px;
-`
-
-export const LastParagraph = styled.p`
-  // margin-bottom: 100px;
 `
 
 export default () => (
@@ -95,40 +92,37 @@ export default () => (
         </span>{" "}
         Tech I've Worked With
       </h2>
+      <br />
+      <h3>Front-end</h3>
       <p>
-        <b>
-          <u>Front-end:</u>
-        </b>{" "}
         Github, Atom, VS Code (my fav), GIT, Homebrew, CSS, SCSS, Bootstrap,
         Flexbox, Tailwind, React, styled-components, Gatsby, GraphQL, Netlify,
         Surge.sh. The design aspect is in my wheelhouse in terms of front-end
         development.
       </p>
+      <h3>Video/Design</h3>
       <p>
-        <b>
-          <u>Video/Design:</u>
-        </b>{" "}
         Figma, Sketch, Abstract, Photoshop, good ol' sketch paper, DaVinci
         Resolve.
-        <p>
-          <b>Sample Design:</b>
-        </p>
-        <a
-          href="https://raw.githubusercontent.com/connorocampo/website/master/src/assets/images/DesignOne.png"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Design One - Super Awesome
-        </a>
       </p>
-      <LastParagraph>
+      <p>
         <b>
-          <u>Marketing:</u>
-        </b>{" "}
+          <u>Sample Design</u>
+        </b>
+      </p>
+      <a
+        href="https://raw.githubusercontent.com/connorocampo/website/master/src/assets/images/DesignOne.png"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Design One - Super Awesome
+      </a>
+      <p>
+        <h3>Marketing</h3>
         Google Analytics, SEMrush, Hootsuite, Yoast, MailChimp, Buffer. Most of
         my marketing work consists of monitoring/reporting analytics,
         copywriting and optimizing articles, and organic social media marketing.
-      </LastParagraph>
+      </p>
       <br />
       <h2>
         <span role="img" aria-label="emoji">
@@ -136,6 +130,7 @@ export default () => (
         </span>{" "}
         Note to Hiring Managers
       </h2>
+      <br />
       <CallToAction>
         Currently, I'm looking for job opportunities utilizing skills I already
         have and/or learning new things. If you think I'd be a good match to

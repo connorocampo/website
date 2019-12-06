@@ -59,7 +59,7 @@ export default () => (
       <Header />
       <Heading className="page-title">About</Heading>
       <p>
-        I'm a self-taught front-end/UI nerd who loves learning and staying
+        I'm a self-taught Front-end/UI nerd who loves learning and staying
         up-to-date with modern tech that helps companies work smarter.
         Professionally, I have a history of work in front-end development,
         search engine optimization (SEO), and web design. When I’m not working,

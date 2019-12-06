@@ -132,7 +132,7 @@ export default () => (
           <div>
             <ProjectTitle>This Website!</ProjectTitle>
             <ProjectDescription>
-              This site was built using Gatsby and React and was published on
+              This site was built on Gatsby and React and was published on
               GitHub Pages. Other technology used was Git, VS Code, CSS, and
               styled-components. View the source code in Github{" "}
               <a

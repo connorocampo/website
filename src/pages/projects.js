@@ -12,6 +12,7 @@ import Layout from "../components/base/Layout"
 import Header from "../components/base/Header"
 import Footer from "../components/base/Footer"
 
+import ProjectNewsletter from "../assets/images/ProjectNewsletter.png"
 import WordPressTutorial from "../assets/images/WordPressTutorial.png"
 import Portfolio from "../assets/images/Portfolio.png"
 import ToDoList from "../assets/images/ToDoList.png"
@@ -66,6 +67,27 @@ export default () => (
         refrain from disclosing any previous works with them.
       </Disclaimer>
       <div className="projects">
+        <div className="project">
+          <a
+            href="https://connors-mailchimp-app.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src={ProjectNewsletter}
+              alt="Newsletter Signup - Mailchimp API"
+              className="project-item"
+            />
+          </a>
+          <div>
+            <ProjectTitle>Newsletter Signup - Mailchimp API</ProjectTitle>
+            <ProjectDescription>
+              This app was built on Heroku and uses the Mailchimp API. The goal
+              of this project was to learn how to implement the Mailchimp API
+              into personal and professional projects.
+            </ProjectDescription>
+          </div>
+        </div>
         <div className="project">
           <a
             href="https://github.com/connorocampo/tutorial"

@@ -90,10 +90,10 @@ export default () => (
       <br />
       <h3>Front-end</h3>
       <p>
-        GitHub, Atom, VS Code (my fav), GIT, Homebrew, CSS, SCSS, Bootstrap,
-        Flexbox, Tailwind, React, styled-components, Gatsby, GraphQL, Netlify,
-        Surge.sh, WordPress, PHP. The design aspect is in my wheelhouse in terms
-        of front-end development.
+        GitHub, Atom, VS Code (my fav), GIT, Homebrew, CSS, SCSS, Font Awesome,
+        Bootstrap, Flexbox, Tailwind, React, styled-components, Gatsby, GraphQL,
+        Netlify, Surge.sh, WordPress, PHP. The design aspect is in my wheelhouse
+        in terms of front-end development.
       </p>
       <p>
         See my{" "}

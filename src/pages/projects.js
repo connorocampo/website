@@ -12,7 +12,7 @@ import Layout from "../components/base/Layout"
 import Header from "../components/base/Header"
 import Footer from "../components/base/Footer"
 
-import ProjectNewsletter from "../assets/images/ProjectNewsletter.png"
+import ProjectMailchimp from "../assets/images/ProjectMailchimp.png"
 import WordPressTutorial from "../assets/images/WordPressTutorial.png"
 import Portfolio from "../assets/images/Portfolio.png"
 import ToDoList from "../assets/images/ToDoList.png"
@@ -74,7 +74,7 @@ export default () => (
             rel="noopener noreferrer"
           >
             <Image
-              src={ProjectNewsletter}
+              src={ProjectMailchimp}
               alt="Newsletter Signup - Mailchimp API"
               className="project-item"
             />

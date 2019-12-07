@@ -120,15 +120,8 @@ export default () => (
         Click to image to view the design on a larger scale (opens in a new
         tab).
       </p>
-      {/* <a
-        href="https://raw.githubusercontent.com/connorocampo/website/master/src/assets/images/DesignOne.png"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Design One - Super Awesome
-      </a> */}
       <a
-        href="https://connorocampo.github.io/website/static/DesignOne-515a3b85313558d413b1efe83eece381.svg"
+        href="/static/DesignOne-296591062190b1955f5241593c23c67f.svg"
         target="_blank"
         rel="noopener noreferrer"
       >

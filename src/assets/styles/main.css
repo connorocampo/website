@@ -92,8 +92,10 @@ a:hover {
   justify-content: center;
   height: 50px;
   margin-bottom: 30vh;
+  padding: 0 1em;
   text-decoration: none;
-  width: 140px;
+  width: auto;
+  width: 150px;
 }
 
 .bio-button:hover {

@@ -67,7 +67,7 @@ class Bio extends React.Component {
               </span>
             </SubTitle>
             <Link to="/about" className="bio-button">
-              About Connor
+              More about Connor
             </Link>
             <TechCredit className="tech-credit">
               *This website was built using{" "}

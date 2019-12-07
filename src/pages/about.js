@@ -121,7 +121,7 @@ export default () => (
         tab).
       </p>
       <a
-        href="/static/DesignOne-296591062190b1955f5241593c23c67f.svg"
+        href="https://connorocampo.github.io/website/static/DesignOne-296591062190b1955f5241593c23c67f.svgg"
         target="_blank"
         rel="noopener noreferrer"
       >

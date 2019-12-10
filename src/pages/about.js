@@ -59,7 +59,7 @@ export default () => (
       <Header />
       <Heading className="page-title">About</Heading>
       <p>
-        I'm a self-taught Front-end/UI nerd who loves learning and staying
+        I'm a self-taught Front End/UI nerd who loves learning and staying
         up-to-date with modern tech that helps companies work smarter.
         Professionally, I have a history of work in front-end development,
         search engine optimization (SEO), and web design. When I’m not working,
@@ -73,7 +73,7 @@ export default () => (
           <br />
           <i>Sweet and spicy ginger seitan</i>
         </div>
-        <div>
+        <div>`
           <Image2 src={Painting} alt="An abstract painting" />
           <br />
           <i>An abstract painting</i>
@@ -88,7 +88,7 @@ export default () => (
         Tech I've Worked With
       </h2>
       <br />
-      <h3>Front-end</h3>
+      <h3>Front End</h3>
       <p>
         GitHub, Atom, VS Code (my fav), GIT, Homebrew, CSS, SCSS, Font Awesome,
         Bootstrap, Flexbox, Tailwind, React, styled-components, Gatsby, GraphQL,

@@ -58,7 +58,7 @@ class Bio extends React.Component {
           <Image src={Avatar} alt="Connor Ocampo" className="bio-thumbnail" />
           <div>
             <Tagline className="tagline">
-              Front-end Developer based in Boca Raton, Florida, USA
+              Front End Developer based in Boca Raton, Florida, USA
             </Tagline>
             <SubTitle className="subtitle">
               Also, hobby painter and vegan chef{" "}

@@ -60,7 +60,7 @@ export default () => (
       <Header />
       <Heading className="page-title">About</Heading>
       <p>
-        I'm a self-taught Front End/UI nerd who loves learning and staying
+        I'm a self-taught Front End/Design nerd who loves learning and staying
         up-to-date with modern tech that helps companies work smarter.
         Professionally, I have a history of work in front-end development,
         search engine optimization (SEO), and web design. When I’m not working,
@@ -122,7 +122,7 @@ export default () => (
         tab).
       </p>
       <a
-        href="https://connorocampo.github.io/website/static/DesignOne-52484487c77d66915ad7321865a21661.svg"
+        href="https://connorocampo.github.io/website/static/DesignOne-18671b3a4ff23572845e755800f5f217.svg"
         target="_blank"
         rel="noopener noreferrer"
       >

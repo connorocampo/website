@@ -9,6 +9,7 @@ import favicon from "../../static/favicon.ico"
 // import VeganBeef from "../assets/images/VeganBeef.jpg"
 // import Painting from "../assets/images/Painting.jpg"
 import DesignOne from "../assets/images/DesignOne.svg"
+// import DesignOne from "../assets/images/DesignOneScreenshot.svg"
 
 // Components
 
@@ -121,7 +122,7 @@ export default () => (
         tab).
       </p>
       <a
-        href="https://connorocampo.github.io/website/static/DesignOne-296591062190b1955f5241593c23c67f.svg"
+        href="https://connorocampo.github.io/website/static/DesignOne-52484487c77d66915ad7321865a21661.svg"
         target="_blank"
         rel="noopener noreferrer"
       >

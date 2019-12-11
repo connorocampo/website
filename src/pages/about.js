@@ -118,7 +118,7 @@ export default () => (
         </b>
       </p>
       <p>
-        Click to image to view the design on a larger scale (opens in a new
+        Click the image to view the design on a larger scale (opens in a new
         tab).
       </p>
       <a

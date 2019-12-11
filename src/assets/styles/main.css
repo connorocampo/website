@@ -96,7 +96,6 @@ a:hover {
   margin-bottom: 30vh;
   padding: 0 1em;
   text-decoration: none;
-  width: auto;
   width: 125px;
 }
 
@@ -204,7 +203,7 @@ a:hover {
   }
 
   .tagline {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }
 
   .bio-button {

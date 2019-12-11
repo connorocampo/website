@@ -24,7 +24,6 @@ export const Image = styled.img`
 `
 
 export const Tagline = styled.div`
-  // font-size: ${props => props.theme.size.headerBig};
   font-size: 60px;
   font-family: "Inter Black";
   margin-top: -10px;
@@ -69,7 +68,7 @@ class Bio extends React.Component {
               </span>
             </SubTitle> */}
             <Link to="/about" className="bio-button">
-              About Connor
+              Learn More →
             </Link>
             <TechCredit className="tech-credit">
               *This website was built using{" "}

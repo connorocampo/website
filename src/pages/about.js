@@ -100,11 +100,22 @@ export default () => (
         See my{" "}
         <a
           href="https://connorocampo.github.io/website/projects/"
-          rel="noopener nofererrer"
+          rel="noopener noreferrer"
         >
           Projects page
         </a>{" "}
         to view live code.
+      </p>
+      <p>
+        Check out my{" "}
+        <a
+          href="https://codepen.io/connorocampo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          CodePen profile
+        </a>{" "}
+        to see mini code project.
       </p>
       <br />
       <h3>Video/Graphics</h3>

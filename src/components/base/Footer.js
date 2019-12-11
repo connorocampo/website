@@ -5,7 +5,9 @@ import styled from "styled-components"
 
 import "../../assets/styles/footer.css"
 
-import RainbowFlag from "../../assets/images/RainbowFlag.png"
+// import RainbowFlag from "../../assets/images/RainbowFlag.png"
+import GatsbyIcon from "../../assets/images/GatsbyIcon.png"
+import ReactImage from "../../assets/images/ReactImage.png"
 
 /*
  * Styles
@@ -40,7 +42,8 @@ export const SocialMediaLinks = styled.span`
 
 export const Image = styled.img`
   margin-top: 40px;
-  max-width: 250px;
+  height: 50px;
+  width: 50px;
 `
 
 // export const Newsletter = styled.span`
@@ -113,8 +116,12 @@ class Footer extends React.Component {
                 </a>
               </SocialMediaLinks>
             </div>
-            <div>
-              <Image src={RainbowFlag} alt="Pride Flag" />
+            <div class="icon-container">
+              <div>
+                <Image src={GatsbyIcon} alt="Pride Flag" />
+                <Image src={ReactImage} alt="Pride Flag" />
+              </div>
+
               {/* <Newsletter>
                 <NewsletterHeader className="align-left newletter-header">My Newsletter</NewsletterHeader>
                 <NewsletterText className="align-left">Get email updates straight to your inbox.</NewsletterText>

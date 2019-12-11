@@ -79,6 +79,8 @@ a:hover {
 /* Bio section */
 
 .bio-content {
+  /* display: flex;
+  justify-content: center; */
   margin-top: 20vh;
 }
 
@@ -95,7 +97,7 @@ a:hover {
   padding: 0 1em;
   text-decoration: none;
   width: auto;
-  width: 150px;
+  width: 125px;
 }
 
 .bio-button:hover {
@@ -189,7 +191,7 @@ a:hover {
 
 /* Responsive */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
   .page-title {
     font-size: 24px !important;
     margin-top: 50px;
@@ -199,6 +201,10 @@ a:hover {
     display: flex;
     flex-direction: column;
     margin-top: 0;
+  }
+
+  .tagline {
+    margin-bottom: 25px;
   }
 
   .bio-button {

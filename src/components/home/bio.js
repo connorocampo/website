@@ -17,27 +17,29 @@ export const Container = styled.div`
 
 export const Image = styled.img`
   border-radius: 50%;
-  height: 156px;
+  height: 135px;
   margin-right: 50px;
   margin-left: 2px;
-  width: 156px;
+  width: 135px;
 `
 
 export const Tagline = styled.div`
-  font-size: ${props => props.theme.size.headerBig};
+  // font-size: ${props => props.theme.size.headerBig};
+  font-size: 60px;
   font-family: "Inter Black";
   margin-top: -10px;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
   margin-left: -2px;
-  max-width: 720px;
+  // max-width: 720px;
+  max-width: 810px;
 `
 
-export const SubTitle = styled.div`
-  font-size: ${props => props.theme.size.bodyMedium};
-  line-height: 1.5;
-  margin-bottom: 30px;
-  max-width: 620px;
-`
+// export const SubTitle = styled.div`
+//   font-size: ${props => props.theme.size.bodyMedium};
+//   line-height: 1.5;
+//   margin-bottom: 30px;
+//   max-width: 620px;
+// `
 
 export const TechCredit = styled.div`
   font-size: ${props => props.theme.size.bodySmall};
@@ -60,14 +62,14 @@ class Bio extends React.Component {
             <Tagline className="tagline">
               Front End Developer based in Boca Raton, Florida, USA
             </Tagline>
-            <SubTitle className="subtitle">
+            {/* <SubTitle className="subtitle">
               Also, hobby painter and vegan chef{" "}
               <span role="img" aria-label="emoji">
                 🤘🏼
               </span>
-            </SubTitle>
+            </SubTitle> */}
             <Link to="/about" className="bio-button">
-              More about Connor
+              About Connor
             </Link>
             <TechCredit className="tech-credit">
               *This website was built using{" "}

@@ -46,6 +46,7 @@ class Header extends React.Component {
           <Link to="/contact/" className="nav-item">
             Contact
           </Link>
+
           {/* <Link to="/shop/" className="nav-item">Shop</Link> */}
           {/* <Link to="/hire-me/" className=" nav-item">Hire Me</Link> */}
         </NavItems>

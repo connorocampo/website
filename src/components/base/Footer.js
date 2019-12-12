@@ -5,7 +5,6 @@ import styled from "styled-components"
 
 import "../../assets/styles/footer.css"
 
-// import RainbowFlag from "../../assets/images/RainbowFlag.png"
 import GatsbyIcon from "../../assets/images/GatsbyIcon.png"
 import ReactImage from "../../assets/images/ReactImage.png"
 

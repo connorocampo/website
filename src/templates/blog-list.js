@@ -82,12 +82,30 @@ export default class BlogList extends React.Component {
             }}
           >
             {!isFirst && (
-              <Link to={prevPage} rel="prev">
+              <Link
+                to={prevPage}
+                rel="prev"
+                style={{
+                  background: "#f5f7f8",
+                  color: "#474747",
+                  padding: "10px 25px",
+                  textDecoration: "none",
+                }}
+              >
                 ← Previous Page
               </Link>
             )}
             {!isLast && (
-              <Link to={nextPage} rel="next">
+              <Link
+                to={nextPage}
+                rel="next"
+                style={{
+                  background: "#f5f7f8",
+                  color: "#474747",
+                  padding: "10px 25px",
+                  textDecoration: "none",
+                }}
+              >
                 Next Page →
               </Link>
             )}

@@ -29,16 +29,8 @@ export const Tagline = styled.div`
   margin-top: -10px;
   margin-bottom: 50px;
   margin-left: -2px;
-  // max-width: 720px;
   max-width: 810px;
 `
-
-// export const SubTitle = styled.div`
-//   font-size: ${props => props.theme.size.bodyMedium};
-//   line-height: 1.5;
-//   margin-bottom: 30px;
-//   max-width: 620px;
-// `
 
 export const TechCredit = styled.div`
   font-size: ${props => props.theme.size.bodySmall};
@@ -61,12 +53,7 @@ class Bio extends React.Component {
             <Tagline className="tagline">
               Front End Developer based in Boca Raton, Florida, USA
             </Tagline>
-            {/* <SubTitle className="subtitle">
-              Also, hobby painter and vegan chef{" "}
-              <span role="img" aria-label="emoji">
-                🤘🏼
-              </span>
-            </SubTitle> */}
+
             <Link to="/about" className="bio-button">
               Learn More →
             </Link>

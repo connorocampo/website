@@ -5,7 +5,7 @@ import themeSettings from "../../components/base/settings"
 
 import { Link } from "gatsby"
 
-import Avatar from "../../assets/images/Connor-Square.png"
+import Avatar from "../../assets/images/ConnorProfile.png"
 
 /*
  * Styles

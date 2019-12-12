@@ -60,12 +60,11 @@ export default () => (
       <Header />
       <Heading className="page-title">About</Heading>
       <p>
-        I'm a self-taught Front End/Design nerd who loves learning and staying
-        up-to-date with modern tech that helps companies work smarter.
-        Professionally, I have a history of work in front-end development,
-        search engine optimization (SEO), and web design. When I’m not working,
-        I enjoy cooking (one pot/pan meals are the best!), painting, playing
-        guitar and singing.
+        I'm a self-taught Front End/Design nerd who enjoys learning and staying
+        up-to-date with modern tech. Professionally, I have a history of work in
+        front end development, search engine optimization (SEO), and web design.
+        When I’m not working, I enjoy cooking (one pot/pan meals are the best!),
+        painting, playing guitar and singing.
       </p>
       <br />
       {/* <Hobbies>
@@ -91,10 +90,10 @@ export default () => (
       <br />
       <h3>Front End</h3>
       <p>
-        GitHub, Atom, VS Code (my fav), GIT, Homebrew, CSS, SCSS, Font Awesome,
-        Bootstrap, Flexbox, Tailwind, React, styled-components, Gatsby, GraphQL,
-        Netlify, Surge.sh. The design aspect is in my wheelhouse in terms of
-        front-end development.
+        GitHub, Atom, VS Code (my fav), WordPress, GIT, Homebrew, CSS, SCSS,
+        Font Awesome, Bootstrap, Flexbox, Tailwind, React, styled-components,
+        Gatsby, GraphQL, Netlify, Surge.sh. The design aspect is in my
+        wheelhouse in terms of front-end development.
       </p>
       <p>
         See my{" "}

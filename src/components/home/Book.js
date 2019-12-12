@@ -110,11 +110,6 @@ class Book extends React.Component {
                 publication dedicated to new and aspiring developers.
               </p>
               <p>
-                I was honored to be able to contribute an inclusion section
-                focusing on minority/LGBTQ+ people for the "Do I fit in?"
-                chapter.
-              </p>
-              <p>
                 Today, both electronic and{" "}
                 <a
                   href="https://smile.amazon.com/Your-First-Year-Code-developers/dp/0578564998/ref=sr_1_1?keywords=your+first+year+in+code&qid=1573567474&sr=8-1"

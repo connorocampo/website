@@ -1,9 +1,9 @@
 import React from "react"
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
-import styled from 'styled-components';
-import { ThemeProvider } from "styled-components";
-import themeSettings from '../components/base/settings';
+import styled from "styled-components"
+import { ThemeProvider } from "styled-components"
+import themeSettings from "../components/base/settings"
 
 // Components
 
@@ -12,13 +12,12 @@ import Header from "../components/base/Header"
 import PostsList from "../components/PostList"
 import Footer from "../components/base/Footer"
 
-
 const Heading = styled.div`
-  font-family: 'Open Sans Heavy';
+  font-family: "Open Sans Heavy";
   font-size: ${props => props.theme.size.headerBig};
   margin: 100px 0 50px 0;
   text-transform: uppercase;
-`;
+`
 
 const CategoryTemplate = ({ location, pageContext, data }) => {
   const { category } = pageContext
@@ -27,9 +26,15 @@ const CategoryTemplate = ({ location, pageContext, data }) => {
       <Layout location={location} title={`Posts in category "${category}"`}>
         <Helmet>
           <title>{category} | Connor Ocampo's Website</title>
-          <meta name="Connor Ocampo's Website" content="Connor Ocampo's Website" />
+          <meta
+            name="Connor Ocampo's Website"
+            content="Connor Ocampo's Website"
+          />
           <meta name="theme-color" content="#0090D9" />
-          <meta name="description" content="The category page for Connor Ocampo's website." />
+          <meta
+            name="description"
+            content="The category page for Connor Ocampo's website."
+          />
         </Helmet>
         <Header />
         <div>

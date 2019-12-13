@@ -1,10 +1,9 @@
 ---
 title: "My First Front-End Developer Job 🎉"
 date: "2019-01-19"
-tags: ["front-end-development", "Code"]
-category: Front-End Development
+tags: ["Code"]
+category: Development
 ---
-
 
 This is an update from my post about a non-technical interview tip that led me to get my first Front-end Developer job.
 
@@ -45,7 +44,7 @@ Goals with this project:
 - Not make a fool of myself
 - Finish the project in a timely manner
 
-It’s been a great learning experience so far —  definitely levels up from the comfort of picking your own projects to work on where you have first and final say in its entirety.
+It’s been a great learning experience so far — definitely levels up from the comfort of picking your own projects to work on where you have first and final say in its entirety.
 
 <h2>Some Other Things</h2>
 

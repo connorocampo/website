@@ -2,7 +2,7 @@
 title: "8 Reasons For Making a WordPress Website"
 date: "2019-03-04"
 tags: ["Front-end Development"]
-category: Front-end Development
+category: Development
 ---
 
 You are thinking about leveling up your business or digital presence by launching a WordPress website. You know that having a website significantly increases the likelihood of your business to not only survive but to thrive as well.
@@ -35,7 +35,7 @@ This article will explain the benefits of choosing WordPress.
 
 6. They provide an option to backup, export or import your theme/content.
 
-7. It has the option to enable custom domains (for FREE, you just have to buy the domain name which is usually around $10).
+7. It has the option to enable custom domains (for FREE, you just have to buy the domain name which is usually around \$10).
 
 8. Google favors ranking WordPress sites.
 

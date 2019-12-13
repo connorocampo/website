@@ -2,7 +2,7 @@
 title: "A Non-Technical Job Interview Tip"
 date: "2018-11-08"
 tags: ["front-end-development", "Code"]
-category: Front-End Development
+category: Development
 ---
 
 Here is an easy-to-overlook, non-technical job interview tip that can boost your chances of landing your dream job. This tip can help both the interviewee and the hiring authority better maneuver through the interview process. It also aids in making every minute of an interview count in your favor!
@@ -13,7 +13,7 @@ Here is an easy-to-overlook, non-technical job interview tip that can boost your
 
 These are such simple questions yet candidates fumble words around in attempt to express what was previously thought of as a simple answer to a simple question. As word-vomit spills out, a terror of intangible insecurity starts to fill the interviewee’s head space.
 
-The interviewee thinks, “Don’t f*ck up, don’t f*ck up, don’t f*ck up.” and then awkward silence begins to pace after the “umms” and “ugghhs”.
+The interviewee thinks, “Don’t f*ck up, don’t f*ck up, don’t f\*ck up.” and then awkward silence begins to pace after the “umms” and “ugghhs”.
 
 At this point, the interviewee’s chances of getting that dream gig is getting lower by the "umm".
 
@@ -33,7 +33,7 @@ This will help you provide answers that stick to the question and keep you focus
 
 Now, after you’ve managed to compile your thoughts on paper, rehearse speaking your answers out loud. This might seem silly and strange at first because it is! Generally, it is not normal to speak without having another set of ears to listen — so that’s all that ‘silly and strange’ feeling is telling you. Just let it say hi and enjoy feeling silly and strange! A little levity can do the mind/body good.
 
-*Ahem* Back to what I was saying 😃… speak the words you wrote down out loud. Stage your mind to respond as if someone was asking you the questions you wrote out and reply accordingly. Look at your paper as much as you like if you need help remembering the points you wanted to make.
+_Ahem_ Back to what I was saying 😃… speak the words you wrote down out loud. Stage your mind to respond as if someone was asking you the questions you wrote out and reply accordingly. Look at your paper as much as you like if you need help remembering the points you wanted to make.
 
 Repeat it over and over until you feel comfortable answering the questions aloud without looking at your paper.
 

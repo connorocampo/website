@@ -6,6 +6,7 @@ import styled from "styled-components"
 import { ThemeProvider } from "styled-components"
 
 import themeSettings from "../components/base/settings"
+import favicon from "../../static/favicon.ico"
 
 // Components
 
@@ -44,11 +45,13 @@ export default class BlogList extends React.Component {
       <ThemeProvider theme={themeSettings}>
         <Layout>
           <Helmet>
+            <title>Blog | Connor Ocampo's Website</title>
             <meta
-              name="{frontmatter.title} | Connor Ocampo's Website"
+              name="Blog | Connor Ocampo's Website"
               content="Blog | About Connor Ocampo's Website"
             />
             <meta name="theme-color" content="#0090D9" />
+            <link rel="icon" href={favicon} />
           </Helmet>
           <Header />
           <Heading className="page-title">Blog</Heading>

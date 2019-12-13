@@ -138,6 +138,12 @@ a:hover {
 }
 .post-subtitle {
   font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.tags {
+  background: #f6f7f8;
+  padding: 10px 25px;
 }
 
 /* Project Page   */

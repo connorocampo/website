@@ -1,13 +1,13 @@
 ---
 title: "A Self-Taught Developer and LinkedIn"
 date: "2019-05-28"
-tags: ["front-end-development", "Code"]
-category: Front-End Development
+tags: ["Front End Development", "Code"]
+category: Development
 ---
 
-Today I received a message on LinkedIn from one of my connections. Here’s a screencap of the message preview from my iPhone: 
+Today I received a message on LinkedIn from one of my connections. Here’s a screencap of the message preview from my iPhone:
 
-*The screencap somehow got deleted, please enjoy this cat noping into a cardboard box instead* 🙃
+_The screencap somehow got deleted, please enjoy this cat noping into a cardboard box instead_ 🙃
 
 <img src="https://media.giphy.com/media/b9TLVAyi8U6wE/giphy.gif" class="placeholder image" />
 

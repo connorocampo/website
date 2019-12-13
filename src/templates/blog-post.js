@@ -45,6 +45,7 @@ export default ({ data, pageContext }) => {
         <p className="post-subtitle">
           {post.frontmatter.date} - {post.timeToRead} min read
         </p>
+        {/* <span className="tags">{post.frontmatter.tags}</span> */}
         <div
           dangerouslySetInnerHTML={{ __html: post.html }}
           style={{ marginTop: "50px", marginBottom: "50px" }}
@@ -89,6 +90,8 @@ export const query = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        category
+        tags
       }
       timeToRead
     }

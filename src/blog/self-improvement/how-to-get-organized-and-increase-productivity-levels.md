@@ -1,15 +1,15 @@
 ---
 title: "How to Get Organized and Increase Productivity Levels"
 date: "2019-04-24"
-tags: ["Personal Development"]
-category: Personal Development
+tags: ["Self Improvement"]
+category: Self Improvement
 ---
 
 How does one get organized and increase productivity levels? In a tech world where like happens fast, it’s easy for fine, yet important details to get lost in the shuffle. We’re an on-the-go society and are constantly juggling thoughts, one mental note after the other.
 
 Even with the help of modern technology like Google Calendar or Trello boards, we all know what it’s like to have bad cell phone reception that prevents us from swiftly getting online to check or update these apps.
 
- In recent years, I’ve started utilizing two specific tools to get and stay organized. You probably have one of these already. In fact, if you’re reading this article on your phone, I’m certain you have it.
+In recent years, I’ve started utilizing two specific tools to get and stay organized. You probably have one of these already. In fact, if you’re reading this article on your phone, I’m certain you have it.
 
 These tools have helped me stay organized and in return have increased my focus and productivity levels significantly.
 
@@ -35,7 +35,7 @@ If there was no list to go off of, it’d be a battle to remember what you neede
 
 Making a list for grocery store trips have eliminated the classic situation where you go to the grocery store needing something only to come back home, groceries in-hand, but you forget to buy what you went there for in the first place.
 
-The reason this particular situation bugs me so much that I'm writing about it is that I value my time so much. If I forgot something that just means another trip to the grocery store — that’s time spent driving in traffic, navigating through the store and it's shoppers, and waiting in line and waiting for John to ring up Mrs. Jones. I'd rather spend that time cooking ...  or eating! Haha.
+The reason this particular situation bugs me so much that I'm writing about it is that I value my time so much. If I forgot something that just means another trip to the grocery store — that’s time spent driving in traffic, navigating through the store and it's shoppers, and waiting in line and waiting for John to ring up Mrs. Jones. I'd rather spend that time cooking ... or eating! Haha.
 
 <h2>#2 Dry-erase Board</h2>
 This is my favorite one because it’s not on a screen (I work with computer screens all day).

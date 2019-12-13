@@ -13,7 +13,7 @@ import Header from "../components/base/Header"
 import Footer from "../components/base/Footer"
 
 import ProjectMailchimp from "../assets/images/ProjectMailchimp.png"
-import WordPressTutorial from "../assets/images/WordPressTutorial.png"
+// import WordPressTutorial from "../assets/images/WordPressTutorial.png"
 import Portfolio from "../assets/images/Portfolio.png"
 import ToDoList from "../assets/images/ToDoList.png"
 import Dribbble from "../assets/images/Dribbble.jpg"
@@ -88,7 +88,7 @@ export default () => (
             </ProjectDescription>
           </div>
         </div>
-        <div className="project">
+        {/* <div className="project">
           <a
             href="https://github.com/connorocampo/tutorial"
             target="_blank"
@@ -116,7 +116,7 @@ export default () => (
               designs into custom WordPress themes.
             </ProjectDescription>
           </div>
-        </div>
+        </div> */}
         <div className="project">
           <a
             href="https://connorocampo.github.io/website/"

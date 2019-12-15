@@ -12,8 +12,8 @@ import Layout from "../components/base/Layout"
 import Header from "../components/base/Header"
 import Footer from "../components/base/Footer"
 
+import ProjectMiddle from "../assets/images/ProjectMiddle.png"
 import ProjectMailchimp from "../assets/images/ProjectMailchimp.png"
-// import WordPressTutorial from "../assets/images/WordPressTutorial.png"
 import Portfolio from "../assets/images/Portfolio.png"
 import ToDoList from "../assets/images/ToDoList.png"
 import Dribbble from "../assets/images/Dribbble.jpg"
@@ -69,6 +69,36 @@ export default () => (
       <div className="projects">
         <div className="project">
           <a
+            href="https://sign-in-app.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src={ProjectMiddle}
+              alt="Sign in/sign up App"
+              className="project-item"
+            />
+          </a>
+          <div>
+            <ProjectTitle>Sign in/sign up App</ProjectTitle>
+            <ProjectDescription>
+              A Medium.com themed sign in/sign up app. The goal of this project
+              was to create a Medium.com sign in/sign up modal look-alike but
+              using react-router. Click the image to see it live or view the
+              source code in Github{" "}
+              <a
+                href="https://github.com/connorocampo/sign-in-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                here
+              </a>
+              .
+            </ProjectDescription>
+          </div>
+        </div>
+        <div className="project">
+          <a
             href="https://connors-mailchimp-app.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -88,35 +118,6 @@ export default () => (
             </ProjectDescription>
           </div>
         </div>
-        {/* <div className="project">
-          <a
-            href="https://github.com/connorocampo/tutorial"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src={WordPressTutorial}
-              alt="My portfolio"
-              className="project-item"
-            />
-          </a>
-          <div>
-            <ProjectTitle>WordPress Tutorial (Not Live)</ProjectTitle>
-            <ProjectDescription>
-              Currently, I'm learning WordPress development through Tania
-              Rascia's extremely thorough{" "}
-              <a
-                href="https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                WordPress tutorial
-              </a>
-              . Utimately, the goal of this project is to learn how to implement
-              designs into custom WordPress themes.
-            </ProjectDescription>
-          </div>
-        </div> */}
         <div className="project">
           <a
             href="https://connorocampo.github.io/website/"

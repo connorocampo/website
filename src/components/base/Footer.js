@@ -5,6 +5,7 @@ import styled from "styled-components"
 
 import "../../assets/styles/footer.css"
 
+import GitHubIcon from "../../assets/images/GitHubIcon.png"
 import GatsbyIcon from "../../assets/images/GatsbyIcon.png"
 import ReactImage from "../../assets/images/ReactImage.png"
 
@@ -117,8 +118,9 @@ class Footer extends React.Component {
             </div>
             <div class="icon-container">
               <div>
-                <Image src={GatsbyIcon} alt="Pride Flag" />
-                <Image src={ReactImage} alt="Pride Flag" />
+                <Image src={GitHubIcon} alt="GitHub Icon" />
+                <Image src={GatsbyIcon} alt="Gatsby Icon" />
+                <Image src={ReactImage} alt="React Icon" />
               </div>
 
               {/* <Newsletter>

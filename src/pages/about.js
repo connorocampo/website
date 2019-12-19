@@ -6,10 +6,7 @@ import { ThemeProvider } from "styled-components"
 import themeSettings from "../components/base/settings"
 import favicon from "../../static/favicon.ico"
 
-// import VeganBeef from "../assets/images/VeganBeef.jpg"
-// import Painting from "../assets/images/Painting.jpg"
 import DesignOne from "../assets/images/DesignOne.svg"
-// import DesignOne from "../assets/images/DesignOneScreenshot.svg"
 
 // Components
 
@@ -22,18 +19,6 @@ const Heading = styled.h1`
   margin: 100px 0 50px 0;
   text-transform: uppercase;
 `
-
-const CallToAction = styled.p`
-  font-family: "Open Sans Heavy";
-  margin-top: 0;
-  margin-bottom: 100px;
-`
-
-// export const Hobbies = styled.div`
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: space-around;
-// `
 
 export const Image1 = styled.img`
   margin-top: 40px;
@@ -138,35 +123,13 @@ export default () => (
       >
         <img src={DesignOne} alt="Design One" className="design-one" />
       </a>
-      <p>
+      <p style={{ marginBottom: "100px" }}>
         <br />
         <h3>Marketing</h3>
         Google Analytics, SEMrush, Hootsuite, Yoast, MailChimp, Buffer. Most of
         my marketing work consists of copywriting and optimizing articles,
         reporting/improving analytics, and organic social media management.
       </p>
-      <br />
-      <h2>
-        <span role="img" aria-label="emoji">
-          🗒️
-        </span>{" "}
-        Note to Hiring Managers
-      </h2>
-      <br />
-      <CallToAction>
-        Currently, I'm looking for job opportunities utilizing skills I already
-        have and/or learning new things. If you think I'd be a good match to
-        your company mission and culture,{" "}
-        <a
-          href="https://connorocampo.github.io/website/contact/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          let's chat
-        </a>
-        !
-        <br />
-      </CallToAction>
       <Footer />
     </Layout>
   </ThemeProvider>

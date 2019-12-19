@@ -80,7 +80,7 @@ export default () => (
             />
           </a>
           <div>
-            <ProjectTitle>Sign in/sign up App</ProjectTitle>
+            <ProjectTitle>React Router Sign in/Sign up App</ProjectTitle>
             <ProjectDescription>
               A Medium.com themed sign in/sign up app. The goal of this project
               was to create a Medium.com sign in/sign up modal look-alike but

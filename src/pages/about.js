@@ -7,6 +7,7 @@ import themeSettings from "../components/base/settings"
 import favicon from "../../static/favicon.ico"
 
 import DesignOne from "../assets/images/DesignOne.svg"
+import DesignModernizingMedicine from "../assets/images/DesignModernizingMedicine.svg"
 
 // Components
 
@@ -45,26 +46,13 @@ export default () => (
       <Header />
       <Heading className="page-title">About</Heading>
       <p>
-        I'm a self-taught Front End/Design nerd who enjoys learning and staying
-        up-to-date with modern tech. Professionally, I have a history of work in
-        front end development, search engine optimization (SEO), and web design.
-        When I’m not working, I enjoy cooking (one pot/pan meals are the best!),
+        I'm a self-taught Front End Developer who enjoys focusing on the design
+        aspect of development. Professionally, I have a history of work in front
+        end development, search engine optimization (SEO), and web design. When
+        I’m not working, I enjoy cooking (one pot/pan meals are the best!),
         painting, playing guitar and singing.
       </p>
       <br />
-      {/* <Hobbies>
-        <div>
-          <Image1 src={VeganBeef} alt="Sweet and spicy ginger seitan" />
-          <br />
-          <i>Sweet and spicy ginger seitan</i>
-        </div>
-        <div>`
-          <Image2 src={Painting} alt="An abstract painting" />
-          <br />
-          <i>An abstract painting</i>
-        </div>
-      </Hobbies> */}
-
       <br />
       <h2>
         <span role="img" aria-label="emoji">
@@ -109,11 +97,11 @@ export default () => (
       </p>
       <p>
         <b>
-          <u>Sample Design</u>
+          <u>Sample Designs</u>
         </b>
       </p>
       <p>
-        Click the image to view the design on a larger scale (opens in a new
+        Click the images to view the designs on a larger scale (opens in a new
         tab).
       </p>
       <a
@@ -121,7 +109,23 @@ export default () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={DesignOne} alt="Design One" className="design-one" />
+        <img
+          src={DesignOne}
+          alt="Design One"
+          className="design design-one"
+          style={{ marginRight: "50px" }}
+        />
+      </a>
+      <a
+        href="https://connorocampo.github.io/website/static/DesignModernizingMedicine-0529420cd91e73468b0d0600925981e4.svg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src={DesignModernizingMedicine}
+          alt="Design One"
+          className="design"
+        />
       </a>
       <p style={{ marginBottom: "100px" }}>
         <br />

@@ -124,10 +124,22 @@ a:hover {
 }
 
 /* About Page  */
-.design-one {
+.design {
   box-shadow: 10px 10px 20px #e0e0e0;
   height: 400px;
   width: 200px;
+  transition-property: transform;
+  transition-duration: 0.2s;
+}
+
+.design:hover {
+  transform: scale(1.025);
+}
+
+@media screen and (max-width: 513px) {
+  .design-one {
+    margin-bottom: 50px;
+  }
 }
 
 /* Blog Page */

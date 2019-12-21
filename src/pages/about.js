@@ -61,13 +61,27 @@ export default () => (
         Tech I've Worked With
       </h2>
       <br />
-      <h3>Front End</h3>
+      <h3>Front End Development</h3>
       <p>
+        <b>
+          <u>I am proficient in</u>
+        </b>{" "}
+        GitHub, Atom, VS Code (my fav), HTML, CSS, SCSS, Font Awesome, Flexbox,
+        CSS Grids, Bootstrap, media queries, custom CSS animations, custom SVG
+        animations, styled-components.
+      </p>
+      <p>
+        <b>
+          <u>I am familiar with</u>
+        </b>{" "}
+        GIT, Node.js, NPM, WordPress, Homebrew, Tailwind, JavaScript, jQuery,
+        React, react-router, Gatsby, GraphQL, Netlify, Heroku, Surge.sh.
+      </p>
+      {/* <p>
         GitHub, Atom, VS Code (my fav), WordPress, GIT, Homebrew, CSS, SCSS,
         Font Awesome, Bootstrap, Flexbox, Tailwind, React, styled-components,
-        Gatsby, GraphQL, Netlify, Surge.sh. The design aspect is in my
-        wheelhouse in terms of front-end development.
-      </p>
+        Gatsby, GraphQL, Netlify, Surge.sh.
+      </p> */}
       <p>
         See my{" "}
         <a

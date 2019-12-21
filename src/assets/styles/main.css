@@ -134,6 +134,11 @@ a:hover {
   transform: scale(1.025);
 }
 
+.certificates li {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 513px) {
   .design-one {
     margin-bottom: 50px;

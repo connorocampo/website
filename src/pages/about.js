@@ -145,6 +145,79 @@ export default () => (
         articles, reporting/improving analytics, and organic social media
         management.
       </p>
+      <h2>
+        <span role="img" aria-label="emoji">
+          🎓
+        </span>{" "}
+        Certifications
+      </h2>
+      <p>
+        Below is a list of certifications I've successfully completed. You can
+        click each one to view the certificate document.
+      </p>
+      <ul className="certificates">
+        <li>
+          <a
+            href="https://www.semrush.com/academy/public/certificate/2665255/SEMrush-Academy-Certificate-2843ac32dff6e715b1e83ede0225663ca420d957e423a61000205ddaf83a4262.png"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            SEO Fundamentals Exam, SEMrush Academy
+          </a>
+          . May, 2019.
+        </li>
+        <li>
+          <a
+            href="https://www.freecodecamp.org/certification/connorocampo/responsive-web-design"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Responsive Web Design, freeCodeCamp
+          </a>
+          . September, 2018.
+        </li>
+        <li>
+          <a
+            href="https://www.credential.net/160561af-e89a-478c-9454-048e159960e6"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Hootsuite Platform Certification, Hootsuite
+          </a>
+          . April, 2018.
+        </li>
+        <li>
+          <a
+            href="https://www.sololearn.com/Certificate/1024-5352360/pdf/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            JavaScript Tutorial Course, SoloLearn
+          </a>
+          . January, 2018.
+        </li>
+        <li>
+          <a
+            href="https://www.sololearn.com/Certificate/1023-5352360/pdf/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CSS Fundamentals Course, SoloLearn
+          </a>
+          . July, 2017.
+        </li>
+        <li style={{ marginBottom: "90px" }}>
+          <a
+            href="https://www.sololearn.com/Certificate/1014-5352360/pdf/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            HTML Fundamentals Course, SoloLearn
+          </a>
+          . August, 2017.
+        </li>
+      </ul>
+      <br />
       <Footer />
     </Layout>
   </ThemeProvider>

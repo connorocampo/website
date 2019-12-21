@@ -133,7 +133,7 @@ class Footer extends React.Component {
             </div>
           </FooterContent>
           <Copyright>
-            © 2019 Connor Ocampo
+            © 2019 Connor Ocampo.
             {/* <Link to="/privacy-policy" className="regular-link" >Privacy Policy</Link> */}
           </Copyright>
         </Container>

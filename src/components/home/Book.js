@@ -1,8 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 
-// import { Link } from "gatsby";
-
 import BookCover from "../../assets/images/BookCover.jpeg"
 
 /*
@@ -77,7 +75,7 @@ class Book extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i>Your First Year in Code</i>
+                Your First Year in Code
               </a>
             </Header>
             <Subtitle>A complete guide for new & aspiring developers</Subtitle>

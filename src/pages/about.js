@@ -101,8 +101,8 @@ export default () => (
       <br />
       <h3>Video/Graphics</h3>
       <p>
-        DaVinci Resolve, Figma, Sketch, Abstract, Photoshop, and good ol' sketch
-        paper.
+        Video and graphics software I've used include DaVinci Resolve, Figma,
+        Sketch, Abstract, Illustrator, and Photoshop.
       </p>
       <p>
         <b>
@@ -139,9 +139,11 @@ export default () => (
       <p style={{ marginBottom: "100px" }}>
         <br />
         <h3>Marketing</h3>
-        Google Analytics, SEMrush, Hootsuite, Yoast, MailChimp, Buffer. Most of
-        my marketing work consists of copywriting and optimizing articles,
-        reporting/improving analytics, and organic social media management.
+        Tools that I've used for marketing and search engine optimization (SEO)
+        include Google Analytics, SEMrush, Hootsuite, Yoast, MailChimp, and
+        Buffer. Most of my marketing work consists of copywriting and optimizing
+        articles, reporting/improving analytics, and organic social media
+        management.
       </p>
       <Footer />
     </Layout>

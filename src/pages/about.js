@@ -74,14 +74,9 @@ export default () => (
         <b>
           <u>I am familiar with</u>
         </b>{" "}
-        GIT, Node.js, NPM, WordPress, Homebrew, Tailwind, JavaScript, jQuery,
-        React, react-router, Gatsby, GraphQL, Netlify, Heroku, Surge.sh.
+        GIT, Node.js, NPM, WordPress/PHP, Homebrew, Tailwind, JavaScript,
+        jQuery, React, react-router, Gatsby, GraphQL, Netlify, Heroku, Surge.sh.
       </p>
-      {/* <p>
-        GitHub, Atom, VS Code (my fav), WordPress, GIT, Homebrew, CSS, SCSS,
-        Font Awesome, Bootstrap, Flexbox, Tailwind, React, styled-components,
-        Gatsby, GraphQL, Netlify, Surge.sh.
-      </p> */}
       <p>
         See my{" "}
         <a
@@ -101,7 +96,7 @@ export default () => (
         >
           CodePen profile
         </a>{" "}
-        to see mini code project.
+        to see mini code projects.
       </p>
       <br />
       <h3>Video/Graphics</h3>
@@ -115,7 +110,7 @@ export default () => (
         </b>
       </p>
       <p>
-        Click the images to view the designs on a larger scale (opens in a new
+        Click any image to view their design on a larger scale (opens in a new
         tab).
       </p>
       <a

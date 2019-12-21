@@ -156,6 +156,10 @@ a:hover {
   padding: 10px 25px;
 }
 
+.blog-image {
+  width: 800px;
+}
+
 /* Project Page   */
 
 .project {
@@ -272,6 +276,10 @@ a:hover {
   /* Blog Page */
 
   .placeholder {
+    width: 300px;
+  }
+
+  .blog-image {
     width: 300px;
   }
 

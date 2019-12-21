@@ -39,6 +39,7 @@ export const Header = styled.h2`
 
 export const Subtitle = styled.p`
   font-size: ${props => props.theme.size.bodyMedium};
+  line-height: 1.5;
   margin-top: 10px;
 `
 
@@ -79,9 +80,7 @@ class Book extends React.Component {
                 <i>Your First Year in Code</i>
               </a>
             </Header>
-            <Subtitle className="book-subtitle">
-              A complete guide for new & aspiring developers
-            </Subtitle>
+            <Subtitle>A complete guide for new & aspiring developers</Subtitle>
           </HeaderContainer>
           <YourFirstYearInCode>
             <a

@@ -8,6 +8,7 @@ import favicon from "../../static/favicon.ico"
 
 import DesignOne from "../assets/images/DesignOne.svg"
 import DesignModernizingMedicine from "../assets/images/DesignModernizingMedicine.svg"
+import DesignCharles from "../assets/images/DesignCharles.svg"
 
 // Components
 
@@ -133,8 +134,16 @@ export default () => (
         <img
           src={DesignModernizingMedicine}
           alt="Design One"
-          className="design"
+          className="design design-one"
+          style={{ marginRight: "50px" }}
         />
+      </a>
+      <a
+        href="https://connorocampo.github.io/website/static/DesignCharles-ce4541de4767562dcac592ce874099f8.svg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={DesignCharles} alt="Design One" className="design" />
       </a>
       <p style={{ marginBottom: "100px" }}>
         <br />

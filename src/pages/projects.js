@@ -12,6 +12,7 @@ import Layout from "../components/base/Layout"
 import Header from "../components/base/Header"
 import Footer from "../components/base/Footer"
 
+import ProjectCharles from "../assets/images/ProjectCharles.png"
 import ProjectMiddle from "../assets/images/ProjectMiddle.png"
 import ProjectMailchimp from "../assets/images/ProjectMailchimp.png"
 import Portfolio from "../assets/images/Portfolio.png"
@@ -67,6 +68,36 @@ export default () => (
         refrain from disclosing any previous works with them.
       </Disclaimer>
       <div className="projects">
+        <div className="project">
+          <a
+            href="https://connorocampo.github.io/charlesocampo/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src={ProjectCharles}
+              alt="Single Page Portfolio"
+              className="project-item"
+            />
+          </a>
+          <div>
+            <ProjectTitle>Single Page Portfolio</ProjectTitle>
+            <ProjectDescription>
+              A Single Page Portfolio website I designed and coded for my
+              brother. This was built with love using plain HTML, CSS and media
+              queries. Click the image to see it live or view the source code in
+              Github{" "}
+              <a
+                href="https://github.com/connorocampo/charlesocampo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                here
+              </a>
+              .
+            </ProjectDescription>
+          </div>
+        </div>
         <div className="project">
           <a
             href="https://sign-in-app.netlify.com/"

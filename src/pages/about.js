@@ -139,7 +139,7 @@ export default () => (
         />
       </a>
       <a
-        href="https://connorocampo.github.io/website/static/DesignCharles-67dad2b0612f2fdb6564a8cf7a68a036.svg"
+        href="https://connorocampo.github.io/website/static/DesignCharles-ce4541de4767562dcac592ce874099f8.svg"
         target="_blank"
         rel="noopener noreferrer"
       >

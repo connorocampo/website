@@ -61,7 +61,7 @@ class Footer extends React.Component {
             <div class="border-gradient-outline ">
               <a
                 href="mailto:connorocampo@gmail.com"
-                className="footer-email-btn border-gradient-fill email-link"
+                className="gradient-btn border-gradient-fill-dark gradient-link"
                 target="_blank"
                 rel="noopener noreferrer"
               >

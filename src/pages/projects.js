@@ -16,7 +16,7 @@ import ProjectCharles from "../assets/images/ProjectCharles.png"
 import ProjectMiddle from "../assets/images/ProjectMiddle.png"
 import ProjectMailchimp from "../assets/images/ProjectMailchimp.png"
 import Portfolio from "../assets/images/Portfolio.png"
-import ToDoList from "../assets/images/ToDoList.png"
+// import ToDoList from "../assets/images/ToDoList.png"
 import Dribbble from "../assets/images/Dribbble.jpg"
 import Dribbble02 from "../assets/images/Dribbble02.jpg"
 import DroneWorld from "../assets/images/DroneWorld.png"
@@ -184,11 +184,11 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
+            {/* <Image
               src={ToDoList}
               alt="To Do List React App"
               className="project-item"
-            />
+            /> */}
           </a>
           <div>
             <ProjectTitle>To Do List React App</ProjectTitle>

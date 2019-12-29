@@ -24,7 +24,7 @@ export const Columns = styled.div`
   border-radius: 25px;
   display: flex;
   margin-top: -300px;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
   max-width: 1200px;
   text-align: center;
 `

@@ -20,6 +20,7 @@ import Header from "../components/base/Header"
 import Bio from "../components/home/Bio"
 import About from "../components/home/About"
 import Skills from "../components/home/Skills"
+import RecentWork from "../components/home/RecentWork"
 import Footer from "../components/base/Footer"
 
 export default ({ data }) => (
@@ -43,6 +44,7 @@ export default ({ data }) => (
       <Bio />
       <About />
       <Skills />
+      <RecentWork />
       <Footer />
     </Layout>
   </ThemeProvider>

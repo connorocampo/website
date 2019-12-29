@@ -45,6 +45,22 @@ h6 {
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
 .regular-link,
 a {
   color: #ffffff;
@@ -148,7 +164,29 @@ a:hover {
   }
 }
 
-/* Bio section */
+/* Recent Work */
+
+.recent-work-border-gradient-outline {
+  height: 60px;
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  border-radius: 100px;
+  width: 318px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recent-work-border-gradient-fill-light {
+  background: #ffffff;
+  display: block;
+  border-radius: 100px;
+  height: 54px;
+  width: 312px;
+  color: #0f0d16;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* About Page  */
 .design {

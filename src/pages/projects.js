@@ -17,8 +17,8 @@ import ProjectMiddle from "../assets/images/ProjectMiddle.png"
 import ProjectMailchimp from "../assets/images/ProjectMailchimp.png"
 import Portfolio from "../assets/images/Portfolio.png"
 // import ToDoList from "../assets/images/ToDoList.png"
-import Dribbble from "../assets/images/Dribbble.jpg"
-import Dribbble02 from "../assets/images/Dribbble02.jpg"
+// import Dribbble from "../assets/images/Dribbble.jpg"
+// import ProjectSibling from "../assets/images/ProjectSibling.jpg"
 import DroneWorld from "../assets/images/DroneWorld.png"
 
 const Heading = styled.h1`
@@ -215,7 +215,7 @@ export default () => (
             </ProjectDescription>
           </div>
         </div>
-        <div className="project">
+        {/* <div className="project">
           <a
             href="https://connorocampo.github.io/vans/"
             target="_blank"
@@ -288,7 +288,7 @@ export default () => (
               .
             </ProjectDescription>
           </div>
-        </div>
+        </div> */}
         <div className="project">
           <a
             href="https://connorocampo.github.io/drone-world-product-page/"

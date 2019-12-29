@@ -175,12 +175,36 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+
 .recent-work-border-gradient-fill-light {
   background: #ffffff;
   display: block;
   border-radius: 100px;
   height: 54px;
   width: 312px;
+  color: #0f0d16;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dribbble-border-gradient-outline {
+  height: 60px;
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  border-radius: 100px;
+  width: 334px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dribbble-border-gradient-fill-light {
+  background: #ffffff;
+  display: block;
+  border-radius: 100px;
+  height: 54px;
+  width: 328px;
   color: #0f0d16;
   text-decoration: none;
   display: flex;

@@ -5,7 +5,12 @@ import styled from "styled-components"
 import ProjectMiddle from "../../assets/images/ProjectMiddle.png"
 import ProjectMailchimp from "../../assets/images/ProjectMailchimp.png"
 import ProjectToDo from "../../assets/images/ProjectToDo.png"
+import DesignSAL from "../../assets/images/DesignSAL.png"
+import trial from "../../assets/images/trial.png"
+import DesignCharles from "../../assets/images/DesignCharles.png"
+
 import github from "../../assets/images/icons/github.svg"
+import dribbble from "../../assets/images/icons/dribbble.svg"
 
 /*
  * Styles
@@ -17,7 +22,6 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 0 1em;
-  margin-bottom: 300px;
 `
 
 export const RecentWorkText = styled.p`
@@ -30,14 +34,23 @@ export const RecentWorkText = styled.p`
 
 export const ImageContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
   width: 1200px;
   justify-content: space-between;
-  margin-bottom: 50px;
 `
 
 export const Image = styled.img`
   border-radius: 15px;
+  box-shadow: 8px 8px 8px rgba(128, 128, 128, 0.1);
+  margin-bottom: 50px;
   width: 375px;
+`
+
+export const HR = styled.hr`
+  border: 1px solid #dae1e7;
+  color: blue;
+  padding: 0 1em;
+  width: 100%;
 `
 
 /*
@@ -57,7 +70,7 @@ class RecentWork extends React.Component {
           <Image src={ProjectMailchimp} />
           <Image src={ProjectToDo} />
         </ImageContainer>
-        <span style={{ marginBottom: "100px" }}>
+        <span style={{ marginBottom: "200px" }}>
           <div class="recent-work-border-gradient-outline">
             <a
               href="mailto:connorocampo@gmail.com"
@@ -78,6 +91,32 @@ class RecentWork extends React.Component {
           </div>
         </span>
         <RecentWorkText>Here are a few recent design projects.</RecentWorkText>
+        <ImageContainer>
+          <Image src={DesignSAL} />
+          <Image src={trial} />
+          <Image src={DesignCharles} />
+        </ImageContainer>
+        <span style={{ marginBottom: "200px" }}>
+          <div class="dribbble-border-gradient-outline">
+            <a
+              href="mailto:connorocampo@gmail.com"
+              className="gradient-btn dribbble-border-gradient-fill-light gradient-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={dribbble}
+                alt="dribbble icon"
+                style={{
+                  marginRight: "10px",
+                  height: "28px",
+                }}
+              />
+              <span className="is-gradient">View more in Dribbble</span>
+            </a>
+          </div>
+        </span>
+        <HR />
       </Container>
     )
   }

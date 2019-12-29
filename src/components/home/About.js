@@ -10,7 +10,9 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 300px;
+  // padding: 0 1em;
+  // padding-bottom: 300px;
+  padding: 0 1em 300px 1em;
 `
 
 export const AboutText = styled.p`

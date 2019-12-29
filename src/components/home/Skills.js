@@ -33,7 +33,7 @@ export const Icon = styled.img`
   padding-bottom: 75px;
 `
 
-export const ColumnHeader = styled.h3`
+export const ColumnHeader = styled.h4`
   margin-bottom: 50px;
 `
 

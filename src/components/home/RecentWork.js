@@ -43,15 +43,18 @@ export const Image = styled.img`
   border-radius: 15px;
   box-shadow: 8px 8px 8px rgba(128, 128, 128, 0.1);
   margin-bottom: 50px;
+  height: 200px;
+  transition-property: transform;
+  transition-duration: 0.2s;
   width: 375px;
 `
 
-export const HR = styled.hr`
-  border: 1px solid #dae1e7;
-  color: blue;
-  padding: 0 1em;
-  width: 100%;
-`
+// export const HR = styled.hr`
+//   border: 1px solid #dae1e7;
+//   color: blue;
+//   padding: 0 1em;
+//   width: 100%;
+// `
 
 /*
  * Component
@@ -66,14 +69,32 @@ class RecentWork extends React.Component {
           Here are a few recent front-end development projects.
         </RecentWorkText>
         <ImageContainer>
-          <Image src={ProjectMiddle} />
-          <Image src={ProjectMailchimp} />
-          <Image src={ProjectToDo} />
+          <a
+            href="https://sign-in-app.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src={ProjectMiddle} className="image-hover" />
+          </a>
+          <a
+            href="https://connors-mailchimp-app.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src={ProjectMailchimp} className="image-hover" />
+          </a>
+          <a
+            href="https://connorocampo.github.io/react-app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src={ProjectToDo} className="image-hover" />
+          </a>
         </ImageContainer>
         <span style={{ marginBottom: "200px" }}>
           <div class="recent-work-border-gradient-outline">
             <a
-              href="mailto:connorocampo@gmail.com"
+              href="https://github.com/connorocampo"
               className="gradient-btn recent-work-border-gradient-fill-light gradient-link"
               target="_blank"
               rel="noopener noreferrer"
@@ -92,14 +113,32 @@ class RecentWork extends React.Component {
         </span>
         <RecentWorkText>Here are a few recent design projects.</RecentWorkText>
         <ImageContainer>
-          <Image src={DesignSAL} />
-          <Image src={trial} />
-          <Image src={DesignCharles} />
+          <a
+            href="https://connorocampo.github.io/website/static/DesignOne-3104bd0340aebe581a7401e7a45418db.svg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src={DesignSAL} className="image-hover" />
+          </a>
+          <a
+            href="https://connorocampo.github.io/website/static/DesignModernizingMedicine-0529420cd91e73468b0d0600925981e4.svg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src={trial} className="image-hover" />
+          </a>
+          <a
+            href="https://connorocampo.github.io/website/static/DesignCharles-ce4541de4767562dcac592ce874099f8.svg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src={DesignCharles} className="image-hover" />
+          </a>
         </ImageContainer>
         <span style={{ marginBottom: "200px" }}>
           <div class="dribbble-border-gradient-outline">
             <a
-              href="mailto:connorocampo@gmail.com"
+              href="https://dribbble.com/connorocampo"
               className="gradient-btn dribbble-border-gradient-fill-light gradient-link"
               target="_blank"
               rel="noopener noreferrer"
@@ -116,7 +155,7 @@ class RecentWork extends React.Component {
             </a>
           </div>
         </span>
-        <HR />
+        {/* <HR /> */}
       </Container>
     )
   }

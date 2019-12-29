@@ -37,14 +37,17 @@ class Header extends React.Component {
           <Link to="/blog/" className="is-black nav-item">
             Articles
           </Link>
-          {/* <Link to="/contact/" className="is-black nav-item"> */}
           <a
             href="mailto:connorocampo@gmail.com"
             className="is-black nav-item"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={email} alt="email icon" style={{ marginRight: "10px" }} />
+            <img
+              src={email}
+              alt="email icon"
+              style={{ marginRight: "10px", marginBottom: "-1.5px" }}
+            />
             Contact
           </a>
           {/* </Link> */}

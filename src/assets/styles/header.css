@@ -36,38 +36,4 @@
 /* Responsive */
 
 @media screen and (max-width: 850px) {
-  .nav-items {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-  }
-
-  .nav-item:not(:last-child) {
-    margin-bottom: 20px;
-  }
-
-  .brand-container {
-    margin-top: -118px !important;
-  }
-
-  .brand {
-    font-size: 24px;
-    line-height: 0.9 !important;
-  }
-
-  .header-container {
-    margin-bottom: 60px !important;
-    margin-top: 10px;
-  }
-
-  .brand-container {
-    margin-top: -42px;
-  }
-}
-
-@media screen and (max-width: 475px) {
-  .nav-items {
-    margin-top: -30px;
-  }
 }

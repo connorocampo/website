@@ -176,6 +176,18 @@ a:hover {
   align-items: center;
 }
 
+.recent-work-border-gradient-outline:hover {
+  animation: colorchange 3s linear infinite;
+  background: linear-gradient(
+    to right,
+    #e52e71 20%,
+    #ff8a00 40%,
+    #ff8a00 60%,
+    #e52e71 80%
+  );
+  background-size: 200% auto;
+}
+
 .recent-work-border-gradient-fill-light {
   background: #ffffff;
   display: block;
@@ -199,6 +211,18 @@ a:hover {
   align-items: center;
 }
 
+.dribbble-border-gradient-outline:hover {
+  animation: colorchange 3s linear infinite;
+  background: linear-gradient(
+    to right,
+    #e52e71 20%,
+    #ff8a00 40%,
+    #ff8a00 60%,
+    #e52e71 80%
+  );
+  background-size: 200% auto;
+}
+
 .dribbble-border-gradient-fill-light {
   background: #ffffff;
   display: block;
@@ -212,6 +236,11 @@ a:hover {
   justify-content: center;
 }
 
+.image-hover:hover {
+  transition-property: transform;
+  transform: scale(1.025);
+}
+
 /* About Page  */
 .design {
   box-shadow: 10px 10px 20px #e0e0e0;
@@ -222,12 +251,7 @@ a:hover {
 }
 
 .design:hover {
-  transform: scale(1.025);
-}
-
-.certificates li {
-  line-height: 1.5;
-  margin-bottom: 10px;
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 513px) {
@@ -275,111 +299,7 @@ a:hover {
   transform: scale(1.025);
 }
 
-/* Shop Page */
-
-.product-link {
-  margin-bottom: 15px;
-  text-decoration: none;
-}
-
-.product-link:last-child {
-  margin-bottom: 0;
-}
-
-/* Hire Me Page */
-
-.hire-me-submit-btn {
-  -webkit-appearance: none;
-  background: #0090d9;
-  border: none;
-  border-radius: 5px;
-  color: #ffffff;
-  font-size: 16px;
-  padding: 10px 0;
-}
-
-.hire-me-submit-btn:hover {
-  background: #189bdb;
-  cursor: pointer;
-  transition: 0.35s;
-}
-
 /* Responsive */
 
-@media screen and (max-width: 850px) {
-  .page-title {
-    font-size: 24px !important;
-    margin-top: 50px;
-  }
-
-  .bio-thumbnail {
-    height: 70px !important;
-    margin-top: -50px;
-    margin-bottom: 30px;
-    width: 70px !important;
-  }
-
-  .tagline {
-    font-size: 36px !important;
-    max-width: 500px;
-  }
-
-  .subtitle {
-    font-size: 14px !important;
-    max-width: 500px;
-  }
-
-  .tech-credit {
-    font-size: 12px !important;
-    max-width: 500px;
-  }
-
-  .disclaimer {
-    font-size: 14px !important;
-    padding: 0 1rem;
-    margin-bottom: 30px;
-  }
-
-  .book-photo {
-    display: block;
-    margin: 0 auto;
-    width: 90% !important;
-  }
-
-  .book-text-container {
-    margin-top: 50px;
-    max-width: 525px;
-  }
-
-  .bye-cat {
-    width: 90% !important;
-  }
-
-  /* Blog Page */
-
-  .placeholder {
-    width: 300px;
-  }
-
-  .blog-image {
-    width: 300px;
-  }
-
-  /* Projects Page */
-
-  .project {
-    margin-bottom: 50px;
-  }
-
-  .projects-disclaimer {
-    margin-bottom: 50px;
-  }
-
-  .project:last-child {
-    margin-bottom: 100px;
-  }
-
-  .project-item {
-    width: 300px;
-  }
+@media screen and (max-width: 1200px) {
 }

@@ -16,7 +16,6 @@ import "../assets/styles/footer.css"
 import Layout from "../components/base/Layout"
 import Header from "../components/base/Header"
 import Bio from "../components/home/Bio"
-import Book from "../components/home/Book"
 import Footer from "../components/base/Footer"
 
 import favicon from "../../static/favicon.ico"
@@ -40,7 +39,6 @@ export default ({ data }) => (
       </Helmet>
       <Header />
       <Bio />
-      <Book />
       <Footer />
     </Layout>
   </ThemeProvider>

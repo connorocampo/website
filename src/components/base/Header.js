@@ -2,20 +2,20 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
+// Images
+import logo from "../../assets/images/icons/logo.svg"
+import email from "../../assets/images/icons/email.svg"
+
 // Styles
 
 export const Container = styled.div`
-  display: flex;
   align-items: center;
+  display: flex;
+  height: 100px;
   justify-content: space-between;
-  margin-bottom: 100px;
-`
-
-export const Brand = styled.span`
-  font-size: ${props => props.theme.size.headerMedium};
-  letter-spacing: 5px;
-  line-height: 1;
-  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: 1200px;
 `
 
 export const NavItems = styled.span`
@@ -28,27 +28,19 @@ class Header extends React.Component {
   render() {
     return (
       <Container className="header-container">
-        <Brand className="brand-container">
+        <span className="brand-container">
           <Link to="/" className="brand">
-            Connor Ocampo
+            <img src={logo} alt="Connor Ocampo" />
           </Link>
-        </Brand>
+        </span>
         <NavItems className="nav-items navbar-nav">
-          <Link to="/about/" className="nav-item">
-            About
+          <Link to="/blog/" className="is-black nav-item">
+            Articles
           </Link>
-          <Link to="/projects/" className="nav-item">
-            Projects
-          </Link>
-          <Link to="/blog/" className="nav-item">
-            Blog
-          </Link>
-          <Link to="/contact/" className="nav-item">
+          <Link to="/contact/" className="is-black nav-item">
+            <img src={email} alt="email icon" style={{ marginRight: "10px" }} />
             Contact
           </Link>
-
-          {/* <Link to="/shop/" className="nav-item">Shop</Link> */}
-          {/* <Link to="/hire-me/" className=" nav-item">Hire Me</Link> */}
         </NavItems>
       </Container>
     )

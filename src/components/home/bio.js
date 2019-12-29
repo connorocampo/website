@@ -3,8 +3,7 @@ import styled from "styled-components"
 import { ThemeProvider } from "styled-components"
 import themeSettings from "../../components/base/settings"
 
-import { Link } from "gatsby"
-
+// Images
 import Avatar from "../../assets/images/ConnorProfile.png"
 
 /*
@@ -12,31 +11,30 @@ import Avatar from "../../assets/images/ConnorProfile.png"
  */
 
 export const Container = styled.div`
+  align-items: center;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 85vh;
+  padding: 0 1em;
 `
 
 export const Image = styled.img`
   border-radius: 50%;
-  height: 135px;
-  margin-right: 50px;
-  margin-left: 2px;
-  width: 135px;
+  height: 200px;
+  margin-bottom: 30px;
+  width: 200px;
 `
 
 export const Tagline = styled.div`
-  font-size: 60px;
-  font-family: "Inter Black";
-  margin-top: -10px;
-  margin-bottom: 50px;
-  margin-left: -2px;
-  max-width: 810px;
+  font-size: 64px;
+  font-family: "Rubik Bold";
+  margin-bottom: 20px;
 `
 
-export const TechCredit = styled.div`
-  font-size: ${props => props.theme.size.bodySmall};
-  line-height: 1.5;
-  margin-bottom: 30px;
-  max-width: 620px;
+export const Blurb = styled.p`
+  font-size: 36px;
+  font-family: "Rubik Light";
 `
 
 /*
@@ -47,38 +45,14 @@ class Bio extends React.Component {
   render() {
     return (
       <ThemeProvider theme={themeSettings}>
-        <Container className="bio-content">
+        <Container>
           <Image src={Avatar} alt="Connor Ocampo" className="bio-thumbnail" />
-          <div>
-            <Tagline className="tagline">
-              Front End Developer based in Boca Raton, Florida, USA
-            </Tagline>
-
-            <Link to="/about" className="bio-button">
-              Learn More →
-            </Link>
-            <TechCredit className="tech-credit">
-              *This website was built using{" "}
-              <a
-                href="https://www.gatsbyjs.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Gatsby
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://reactjs.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                React
-              </a>{" "}
-              <span role="img" aria-label="emoji">
-                ⚡
-              </span>
-            </TechCredit>
-          </div>
+          <Tagline class="is-black">Front-end Developer</Tagline>
+          <Blurb>
+            I <span className="is-gradient">design</span>,{" "}
+            <span className="is-gradient">code</span>, and{" "}
+            <span className="is-gradient">optimize</span>, modern websites.
+          </Blurb>
         </Container>
       </ThemeProvider>
     )

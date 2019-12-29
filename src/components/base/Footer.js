@@ -37,6 +37,7 @@ export const Copyright = styled.div`
   margin: 0 auto;
   margin-top: -50px;
   max-width: 1200px;
+  padding-bottom: 50px;
 `
 
 /*
@@ -61,6 +62,8 @@ class Footer extends React.Component {
                 href="mailto:connorocampo@gmail.com"
                 className="is-body-text  footer-email-btn"
                 class="border-gradient-fill email-link"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   src={email}

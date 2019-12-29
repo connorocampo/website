@@ -26,19 +26,32 @@ export const Columns = styled.div`
   margin-top: -300px;
   margin-bottom: 300px;
   max-width: 1200px;
-  padding: 75px 0 300px 0;
   text-align: center;
 `
 
+export const Icon = styled.img`
+  padding-bottom: 75px;
+`
+
+export const ColumnHeader = styled.h3`
+  margin-bottom: 50px;
+`
+
 export const ColumnText = styled.p`
+  font-size: 24px;
   max-width: 350px;
   padding: 0 25px;
 `
 
-export const List = styled.p`
+export const List = styled.ul`
   padding: 0 25px;
-
   max-width: 350px;
+`
+
+export const ListItem = styled.li`
+  font-size: 24px;
+  list-style: none;
+  margin: 20px 0;
 `
 
 /*
@@ -50,52 +63,70 @@ class Skills extends React.Component {
     return (
       <ThemeProvider theme={themeSettings}>
         <Container>
-          <Columns>
+          <Columns className="has-box-shadow">
             <div className="column-1">
-              <img src={Design} alt="" />
-              <h3>Video/Design</h3>
-              <ColumnText>
+              <Icon src={Design} alt="" />
+              <ColumnHeader>Video/Design</ColumnHeader>
+              <ColumnText style={{ marginBottom: "30px" }}>
                 I enjoy learning, designing, and experimenting with simple,
                 modern, and intuitive design for desktop and mobile devices.
               </ColumnText>
-              <ColumnText>
+              <ColumnText style={{ marginBottom: "75px" }}>
                 I also enjoy learning more about video production software to
                 create impactful films.
               </ColumnText>
-              <h3>Video/Design Tools</h3>
-              <ColumnText>
-                DaVinci Resolve Figma Sketch Abstract Photoshop
-              </ColumnText>
+              <ColumnHeader>Video/Design Tools</ColumnHeader>
+              <List style={{ marginBottom: "30px" }}>
+                <ListItem>DaVinci Resolve</ListItem>
+                <ListItem>Figma</ListItem>
+                <ListItem>Sketch</ListItem>
+                <ListItem>Abstract</ListItem>
+                <ListItem>Photoshop</ListItem>
+                <ListItem>Paper & Pencil</ListItem>
+              </List>
             </div>
+            <hr className="hr-border" />
             <div className="column-2">
-              <img src={Dev} alt="" />
-              <h3>Front-end Development</h3>
-              <ColumnText>
-                I am proficient in HTML, CSS, Flexbox, CSS Grids, media queries,
-                custom CSS & SVG animations.
+              <Icon src={Dev} alt="" />
+              <ColumnHeader>Front-end Development</ColumnHeader>
+              <ColumnText style={{ marginBottom: "30px" }}>
+                <span className="regular-fw">I am proficient</span> in HTML,
+                CSS, Flexbox, CSS Grids, media queries, custom CSS & SVG
+                animations.
               </ColumnText>
-              <ColumnText>
-                I am familiar with WordPress, JavaScript, jQuery, React, Gatsby,
-                and GraphQL.
+              <ColumnText style={{ marginBottom: "75px" }}>
+                <span className="regular-fw">I am familiar</span> with
+                WordPress, JavaScript, jQuery, React, Gatsby, and GraphQL.
               </ColumnText>
-              <h3>Dev Tools</h3>
-              <List>GIT GitHub VS Code Bootstrap CodePen Netlify Heroku</List>
+              <ColumnHeader>Dev Tools</ColumnHeader>
+              <List style={{ marginBottom: "30px" }}>
+                <ListItem>GIT</ListItem>
+                <ListItem>GitHub</ListItem>
+                <ListItem>VS Code</ListItem>
+                <ListItem>Bootstrap</ListItem>
+                <ListItem>Netlify</ListItem>
+                <ListItem>Heroku</ListItem>
+              </List>
             </div>
             <div className="column-3">
-              <img src={Marketing} alt="" />
-              <h3>Marketing/SEO</h3>
-              <ColumnText>
+              <Icon src={Marketing} alt="" />
+              <ColumnHeader>Marketing/SEO</ColumnHeader>
+              <ColumnText style={{ marginBottom: "30px" }}>
                 Most of my marketing/seo work consists of optimizing articles,
                 and reporting/improving analytics.
               </ColumnText>
-              <ColumnText>
+              <ColumnText style={{ marginBottom: "75px" }}>
                 I also have experience launching and growing organic social
                 media campaigns.
               </ColumnText>
-              <h3>Marketing Tools</h3>
-              <List>
-                Google Analytics Search Console Yoast SEMrush Hootsuite Buffer
-                MailChimp
+              <ColumnHeader>Marketing Tools</ColumnHeader>
+              <List style={{ marginBottom: "30px" }}>
+                <ListItem>Google Analytics</ListItem>
+                <ListItem>Search Console</ListItem>
+                <ListItem>Yoast</ListItem>
+                <ListItem>SEMrush</ListItem>
+                <ListItem>Hootsuite</ListItem>
+                <ListItem>MailChimp</ListItem>
               </List>
             </div>
           </Columns>

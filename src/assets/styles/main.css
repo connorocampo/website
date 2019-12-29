@@ -128,7 +128,7 @@ a:hover {
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: colorchange 5s linear infinite;
+  animation: colorchange 3s linear infinite;
 }
 
 @keyframes colorchange {

@@ -15,7 +15,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 85vh;
+  height: calc(100vh - 100px);
   padding: 0 1em;
 `
 
@@ -52,7 +52,7 @@ class Bio extends React.Component {
           <Blurb>
             I <span className="is-animated-gradient">design</span>,{" "}
             <span className="is-animated-gradient">code</span>, and{" "}
-            <span className="is-animated-gradient">optimize</span>, modern
+            <span className="is-animated-gradient">optimize</span> modern
             websites.
           </Blurb>
         </Container>

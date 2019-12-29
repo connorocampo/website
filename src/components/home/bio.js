@@ -26,7 +26,7 @@ export const Image = styled.img`
   width: 200px;
 `
 
-export const Tagline = styled.div`
+export const Tagline = styled.h1`
   font-size: 64px;
   font-family: "Rubik Bold";
   margin-bottom: 20px;
@@ -34,7 +34,8 @@ export const Tagline = styled.div`
 
 export const Blurb = styled.p`
   font-size: 36px;
-  font-family: "Rubik Light";
+  font-family: "Rubik Light", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 `
 
 /*
@@ -49,9 +50,10 @@ class Bio extends React.Component {
           <Image src={Avatar} alt="Connor Ocampo" className="bio-thumbnail" />
           <Tagline class="is-black">Front-end Developer</Tagline>
           <Blurb>
-            I <span className="is-gradient">design</span>,{" "}
-            <span className="is-gradient">code</span>, and{" "}
-            <span className="is-gradient">optimize</span>, modern websites.
+            I <span className="is-animated-gradient">design</span>,{" "}
+            <span className="is-animated-gradient">code</span>, and{" "}
+            <span className="is-animated-gradient">optimize</span>, modern
+            websites.
           </Blurb>
         </Container>
       </ThemeProvider>

@@ -37,6 +37,7 @@ export const Copyright = styled.div`
   margin: 0 auto;
   margin-top: -50px;
   max-width: 1200px;
+  padding: 0 1em;
   padding-bottom: 50px;
 `
 
@@ -77,14 +78,32 @@ class Footer extends React.Component {
         </CTA>
         <Copyright>
           <p>Made with {"<3"} by me.</p>
-          <span>
-            <img src={github} alt="github icon" />
-            <img
-              src={codepen}
-              alt="codepen icon"
-              style={{ margin: "0 25px" }}
-            />
-            <img src={linkedin} alt="linkedin icon" />
+          <span style={{ marginLeft: "-100px" }}>
+            <a
+              href="https://github.com/connorocampo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={github} alt="github icon" />
+            </a>
+            <a
+              href="https://codepen.io/connorocampo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={codepen}
+                alt="codepen icon"
+                style={{ margin: "0 25px" }}
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/connorocampo/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedin} alt="linkedin icon" />
+            </a>
           </span>
           <p>© 2019.</p>
         </Copyright>

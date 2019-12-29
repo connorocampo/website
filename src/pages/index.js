@@ -2,6 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { ThemeProvider } from "styled-components"
 import { graphql } from "gatsby"
+// import styled from "styled-components"
 
 import themeSettings from "../components/base/settings"
 
@@ -13,12 +14,12 @@ import "../assets/styles/footer.css"
 
 // Components
 
+import favicon from "../../static/favicon.ico"
 import Layout from "../components/base/Layout"
 import Header from "../components/base/Header"
 import Bio from "../components/home/Bio"
+import About from "../components/home/About"
 import Footer from "../components/base/Footer"
-
-import favicon from "../../static/favicon.ico"
 
 export default ({ data }) => (
   <ThemeProvider theme={themeSettings}>
@@ -27,8 +28,8 @@ export default ({ data }) => (
         <html lang="en" />
         <title>{data.site.siteMetadata.title}</title>
         <meta
-          name="Connor Ocampo's Website"
-          content="Connor Ocampo's Website"
+          name="Connor Ocampo's | Front-end Developer"
+          content="Connor Ocampo's | Front-end Developer"
         />
         <meta name="theme-color" content="#0090D9" />
         <meta
@@ -39,6 +40,7 @@ export default ({ data }) => (
       </Helmet>
       <Header />
       <Bio />
+      <About />
       <Footer />
     </Layout>
   </ThemeProvider>

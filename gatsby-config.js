@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: "/website",
   siteMetadata: {
-    title: `Connor Ocampo's Website`,
+    title: `Connor Ocampo's | Front-end Developer`,
     author: `Connor Ocampo`,
-    description: `Connor Ocampo's Website.`,
+    description: `Connor Ocampo's | Front-end Developer.`,
     siteUrl: `https://connorocampo.github.io/website/`,
   },
   plugins: [
@@ -38,7 +38,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
-      }
+      },
     },
     {
       resolve: "gatsby-plugin-categories",
@@ -56,4 +56,3 @@ module.exports = {
     },
   ],
 }
-

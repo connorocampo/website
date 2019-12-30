@@ -22,10 +22,6 @@ html {
   padding: 0;
 }
 
-html {
-  overflow-x: hidden !important;
-}
-
 *::selection {
   background: #ffff2d !important; /* WebKit/Blink Browsers */
 }
@@ -334,7 +330,7 @@ a:hover {
   .work-image-mobile {
     display: block;
     height: 200px !important;
-    margin: 1em !important;
+    margin: 1em 0 !important;
     width: 350px !important;
   }
 }

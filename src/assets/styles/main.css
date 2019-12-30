@@ -411,6 +411,10 @@ a:hover {
 }
 
 @media screen and (max-width: 735px) {
+  .bio-container {
+    height: 667px;
+  }
+
   .work-image-mobile {
     margin: 1em 0 !important;
   }

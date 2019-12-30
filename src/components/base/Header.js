@@ -46,7 +46,7 @@ class Header extends React.Component {
             <img
               src={email}
               alt="email icon"
-              style={{ marginRight: "10px", marginBottom: "-1.5px" }}
+              style={{ marginRight: "10px", marginBottom: "-2px" }}
             />
             Contact
           </a>

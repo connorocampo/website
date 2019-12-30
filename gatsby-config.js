@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: "/website",
   siteMetadata: {
-    title: `Connor Ocampo's | Front-end Developer`,
+    title: `Connor Ocampo | Front-end Developer`,
     author: `Connor Ocampo`,
     description: `Connor Ocampo's | Front-end Developer.`,
     siteUrl: `https://connorocampo.github.io/website/`,

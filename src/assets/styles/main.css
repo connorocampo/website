@@ -342,21 +342,21 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 500px) {
+@media (min-width: 500px) {
   .mobile-contact-btn {
     display: none;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .mobile-contact-btn {
     display: block;
   }
 
   .bio-thumbnail {
-    height: 125px;
+    height: 125px !important;
     margin: -50px auto 15px auto;
-    width: 125px;
+    width: 125px !important;
   }
 
   .bio-tagline {

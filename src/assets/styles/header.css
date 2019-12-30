@@ -22,7 +22,7 @@
   text-decoration: none;
 }
 
-.nav-item:after {
+/* .nav-item:after {
   content: "";
   display: block;
   border-bottom: 4px solid #474747;
@@ -31,10 +31,26 @@
   left: 0;
   -webkit-transition: 0.25s ease;
   transition: 0.25s ease;
+} */
+
+/* .nav-item:hover:after {
+  width: 100%;
+} */
+
+.desktop-contact-btn {
+  margin-left: -50px;
 }
 
-.nav-item:hover:after {
-  width: 100%;
+.desktop-contact-btn:after {
+  content: " →";
+  opacity: 0;
+}
+
+.desktop-contact-btn:hover:after {
+  content: " →";
+  opacity: 1;
+  -webkit-transition: 0.25s ease;
+  transition: 0.25s ease;
 }
 
 /* Responsive */

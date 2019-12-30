@@ -410,9 +410,16 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 735px) {
+/* iPad with landscape orientation. */
+@media all and (max-width: 768px) and (orientation: landscape) {
   .bio-container {
-    height: 667px;
+    height: 768px !important;
+  }
+}
+
+@media screen and (max-width: 735px) and (orientation: portrait) {
+  .bio-container {
+    height: 550px !important;
   }
 
   .work-image-mobile {

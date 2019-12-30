@@ -69,30 +69,49 @@ class RecentWork extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              src={ProjectMiddle}
-              className="image-hover work-image-mobile"
-            />
+            <div className="overlay-container">
+              <Image
+                src={ProjectMiddle}
+                className="image-hover work-image-mobile project-image"
+              />
+              <div className="overlay">
+                <p class="text-hover">Medium.com themed sign in app.</p>
+              </div>
+            </div>
           </a>
+
           <a
             href="https://connors-mailchimp-app.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              src={ProjectMailchimp}
-              className="image-hover work-image-mobile"
-            />
+            <div className="overlay-container">
+              <Image
+                src={ProjectMailchimp}
+                className="image-hover work-image-mobile project-image"
+              />
+              <div className="overlay">
+                <p class="text-hover">
+                  Mailchimp Email Signup app using Mailchimp API.
+                </p>
+              </div>
+            </div>
           </a>
+
           <a
             href="https://connorocampo.github.io/react-app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              src={ProjectToDo}
-              className="image-hover work-image-mobile"
-            />
+            <div className="overlay-container">
+              <Image
+                src={ProjectToDo}
+                className="image-hover work-image-mobile project-image"
+              />
+              <div className="overlay">
+                <p class="text-hover">Simple To Do List React App.</p>
+              </div>
+            </div>
           </a>
         </ImageContainer>
         <span style={{ marginBottom: "200px" }}>
@@ -122,24 +141,50 @@ class RecentWork extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={DesignSAL} className="image-hover work-image-mobile" />
+            <div className="overlay-container">
+              <Image
+                src={DesignSAL}
+                className="image-hover work-image-mobile project-image"
+              />
+              <div className="overlay">
+                <p class="text-hover">
+                  A ficticious web development agency mockup.
+                </p>
+              </div>
+            </div>
           </a>
           <a
             href="https://connorocampo.github.io/website/static/DesignModernizingMedicine-0529420cd91e73468b0d0600925981e4.svg"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={trial} className="image-hover work-image-mobile" />
+            <div className="overlay-container">
+              <Image
+                src={trial}
+                className="image-hover work-image-mobile project-image"
+              />
+              <div className="overlay">
+                <p class="text-hover">
+                  Standard letter-sized brochure mockup for Modernizing
+                  Medicine.
+                </p>
+              </div>
+            </div>
           </a>
           <a
             href="https://connorocampo.github.io/website/static/DesignCharles-ce4541de4767562dcac592ce874099f8.svg"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              src={DesignCharles}
-              className="image-hover work-image-mobile"
-            />
+            <div className="overlay-container">
+              <Image
+                src={DesignCharles}
+                className="image-hover work-image-mobile project-image"
+              />
+              <div className="overlay">
+                <p class="text-hover">Portfolio website for my brother.</p>
+              </div>
+            </div>
           </a>
         </ImageContainer>
         <span style={{ marginBottom: "200px" }}>

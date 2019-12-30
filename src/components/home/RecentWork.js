@@ -33,7 +33,6 @@ export const RecentWorkText = styled.p`
 `
 
 export const ImageContainer = styled.div`
-  background: pink;
   display: flex;
   margin-bottom: 50px;
   max-width: 1200px;

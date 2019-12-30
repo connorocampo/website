@@ -34,7 +34,7 @@ class Header extends React.Component {
           </Link>
         </span>
         <NavItems className="nav-items navbar-nav">
-          <Link to="/blog/" className="is-black nav-item">
+          <Link to="/blog/" className="is-black nav-item articles-link-hide">
             Articles
           </Link>
           <a

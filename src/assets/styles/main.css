@@ -349,6 +349,10 @@ a:hover {
 }
 
 @media screen and (max-width: 500px) {
+  .mobile-contact-btn {
+    display: block;
+  }
+
   .bio-thumbnail {
     height: 125px;
     margin: -50px auto 15px auto;

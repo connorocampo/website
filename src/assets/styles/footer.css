@@ -75,6 +75,8 @@
   text-decoration: none;
 }
 
+/* Responsive */
+
 @media (min-width: 1200px) {
   .copyright-container-mobile {
     display: none;

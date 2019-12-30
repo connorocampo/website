@@ -30,6 +30,7 @@ export default ({ data }) => (
       <Helmet>
         <html lang="en" />
         <title>{data.site.siteMetadata.title}</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta
           name="Connor Ocampo's | Front-end Developer"
           content="Connor Ocampo's | Front-end Developer"

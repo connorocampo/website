@@ -242,6 +242,7 @@ a:hover {
 }
 
 /* About Page  */
+
 .design {
   box-shadow: 10px 10px 20px #e0e0e0;
   height: 400px;
@@ -302,4 +303,75 @@ a:hover {
 /* Responsive */
 
 @media screen and (max-width: 1200px) {
+  .skills-columns {
+    border-radius: 0;
+    box-shadow: none;
+    flex-wrap: wrap;
+    padding: 75px 0;
+  }
+
+  .column {
+    margin: 0 auto;
+  }
+
+  .column-2 {
+    border-right: none;
+    border-left: none;
+  }
+
+  /* Recent Work */
+
+  .work-image-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .recent-work-header {
+    font-size: 36px;
+  }
+
+  .recent-work-text {
+    font-size: 24px;
+  }
+
+  .work-image-mobile {
+    display: block;
+    height: 200px;
+    margin: 1em;
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .mobile-contact-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bio-thumbnail {
+    height: 125px;
+    margin: -50px auto 15px auto;
+    width: 125px;
+  }
+
+  .bio-tagline {
+    font-size: 48px;
+    line-height: 1;
+  }
+
+  .bio-blurb {
+    font-size: 24px;
+  }
+
+  /* About */
+
+  .about-header-mobile {
+    font-size: 36px;
+  }
+
+  .about-text-mobile {
+    font-size: 24px;
+    line-height: 1.5;
+  }
 }

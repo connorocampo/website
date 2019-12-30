@@ -50,9 +50,11 @@ class Footer extends React.Component {
     return (
       <Container>
         <CTA className="is-black-bg is-white cta-container">
-          <p className="is-medium-header footer-padding-left">Contact Connor</p>
+          <p className="is-medium-header footer-padding-left footer-header-mobile">
+            Contact Connor
+          </p>
           <p
-            className="is-body-text"
+            className="is-body-text footer-text-mobile"
             style={{ textAlign: "center", width: "282px" }}
           >
             Contact via carrier pigeon is preferred, though emails will suffice.
@@ -75,9 +77,12 @@ class Footer extends React.Component {
             </div>
           </span>
         </CTA>
-        <Copyright>
+        <Copyright className="copyright-desktop-hide">
           <p>Made with {"<3"} by me.</p>
-          <span style={{ marginLeft: "-100px" }}>
+          <span
+            className="social-media-mobile"
+            style={{ marginLeft: "-100px" }}
+          >
             <a
               href="https://github.com/connorocampo"
               target="_blank"
@@ -106,6 +111,36 @@ class Footer extends React.Component {
           </span>
           <p>© 2019.</p>
         </Copyright>
+        <div className="copyright-container-mobile">
+          <span className="copyright-social-media-icons-mobile">
+            <a
+              href="https://github.com/connorocampo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={github} alt="github icon" />
+            </a>
+            <a
+              href="https://codepen.io/connorocampo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={codepen}
+                alt="codepen icon"
+                style={{ margin: "0 25px" }}
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/connorocampo/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedin} alt="linkedin icon" />
+            </a>
+          </span>
+          <p className="copyright-mobile">Made with {"<3"} by me. © 2019.</p>
+        </div>
       </Container>
     )
   }

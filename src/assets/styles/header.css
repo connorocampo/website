@@ -35,5 +35,12 @@
 
 /* Responsive */
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 500px) {
+  .desktop-contact-btn {
+    display: none;
+  }
+
+  .mobile-contact-btn {
+    margin: 50px auto 0 auto;
+  }
 }

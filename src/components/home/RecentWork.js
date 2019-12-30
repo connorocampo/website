@@ -27,22 +27,23 @@ export const Container = styled.div`
 export const RecentWorkText = styled.p`
   font-family: "Rubik Light", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 24px;
   font-size: 36px;
   margin-bottom: 50px;
+  text-align: center;
 `
 
 export const ImageContainer = styled.div`
+  background: pink;
   display: flex;
-  flex-wrap: wrap;
-  width: 1200px;
+  margin-bottom: 50px;
+  max-width: 1200px;
   justify-content: space-between;
 `
 
 export const Image = styled.img`
   border-radius: 15px;
   box-shadow: 8px 8px 8px rgba(128, 128, 128, 0.1);
-  margin-bottom: 50px;
+  margin: 0.5em;
   height: 200px;
   transition-property: transform;
   transition-duration: 0.2s;
@@ -64,31 +65,42 @@ class RecentWork extends React.Component {
   render() {
     return (
       <Container>
-        <h2 style={{ marginBottom: "50px" }}>Recent Work</h2>
-        <RecentWorkText>
+        <h2 className="recent-work-header" style={{ marginBottom: "50px" }}>
+          My Recent Work
+        </h2>
+        <RecentWorkText className="recent-work-text">
           Here are a few recent front-end development projects.
         </RecentWorkText>
-        <ImageContainer>
+        <ImageContainer className="work-image-container">
           <a
             href="https://sign-in-app.netlify.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={ProjectMiddle} className="image-hover" />
+            <Image
+              src={ProjectMiddle}
+              className="image-hover work-image-mobile"
+            />
           </a>
           <a
             href="https://connors-mailchimp-app.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={ProjectMailchimp} className="image-hover" />
+            <Image
+              src={ProjectMailchimp}
+              className="image-hover work-image-mobile"
+            />
           </a>
           <a
             href="https://connorocampo.github.io/react-app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={ProjectToDo} className="image-hover" />
+            <Image
+              src={ProjectToDo}
+              className="image-hover work-image-mobile"
+            />
           </a>
         </ImageContainer>
         <span style={{ marginBottom: "200px" }}>
@@ -112,27 +124,30 @@ class RecentWork extends React.Component {
           </div>
         </span>
         <RecentWorkText>Here are a few recent design projects.</RecentWorkText>
-        <ImageContainer>
+        <ImageContainer className="work-image-container">
           <a
             href="https://connorocampo.github.io/website/static/DesignOne-3104bd0340aebe581a7401e7a45418db.svg"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={DesignSAL} className="image-hover" />
+            <Image src={DesignSAL} className="image-hover work-image-mobile" />
           </a>
           <a
             href="https://connorocampo.github.io/website/static/DesignModernizingMedicine-0529420cd91e73468b0d0600925981e4.svg"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={trial} className="image-hover" />
+            <Image src={trial} className="image-hover work-image-mobile" />
           </a>
           <a
             href="https://connorocampo.github.io/website/static/DesignCharles-ce4541de4767562dcac592ce874099f8.svg"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={DesignCharles} className="image-hover" />
+            <Image
+              src={DesignCharles}
+              className="image-hover work-image-mobile"
+            />
           </a>
         </ImageContainer>
         <span style={{ marginBottom: "200px" }}>

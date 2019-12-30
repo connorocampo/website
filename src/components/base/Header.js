@@ -39,7 +39,7 @@ class Header extends React.Component {
           </Link>
           <a
             href="mailto:connorocampo@gmail.com"
-            className="is-black nav-item"
+            className="is-black nav-item desktop-contact-btn"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -50,7 +50,6 @@ class Header extends React.Component {
             />
             Contact
           </a>
-          {/* </Link> */}
         </NavItems>
       </Container>
     )

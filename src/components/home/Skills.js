@@ -63,8 +63,8 @@ class Skills extends React.Component {
     return (
       <ThemeProvider theme={themeSettings}>
         <Container>
-          <Columns className="has-box-shadow">
-            <div className="column-1">
+          <Columns className="has-box-shadow skills-columns">
+            <div className="column column-1">
               <Icon src={Design} alt="design icon" />
               <ColumnHeader>Video/Design</ColumnHeader>
               <ColumnText style={{ marginBottom: "30px" }}>
@@ -86,7 +86,7 @@ class Skills extends React.Component {
               </List>
             </div>
             <hr className="hr-border" />
-            <div className="column-2">
+            <div className="column column-2">
               <Icon src={Dev} alt="development icon" />
               <ColumnHeader>Front-end Development</ColumnHeader>
               <ColumnText style={{ marginBottom: "30px" }}>
@@ -108,7 +108,7 @@ class Skills extends React.Component {
                 <ListItem>Heroku</ListItem>
               </List>
             </div>
-            <div className="column-3">
+            <div className="column column-3">
               <Icon src={Marketing} alt="marketing/seo icon" />
               <ColumnHeader>Marketing/SEO</ColumnHeader>
               <ColumnText style={{ marginBottom: "30px" }}>

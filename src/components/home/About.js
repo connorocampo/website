@@ -10,8 +10,6 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // padding: 0 1em;
-  // padding-bottom: 300px;
   padding: 0 1em 300px 1em;
 `
 
@@ -33,12 +31,12 @@ class About extends React.Component {
     return (
       <Section className="is-black-bg" style={{ marginBottom: "100px" }}>
         <h2
-          className="is-white is-big-fs"
+          className="is-white is-big-fs about-header-mobile"
           style={{ paddingTop: "100px", paddingBottom: "50px" }}
         >
           A Little About Me
         </h2>
-        <AboutText className="is-white">
+        <AboutText className="is-white about-text-mobile">
           I'm a self-taught Front-end Developer who enjoys focusing on the
           design aspect of development. Professionally, I have a history of work
           in front-end development, search engine optimization (SEO), and web

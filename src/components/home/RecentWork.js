@@ -34,27 +34,20 @@ export const RecentWorkText = styled.p`
 
 export const ImageContainer = styled.div`
   display: flex;
+  justify-content: space-between;
   margin-bottom: 50px;
   max-width: 1200px;
-  justify-content: space-between;
 `
 
 export const Image = styled.img`
   border-radius: 15px;
   box-shadow: 8px 8px 8px rgba(128, 128, 128, 0.1);
-  margin: 0.5em;
   height: 200px;
+  margin: 0.5em;
   transition-property: transform;
   transition-duration: 0.2s;
   width: 375px;
 `
-
-// export const HR = styled.hr`
-//   border: 1px solid #dae1e7;
-//   color: blue;
-//   padding: 0 1em;
-//   width: 100%;
-// `
 
 /*
  * Component
@@ -169,7 +162,6 @@ class RecentWork extends React.Component {
             </a>
           </div>
         </span>
-        {/* <HR /> */}
       </Container>
     )
   }

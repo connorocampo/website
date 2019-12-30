@@ -330,8 +330,14 @@ a:hover {
   .work-image-mobile {
     display: block;
     height: 200px !important;
-    margin: 1em 0 !important;
+    margin: 1em !important;
     width: 350px !important;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .work-image-mobile {
+    margin: 1em 0 !important;
   }
 }
 

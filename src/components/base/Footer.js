@@ -57,7 +57,8 @@ class Footer extends React.Component {
             className="is-body-text footer-text-mobile"
             style={{ textAlign: "center", width: "282px" }}
           >
-            Contact via carrier pigeon is preferred, though emails will suffice.
+            Contact via carrier pigeon is preferred, though an email will
+            suffice.
           </p>
           <span className="footer-padding-right">
             <div class="border-gradient-outline ">

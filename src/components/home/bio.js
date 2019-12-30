@@ -8,6 +8,8 @@ import themeSettings from "../../components/base/settings"
 import Avatar from "../../assets/images/ConnorProfile.png"
 import email from "../../assets/images/icons/email.svg"
 
+import "../../assets/styles/main.css"
+
 /*
  * Styles
  */

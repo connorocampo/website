@@ -122,7 +122,7 @@ export default () => (
         <img
           src={DesignOne}
           alt="Design One"
-          className="design design-one"
+          className="design"
           style={{ marginRight: "50px" }}
         />
       </a>
@@ -134,7 +134,7 @@ export default () => (
         <img
           src={DesignModernizingMedicine}
           alt="Design One"
-          className="design design-one"
+          className="design"
           style={{ marginRight: "50px" }}
         />
       </a>

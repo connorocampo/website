@@ -32,7 +32,6 @@ export const Image = styled.img`
 `
 
 export const Tagline = styled.h1`
-  font-size: 64px;
   font-family: "Rubik Bold";
   margin-bottom: 20px;
   text-align: center;

@@ -32,8 +32,8 @@ export default ({ data }) => (
         <title>{data.site.siteMetadata.title}</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta
-          name="Connor Ocampo's | Front-end Developer"
-          content="Connor Ocampo's | Front-end Developer"
+          name="Connor Ocampo | Front-end Developer"
+          content="Connor Ocampo | Front-end Developer"
         />
         <meta name="theme-color" content="#0090D9" />
         <meta

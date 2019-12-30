@@ -85,9 +85,9 @@ a:hover {
   color: #ffffff;
 }
 
-.is-big-fs {
+/* .is-big-fs {
   font-size: 48px;
-}
+} */
 
 /* Font Size */
 
@@ -255,12 +255,6 @@ a:hover {
   transform: scale(1.1);
 }
 
-@media screen and (max-width: 513px) {
-  .design-one {
-    margin-bottom: 50px;
-  }
-}
-
 /* Blog Page */
 
 .post-title {
@@ -304,7 +298,7 @@ a:hover {
 
 @media screen and (max-width: 1200px) {
   .skills-columns {
-    border-radius: 0;
+    border-radius: 0 !important;
     box-shadow: none;
     flex-wrap: wrap;
     padding: 75px 0;
@@ -323,7 +317,7 @@ a:hover {
 
   .work-image-container {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center !important;
   }
 
   .recent-work-header {
@@ -331,14 +325,14 @@ a:hover {
   }
 
   .recent-work-text {
-    font-size: 24px;
+    font-size: 24px !important;
   }
 
   .work-image-mobile {
     display: block;
-    height: 200px;
-    margin: 1em;
-    width: 350px;
+    height: 200px !important;
+    margin: 1em !important;
+    width: 350px !important;
   }
 }
 
@@ -355,17 +349,17 @@ a:hover {
 
   .bio-thumbnail {
     height: 125px !important;
-    margin: -50px auto 15px auto;
+    margin: -50px auto 15px auto !important;
     width: 125px !important;
   }
 
   .bio-tagline {
-    font-size: 48px;
+    font-size: 48px !important;
     line-height: 1;
   }
 
   .bio-blurb {
-    font-size: 24px;
+    font-size: 24px !important;
   }
 
   /* About */
@@ -375,7 +369,7 @@ a:hover {
   }
 
   .about-text-mobile {
-    font-size: 24px;
-    line-height: 1.5;
+    font-size: 24px !important;
+    line-height: 1.5 !important;
   }
 }

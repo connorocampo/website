@@ -32,7 +32,11 @@ class About extends React.Component {
       <Section className="is-black-bg" style={{ marginBottom: "100px" }}>
         <h2
           className="is-white is-big-fs about-header-mobile"
-          style={{ paddingTop: "100px", paddingBottom: "50px" }}
+          style={{
+            paddingTop: "100px",
+            paddingBottom: "50px",
+            textAlign: "center",
+          }}
         >
           A Little About Me
         </h2>

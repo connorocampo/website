@@ -36,16 +36,14 @@ export const ImageContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
-  max-width: 1200px;
+  max-width: 1250px;
 `
 
 export const Image = styled.img`
   border-radius: 15px;
   box-shadow: 8px 8px 8px rgba(128, 128, 128, 0.1);
   height: 200px;
-  margin: 0.5em;
-  transition-property: transform;
-  transition-duration: 0.2s;
+  margin: 1em;
   width: 375px;
 `
 

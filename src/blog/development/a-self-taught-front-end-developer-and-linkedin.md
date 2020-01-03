@@ -5,7 +5,7 @@ tags: ["Front End Development", "Code"]
 category: Development
 ---
 
-Today I received a message on LinkedIn from one of my connections. Here’s a screencap of the message preview from my iPhone:
+<p>Today I received a message on LinkedIn from one of my connections. Here’s a screencap of the message preview from my iPhone:</p>
 
 _The screencap somehow got deleted, please enjoy this cat noping into a cardboard box instead_ 🙃
 

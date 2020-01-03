@@ -17,16 +17,17 @@ import Footer from "../components/base/Footer"
 // Media
 
 import AvatarBitmoji from "../assets/images/AvatarBitmoji.png"
-import MyBook from "../assets/images/MyBook.jpg"
+import BookCover from "../assets/images/BookCover.jpeg"
 
 const Heading = styled.h1`
-  margin: 100px 0 15px 0;
+  margin-bottom: 15px;
   text-transform: uppercase;
 `
 
 const PostCount = styled.p`
   font-family: "Rubik Light", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 75px;
 `
 
 const PostTitle = styled.h3`
@@ -100,7 +101,7 @@ export default class BlogList extends React.Component {
                     </Link>
                     <Excerpt>{node.excerpt}</Excerpt>
                     <Link to={node.fields.slug} className="blog-list-read-more">
-                      <p className="is-gradient h4">Read More &rarr;</p>
+                      <p className="is-reverse-gradient h4">Read More &rarr;</p>
                     </Link>
                   </div>
                 </div>
@@ -168,7 +169,7 @@ export default class BlogList extends React.Component {
 
               <div className="book">
                 <img
-                  src={MyBook}
+                  src={BookCover}
                   alt="Your First Year in Code Book"
                   style={{ height: "450px", width: "350px" }}
                 />

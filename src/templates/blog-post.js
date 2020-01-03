@@ -76,7 +76,7 @@ export default ({ data, pageContext }) => {
                 <Link
                   to={previous.fields.slug}
                   rel="prev"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary blog-post-pagination-btn"
                   style={{
                     background: "#FAFBFC",
                     borderRadius: "25px",
@@ -96,7 +96,7 @@ export default ({ data, pageContext }) => {
                 <Link
                   to={next.fields.slug}
                   rel="next"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary blog-post-pagination-btn"
                   style={{
                     background: "#FAFBFC",
                     borderRadius: "25px",

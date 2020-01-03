@@ -56,8 +56,11 @@ h3 {
   font-size: 36px;
 }
 
-h4 {
+h4,
+.h4 {
   font-size: 24px;
+  font-family: "Rubik Bold", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .regular-link,
@@ -342,6 +345,43 @@ a:hover {
 
 .blog-image {
   width: 800px;
+}
+
+/* Blog List Page */
+
+.blog-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.blog-list-read-more {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.articles {
+  max-width: 752px;
+}
+
+.sidebar {
+  display: block;
+  background: pink;
+  margin-top: 100px;
+  height: 1000px;
+  width: 386px;
+}
+
+.about-the-author-card {
+  background: white;
+  border: 1px solid #dae1e7;
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px #e0e0e0;
+  padding: 50px 1em;
+  text-align: center;
 }
 
 /* Project Page   */

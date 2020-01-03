@@ -14,15 +14,42 @@ import Layout from "../components/base/Layout"
 import Header from "../components/base/Header"
 import Footer from "../components/base/Footer"
 
+import AvatarBitmoji from "../assets/images/AvatarBitmoji.png"
+
 const Heading = styled.h1`
-  font-size: ${props => props.theme.size.headerBig};
-  margin: 100px 0 50px 0;
+  margin: 100px 0 15px 0;
   text-transform: uppercase;
 `
 
-const PostTitle = styled.div`
-  font-family: "Inter Black", "Open Sans Heavy";
-  font-size: ${props => props.theme.size.headerMedium};
+const PostCount = styled.p`
+  font-family: "Rubik Light", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+`
+
+const PostTitle = styled.h3`
+  margin-bottom: 15px;
+`
+
+const Excerpt = styled.p`
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+`
+
+const AboutTheAuthorBlurb = styled.p`
+  font-family: "Rubik Light", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+`
+
+export const Image = styled.img`
+  border-radius: 50%;
+  border: 5px solid #0f0d16;
+  height: 200px;
+  // margin-top: -100px;
+  margin-bottom: 50px;
+  width: 200px;
 `
 
 export default class BlogList extends React.Component {
@@ -40,74 +67,103 @@ export default class BlogList extends React.Component {
       <ThemeProvider theme={themeSettings}>
         <Layout>
           <Helmet>
-            <title>Blog | Connor Ocampo's Website</title>
+            <title>Articles | Connor Ocampo's Website</title>
             <meta
-              name="Blog | Connor Ocampo's Website"
-              content="Blog | About Connor Ocampo's Website"
+              name="Articles | Connor Ocampo's Website"
+              content="Articles | Blog Connor Ocampo's Website"
             />
             <meta name="theme-color" content="#0090D9" />
             <link rel="icon" href={favicon} />
           </Helmet>
           <Header />
-          <Heading className="page-title">Blog</Heading>
-          <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+          <div className="blog-container">
+            <div className="articles">
+              <Heading className="page-title">Articles</Heading>
+              <PostCount>{data.allMarkdownRemark.totalCount} Posts</PostCount>
 
-          {data.allMarkdownRemark.edges.map(({ node }) => (
-            <div key={node.id}>
-              <div style={{ margin: "25px 0" }}>
-                <Link
-                  to={node.fields.slug}
-                  style={{ textDecoration: "none", color: "#474747" }}
-                >
-                  <PostTitle>{node.frontmatter.title} </PostTitle>
+              {data.allMarkdownRemark.edges.map(({ node }) => (
+                <div key={node.id}>
+                  <div style={{ margin: "25px 0" }}>
+                    <Link
+                      to={node.fields.slug}
+                      style={{ textDecoration: "none", color: "#474747" }}
+                    >
+                      <PostTitle>{node.frontmatter.title} </PostTitle>
 
-                  <p className="post-subtitle">
-                    {node.frontmatter.date} - {node.timeToRead} min read
-                  </p>
-                </Link>
-                <p>{node.excerpt}</p>
-                <Link to={node.fields.slug}>Read More &rarr;</Link>
+                      <p className="post-subtitle">
+                        {node.frontmatter.date} - {node.timeToRead} min read
+                      </p>
+                    </Link>
+                    <Excerpt>{node.excerpt}</Excerpt>
+                    <Link
+                      to={node.fields.slug}
+                      className="blog-list-read-more is-gradient h4"
+                    >
+                      Read More &rarr;
+                    </Link>
+                  </div>
+                </div>
+              ))}
+
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  margin: "50px 0 100px 0",
+                }}
+              >
+                {!isFirst && (
+                  <Link
+                    to={prevPage}
+                    rel="prev"
+                    style={{
+                      background: "#FAFBFC",
+                      borderRadius: "25px",
+                      border: "1px solid #DAE1E7",
+                      color: "#474747",
+                      marginBottom: "100px",
+                      padding: "10px 25px",
+                      textDecoration: "none",
+                    }}
+                  >
+                    ← Previous Page
+                  </Link>
+                )}
+                {!isLast && (
+                  <Link
+                    to={nextPage}
+                    rel="next"
+                    style={{
+                      background: "#FAFBFC",
+                      borderRadius: "25px",
+                      border: "1px solid #DAE1E7",
+                      color: "#474747",
+                      marginBottom: "100px",
+                      padding: "10px 25px",
+                      textDecoration: "none",
+                    }}
+                  >
+                    Next Page →
+                  </Link>
+                )}
               </div>
-              <hr style={{ border: "1px solid #eeeeee" }} />
             </div>
-          ))}
-
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              margin: "50px 0 100px 0",
-            }}
-          >
-            {!isFirst && (
-              <Link
-                to={prevPage}
-                rel="prev"
-                style={{
-                  background: "#f5f7f8",
-                  color: "#474747",
-                  padding: "10px 25px",
-                  textDecoration: "none",
-                }}
-              >
-                ← Previous Page
-              </Link>
-            )}
-            {!isLast && (
-              <Link
-                to={nextPage}
-                rel="next"
-                style={{
-                  background: "#f5f7f8",
-                  color: "#474747",
-                  padding: "10px 25px",
-                  textDecoration: "none",
-                }}
-              >
-                Next Page →
-              </Link>
-            )}
+            {/* /.articles */}
+            <div className="sidebar">
+              <div className="about-the-author-card">
+                <Image src={AvatarBitmoji} alt="Connor Ocampo" />
+                <p className="h4" style={{ marginBottom: " 30px" }}>
+                  About the Author
+                </p>
+                <AboutTheAuthorBlurb>
+                  Hi, I’m Connor Ocampo. I’m a self-taught front-end developer
+                  based in Boca Raton, FL. I enjoy long bike rides on the
+                  pavement, really nice people, and oxford commas.
+                </AboutTheAuthorBlurb>
+              </div>
+            </div>
           </div>
+          {/* /.blog-container */}
           <Footer />
         </Layout>
       </ThemeProvider>

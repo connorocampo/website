@@ -1,6 +1,6 @@
-.articles-link-hide {
+/* .articles-link-hide {
   display: none;
-}
+} */
 
 .brand {
   text-decoration: none;
@@ -38,7 +38,7 @@
 } */
 
 .desktop-contact-btn {
-  margin-left: -50px;
+  margin-left: 50px;
 }
 
 .desktop-contact-btn:after {

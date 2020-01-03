@@ -62,7 +62,11 @@ export default ({ data, pageContext }) => {
             {/* <span className="tags">{post.frontmatter.tags}</span> */}
             <div
               dangerouslySetInnerHTML={{ __html: post.html }}
-              style={{ marginTop: "50px", marginBottom: "50px" }}
+              style={{
+                marginTop: "50px",
+                marginBottom: "50px",
+              }}
+              className="article-content"
             />
             <div
               style={{

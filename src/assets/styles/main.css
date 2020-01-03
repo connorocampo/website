@@ -460,10 +460,6 @@ p {
   width: 775px;
 }
 
-.blog-post-pagination-btn {
-  width: 115px;
-}
-
 @media screen and (max-width: 1196px) {
   .blog-post-container {
     display: flex;
@@ -485,6 +481,10 @@ p {
 
   .book-text {
     margin-bottom: 175px !important;
+  }
+
+  .blog-post-pagination-btn {
+    width: 115px;
   }
 }
 

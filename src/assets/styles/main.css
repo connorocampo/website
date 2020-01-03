@@ -389,6 +389,10 @@ p {
   width: 775px;
 }
 
+.articles-content {
+  width: 752px;
+}
+
 .sidebar {
   display: block;
   padding: 0 1em;
@@ -418,9 +422,13 @@ p {
     max-width: 1200px;
   }
 
-  .articles {
+  .articles-content {
     width: auto !important;
+  }
+
+  .articles {
     padding: 0 1em;
+    width: auto;
   }
 
   .pagination {
@@ -462,7 +470,7 @@ p {
 }
 
 .article-content {
-  max-width: 740px;
+  width: 740px;
 }
 
 @media screen and (max-width: 1196px) {

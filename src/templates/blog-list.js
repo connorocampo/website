@@ -88,7 +88,10 @@ export default class BlogList extends React.Component {
 
               {data.allMarkdownRemark.edges.map(({ node }) => (
                 <div key={node.id}>
-                  <div style={{ margin: "25px 0" }}>
+                  <div
+                    style={{ margin: "25px 0" }}
+                    className="articles-content"
+                  >
                     <Link
                       to={node.fields.slug}
                       style={{ textDecoration: "none", color: "#474747" }}

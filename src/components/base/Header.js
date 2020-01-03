@@ -7,7 +7,7 @@ import logo from "../../assets/images/icons/logo.svg"
 import email from "../../assets/images/icons/email.svg"
 
 // new logo, needs work
-// import t from "../../assets/images/icons/t.svg"
+// import wide from "../../assets/images/icons/wide.svg"
 
 // Styles
 

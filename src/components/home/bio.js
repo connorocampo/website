@@ -5,8 +5,10 @@ import themeSettings from "../../components/base/settings"
 
 // Images
 
-import Avatar from "../../assets/images/ConnorProfile.png"
+// import Avatar from "../../assets/images/ConnorProfile.png"
 import email from "../../assets/images/icons/email.svg"
+
+import AvatarBitmoji from "../../assets/images/AvatarBitmoji.png"
 
 import "../../assets/styles/main.css"
 
@@ -25,6 +27,7 @@ export const Container = styled.div`
 
 export const Image = styled.img`
   border-radius: 50%;
+  border: 5px solid #0f0d16;
   height: 200px;
   margin-top: -100px;
   margin-bottom: 30px;
@@ -53,7 +56,11 @@ class Bio extends React.Component {
     return (
       <ThemeProvider theme={themeSettings}>
         <Container className="bio-container">
-          <Image src={Avatar} alt="Connor Ocampo" className="bio-thumbnail" />
+          <Image
+            src={AvatarBitmoji}
+            alt="Connor Ocampo"
+            className="bio-thumbnail"
+          />
           <Tagline className="is-black bio-tagline">
             Front-end Developer
           </Tagline>

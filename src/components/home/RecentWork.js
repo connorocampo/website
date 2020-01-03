@@ -73,7 +73,7 @@ class RecentWork extends React.Component {
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
-                <p class="text-hover">Medium.com themed sign in app.</p>
+                <p class="overlay-text">Medium.com themed sign in app.</p>
               </div>
             </div>
           </a>
@@ -89,7 +89,7 @@ class RecentWork extends React.Component {
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
-                <p class="text-hover">
+                <p class="overlay-text">
                   Mailchimp Email Signup app using Mailchimp API.
                 </p>
               </div>
@@ -107,7 +107,7 @@ class RecentWork extends React.Component {
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
-                <p class="text-hover">Simple To Do List React App.</p>
+                <p class="overlay-text">Simple To Do List React App.</p>
               </div>
             </div>
           </a>
@@ -145,7 +145,7 @@ class RecentWork extends React.Component {
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
-                <p class="text-hover">
+                <p class="overlay-text">
                   A ficticious web development agency mockup.
                 </p>
               </div>
@@ -162,7 +162,7 @@ class RecentWork extends React.Component {
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
-                <p class="text-hover">
+                <p class="overlay-text">
                   Standard letter-sized brochure mockup for Modernizing
                   Medicine.
                 </p>
@@ -180,7 +180,7 @@ class RecentWork extends React.Component {
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
-                <p class="text-hover">Portfolio website for my brother.</p>
+                <p class="overlay-text">Portfolio website for my brother.</p>
               </div>
             </div>
           </a>

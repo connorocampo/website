@@ -15,6 +15,7 @@ import Footer from "../components/base/Footer"
 // Media
 import AvatarBitmoji from "../assets/images/AvatarBitmoji.png"
 import BookCover from "../assets/images/BookCover.jpeg"
+import favicon from "../../static/favicon.ico"
 
 export const PostTitle = styled.h1`
   margin-bottom: 15px;
@@ -49,6 +50,7 @@ export default ({ data, pageContext }) => {
             content="Blog | About Connor Ocampo's Website"
           />
           <meta name="theme-color" content="#0090D9" />
+          <link rel="icon" href={favicon} />
         </Helmet>
         <Header />
         <div className="blog-post-container">

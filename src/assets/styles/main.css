@@ -411,6 +411,7 @@ p {
 
 .book {
   text-align: center;
+  padding: 0 0.5em;
 }
 
 @media screen and (max-width: 1196px) {

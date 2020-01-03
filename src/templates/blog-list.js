@@ -14,7 +14,10 @@ import Layout from "../components/base/Layout"
 import Header from "../components/base/Header"
 import Footer from "../components/base/Footer"
 
+// Media
+
 import AvatarBitmoji from "../assets/images/AvatarBitmoji.png"
+import MyBook from "../assets/images/MyBook.jpg"
 
 const Heading = styled.h1`
   margin: 100px 0 15px 0;
@@ -161,7 +164,26 @@ export default class BlogList extends React.Component {
                   pavement, really nice people, and oxford commas.
                 </AboutTheAuthorBlurb>
               </div>
+              {/* /.about-the-author-card  */}
+
+              <div className="book">
+                <img
+                  src={MyBook}
+                  alt="Your First Year in Code Book"
+                  style={{ height: "450px", width: "350px" }}
+                />
+                <p
+                  style={{
+                    lineHeight: "1.5",
+                    marginTop: "25px",
+                    marginBottom: "305px",
+                  }}
+                >
+                  A complete guide for new and aspiring developers
+                </p>
+              </div>
             </div>
+            {/* /.sidebar */}
           </div>
           {/* /.blog-container */}
           <Footer />

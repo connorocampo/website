@@ -30,10 +30,12 @@ const PostCount = styled.p`
 `
 
 const PostTitle = styled.h3`
+  color: #0f0d16;
   margin-bottom: 15px;
 `
 
 const Excerpt = styled.p`
+  color: #0f0d16;
   font-size: 24px;
   line-height: 1.5;
   margin-bottom: 15px;
@@ -50,7 +52,6 @@ export const Image = styled.img`
   border-radius: 50%;
   border: 5px solid #0f0d16;
   height: 200px;
-  // margin-top: -100px;
   margin-bottom: 50px;
   width: 200px;
 `
@@ -98,11 +99,8 @@ export default class BlogList extends React.Component {
                       </p>
                     </Link>
                     <Excerpt>{node.excerpt}</Excerpt>
-                    <Link
-                      to={node.fields.slug}
-                      className="blog-list-read-more is-gradient h4"
-                    >
-                      Read More &rarr;
+                    <Link to={node.fields.slug} className="blog-list-read-more">
+                      <p className="is-gradient h4">Read More &rarr;</p>
                     </Link>
                   </div>
                 </div>
@@ -114,6 +112,7 @@ export default class BlogList extends React.Component {
                   justifyContent: "space-between",
                   margin: "50px 0 100px 0",
                 }}
+                className="pagination"
               >
                 {!isFirst && (
                   <Link
@@ -152,6 +151,7 @@ export default class BlogList extends React.Component {
               </div>
             </div>
             {/* /.articles */}
+
             <div className="sidebar">
               <div className="about-the-author-card">
                 <Image src={AvatarBitmoji} alt="Connor Ocampo" />
@@ -173,6 +173,7 @@ export default class BlogList extends React.Component {
                   style={{ height: "450px", width: "350px" }}
                 />
                 <p
+                  className="book-text"
                   style={{
                     lineHeight: "1.5",
                     marginTop: "25px",

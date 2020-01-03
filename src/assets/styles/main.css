@@ -330,7 +330,6 @@ a:hover {
 /* Blog Page */
 
 .post-title {
-  font-size: 32px;
   font-weight: bold;
 }
 .post-subtitle {
@@ -364,15 +363,16 @@ a:hover {
 }
 
 .articles {
-  max-width: 752px;
+  display: block;
+  padding: 0 1em;
+  width: 745px;
 }
 
 .sidebar {
   display: block;
+  padding: 0 1em;
   margin-top: 100px;
-  /* background: pink;
-  height: 1000px; */
-  width: 386px;
+  width: 380px;
 }
 
 .about-the-author-card {
@@ -387,6 +387,35 @@ a:hover {
 
 .book {
   text-align: center;
+}
+
+@media screen and (max-width: 1196px) {
+  .blog-container {
+    background: pink;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+  }
+
+  .articles {
+    width: auto !important;
+  }
+
+  .pagination {
+    margin: 0 !important;
+  }
+
+  .sidebar {
+    display: block;
+    margin-top: 0px;
+    width: auto;
+  }
+
+  .book-text {
+    margin-bottom: 175px !important;
+  }
 }
 
 /* Project Page   */

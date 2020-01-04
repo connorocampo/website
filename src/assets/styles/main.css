@@ -373,8 +373,23 @@ p {
 }
 
 .blog-list-read-more {
-  display: block;
+  display: inline-block;
   margin-bottom: 50px;
+}
+
+.blog-list-read-more:hover {
+  background: linear-gradient(
+    to right,
+    #e52e71 20%,
+    #ff8a00 40%,
+    #ff8a00 60%,
+    #e52e71 80%
+  );
+  background-clip: text;
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: colorchange 3s linear infinite;
 }
 
 .articles {

@@ -103,8 +103,10 @@ export default class BlogList extends React.Component {
                       </p>
                     </Link>
                     <Excerpt>{node.excerpt}</Excerpt>
-                    <Link to={node.fields.slug} className="blog-list-read-more">
-                      <span className="is-gradient h4">Read More &rarr;</span>
+                    <Link to={node.fields.slug}>
+                      <span className="is-gradient h4 blog-list-read-more">
+                        Read More &rarr;
+                      </span>
                     </Link>
                   </div>
                 </div>

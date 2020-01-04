@@ -149,13 +149,6 @@ p {
   -webkit-text-fill-color: transparent;
 }
 
-.is-reverse-gradient {
-  background: linear-gradient(90deg, #e52e71, #ff8a00);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .is-animated-gradient {
   background: linear-gradient(
     to right,
@@ -439,7 +432,7 @@ p {
   .sidebar {
     display: block;
     margin-top: 0px;
-    padding: 0 0.5em;
+    padding: 0 1em;
     width: auto;
   }
 

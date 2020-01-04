@@ -104,7 +104,7 @@ export default class BlogList extends React.Component {
                     </Link>
                     <Excerpt>{node.excerpt}</Excerpt>
                     <Link to={node.fields.slug} className="blog-list-read-more">
-                      <p className="is-reverse-gradient h4">Read More &rarr;</p>
+                      <span className="is-gradient h4">Read More &rarr;</span>
                     </Link>
                   </div>
                 </div>
@@ -171,11 +171,17 @@ export default class BlogList extends React.Component {
               {/* /.about-the-author-card  */}
 
               <div className="book">
-                <img
-                  src={BookCover}
-                  alt="Your First Year in Code Book"
-                  style={{ height: "450px", width: "350px" }}
-                />
+                <a
+                  href="https://leanpub.com/firstyearincode"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={BookCover}
+                    alt="Your First Year in Code Book"
+                    style={{ height: "450px", width: "350px" }}
+                  />
+                </a>
                 <p
                   className="book-text"
                   style={{

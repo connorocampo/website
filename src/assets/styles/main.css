@@ -3,17 +3,20 @@
   font-family: "Rubik Light";
   src: local("Rubik Light"),
     url(../../assets/fonts/Rubik-Light.woff) format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Rubik";
   src: local("Rubik"), url(../../assets/fonts/Rubik-Regular.woff) format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Rubik Bold";
   src: local("Rubik Bold"),
     url(../../assets/fonts/Rubik-Bold.woff) format("woff");
+  font-display: swap;
 }
 
 *,
@@ -405,6 +408,7 @@ p {
   display: block;
   padding: 0 1em;
   width: 380px;
+  width: 380px;
 }
 
 .about-the-author-card {
@@ -412,7 +416,7 @@ p {
   border: 1px solid #dae1e7;
   border-radius: 25px;
   box-shadow: 10px 10px 20px #e0e0e0;
-  margin-bottom: 100px;
+  margin: 0 auto 100px auto;
   padding: 50px 1em;
   text-align: center;
 }
@@ -503,6 +507,8 @@ p {
   .article-content {
     width: auto !important;
   }
+
+  /* sidebar */
 
   .book-text {
     margin-bottom: 175px !important;

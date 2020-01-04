@@ -70,6 +70,7 @@ class RecentWork extends React.Component {
             <div className="overlay-container">
               <Image
                 src={ProjectMiddle}
+                alt="Medium.com themed sign in app."
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
@@ -86,6 +87,7 @@ class RecentWork extends React.Component {
             <div className="overlay-container">
               <Image
                 src={ProjectMailchimp}
+                alt="Mailchimp Email Signup app using Mailchimp API."
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
@@ -104,6 +106,7 @@ class RecentWork extends React.Component {
             <div className="overlay-container">
               <Image
                 src={ProjectToDo}
+                alt="Simple To Do List React App."
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
@@ -142,6 +145,7 @@ class RecentWork extends React.Component {
             <div className="overlay-container">
               <Image
                 src={DesignSAL}
+                alt="A ficticious web development agency mockup."
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
@@ -159,6 +163,8 @@ class RecentWork extends React.Component {
             <div className="overlay-container">
               <Image
                 src={trial}
+                alt="Standard letter-sized brochure mockup for Modernizing
+                Medicine."
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
@@ -177,6 +183,7 @@ class RecentWork extends React.Component {
             <div className="overlay-container">
               <Image
                 src={DesignCharles}
+                alt="Portfolio website for my brother."
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">

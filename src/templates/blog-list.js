@@ -47,6 +47,7 @@ const AboutTheAuthorBlurb = styled.p`
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
   line-height: 1.5;
+  margin: 0 auto;
 `
 
 export const Image = styled.img`
@@ -177,6 +178,7 @@ export default class BlogList extends React.Component {
                   href="https://leanpub.com/firstyearincode"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="sidebar-book"
                 >
                   <img
                     src={BookCover}

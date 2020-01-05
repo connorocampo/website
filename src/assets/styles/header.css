@@ -56,11 +56,21 @@
 /* Responsive */
 
 @media screen and (max-width: 500px) {
-  .desktop-contact-btn {
-    display: none;
+  .nav-item {
+    font-size: 22px;
+    margin-left: 0;
   }
 
-  .mobile-contact-btn {
-    margin: 50px auto 0 auto;
+  .desktop-contact-btn {
+    /* display: none; */
+    margin-left: 20px;
   }
+
+  .desktop-contact-btn:after {
+    content: "";
+  }
+
+  /* .mobile-contact-btn {
+    margin: 50px auto 0 auto;
+  } */
 }

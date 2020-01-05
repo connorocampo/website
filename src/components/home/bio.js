@@ -5,9 +5,7 @@ import themeSettings from "../../components/base/settings"
 
 // Images
 
-// import Avatar from "../../assets/images/ConnorProfile.png"
-import email from "../../assets/images/icons/email.svg"
-
+// import email from "../../assets/images/icons/email.svg"
 import AvatarBitmoji from "../../assets/images/AvatarBitmoji.png"
 
 import "../../assets/styles/main.css"
@@ -70,7 +68,7 @@ class Bio extends React.Component {
             <span className="is-animated-gradient">optimize</span> modern
             websites.
           </Blurb>
-          <a
+          {/* <a
             href="mailto:connorocampo@gmail.com"
             className="is-black nav-item mobile-contact-btn"
             target="_blank"
@@ -82,7 +80,7 @@ class Bio extends React.Component {
               style={{ marginRight: "10px", marginBottom: "-1.5px" }}
             />
             Contact
-          </a>
+          </a> */}
         </Container>
       </ThemeProvider>
     )

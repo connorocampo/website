@@ -6,9 +6,6 @@ import { Link } from "gatsby"
 import logo from "../../assets/images/icons/logo.svg"
 import email from "../../assets/images/icons/email.svg"
 
-// new logo, needs work
-// import wide from "../../assets/images/icons/wide.svg"
-
 // Styles
 
 export const Container = styled.div`

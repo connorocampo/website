@@ -67,7 +67,11 @@
   }
 
   .desktop-contact-btn:after {
-    content: "";
+    content: "" !important;
+  }
+
+  .desktop-contact-btn:hover:after {
+    content: "" !important;
   }
 
   /* .mobile-contact-btn {

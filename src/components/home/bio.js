@@ -5,7 +5,6 @@ import themeSettings from "../../components/base/settings"
 
 // Images
 
-// import email from "../../assets/images/icons/email.svg"
 import AvatarBitmoji from "../../assets/images/AvatarBitmoji.png"
 
 import "../../assets/styles/main.css"

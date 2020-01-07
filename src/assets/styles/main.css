@@ -508,6 +508,10 @@ p {
     width: auto !important;
   }
 
+  .pagination-blog-list-mobile {
+    width: 100px;
+  }
+
   /* sidebar */
 
   .book-text {

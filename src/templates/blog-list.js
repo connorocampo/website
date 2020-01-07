@@ -125,6 +125,7 @@ export default class BlogList extends React.Component {
                   <Link
                     to={prevPage}
                     rel="prev"
+                    className="pagination-blog-list-mobile"
                     style={{
                       background: "#FAFBFC",
                       borderRadius: "25px",
@@ -142,6 +143,7 @@ export default class BlogList extends React.Component {
                   <Link
                     to={nextPage}
                     rel="next"
+                    className="pagination-blog-list-mobile"
                     style={{
                       background: "#FAFBFC",
                       borderRadius: "25px",
@@ -189,6 +191,7 @@ export default class BlogList extends React.Component {
                 <p
                   className="book-text"
                   style={{
+                    fontSize: "18px",
                     lineHeight: "1.5",
                     marginTop: "25px",
                     marginBottom: "305px",

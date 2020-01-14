@@ -144,6 +144,7 @@ export default ({ data, pageContext }) => {
               <p
                 className="book-text"
                 style={{
+                  fontSize: "18px",
                   lineHeight: "1.5",
                   marginTop: "25px",
                   marginBottom: "305px",

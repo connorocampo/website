@@ -408,7 +408,6 @@ p {
   display: block;
   padding: 0 1em;
   width: 380px;
-  width: 380px;
 }
 
 .about-the-author-card {
@@ -418,6 +417,7 @@ p {
   box-shadow: 10px 10px 20px #e0e0e0;
   margin: 0 auto 100px auto;
   padding: 50px 1em;
+  width: 315px;
   text-align: center;
 }
 

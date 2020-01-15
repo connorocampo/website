@@ -110,7 +110,7 @@ class Footer extends React.Component {
               <img src={linkedin} alt="linkedin icon" />
             </a>
           </span>
-          <p>© 2019.</p>
+          <p>© 2020.</p>
         </Copyright>
         <div className="copyright-container-mobile">
           <span className="copyright-social-media-icons-mobile">

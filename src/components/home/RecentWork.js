@@ -11,6 +11,10 @@ import ProjectSuper from "../../assets/images/ProjectSuper.png"
 import DesignSAL from "../../assets/images/DesignSAL.png"
 import trial from "../../assets/images/trial.png"
 import DesignCharles from "../../assets/images/DesignCharles.png"
+import DesignSibling from "../../assets/images/DesignSibling.png"
+import DesignVans from "../../assets/images/DesignVans.png"
+// import DesignWebsite from "../../assets/images/DesignWebsite.svg"
+import DesignArticles from "../../assets/images/DesignArticles.svg"
 
 import github from "../../assets/images/icons/github.svg"
 import dribbble from "../../assets/images/icons/dribbble.svg"
@@ -199,6 +203,22 @@ class RecentWork extends React.Component {
         <RecentWorkText>Here are a few recent design projects.</RecentWorkText>
         <ImageContainer className="work-image-container">
           <a
+            href="https://connorocampo.github.io/website/static/DesignArticles-46a7f98ca0e8cbe20381c3aa4f5de2d0.svg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="overlay-container">
+              <Image
+                src={DesignArticles}
+                alt="A ficticious web development agency mockup."
+                className="image-hover work-image-mobile project-image"
+              />
+              <div className="overlay">
+                <p class="overlay-text">Article layout for this website :)</p>
+              </div>
+            </div>
+          </a>
+          <a
             href="https://connorocampo.github.io/website/static/DesignOne-3104bd0340aebe581a7401e7a45418db.svg"
             target="_blank"
             rel="noopener noreferrer"
@@ -249,6 +269,43 @@ class RecentWork extends React.Component {
               />
               <div className="overlay">
                 <p class="overlay-text">Portfolio website for my brother.</p>
+              </div>
+            </div>
+          </a>
+          {/* start */}
+          <a
+            href="https://connorocampo.github.io/sibling/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="overlay-container">
+              <Image
+                src={DesignSibling}
+                alt="A design to code project from a Dribbble graphic."
+                className="image-hover work-image-mobile project-image"
+              />
+              <div className="overlay">
+                <p class="overlay-text">
+                  A design to code project from a Dribbble graphic.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://connorocampo.github.io/vans/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="overlay-container">
+              <Image
+                src={DesignVans}
+                alt="A design to code project from a Vans Dribbble graphic."
+                className="image-hover work-image-mobile project-image"
+              />
+              <div className="overlay">
+                <p class="overlay-text">
+                  A design to code project from a Vans Dribbble graphic.
+                </p>
               </div>
             </div>
           </a>

@@ -19,7 +19,7 @@ import Portfolio from "../assets/images/Portfolio.png"
 // import ToDoList from "../assets/images/ToDoList.png"
 // import Dribbble from "../assets/images/Dribbble.jpg"
 // import ProjectSibling from "../assets/images/ProjectSibling.jpg"
-import DroneWorld from "../assets/images/DroneWorld.png"
+import DroneWorld from "../assets/images/ProjectDroneWorld.png"
 
 const Heading = styled.h1`
   font-family: "Inter Black", "Open Sans Heavy";

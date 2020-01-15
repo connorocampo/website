@@ -5,6 +5,9 @@ import styled from "styled-components"
 import ProjectMiddle from "../../assets/images/ProjectMiddle.png"
 import ProjectMailchimp from "../../assets/images/ProjectMailchimp.png"
 import ProjectToDo from "../../assets/images/ProjectToDo.png"
+import ProjectDroneWorld from "../../assets/images/ProjectDroneWorld.png"
+import ProjectCharmCity from "../../assets/images/ProjectCharmCity.png"
+import ProjectSuper from "../../assets/images/ProjectSuper.png"
 import DesignSAL from "../../assets/images/DesignSAL.png"
 import trial from "../../assets/images/trial.png"
 import DesignCharles from "../../assets/images/DesignCharles.png"
@@ -75,6 +78,63 @@ class RecentWork extends React.Component {
               />
               <div className="overlay">
                 <p class="overlay-text">Medium.com themed sign in app.</p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://superawesomelabs.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="overlay-container">
+              <Image
+                src={ProjectSuper}
+                alt="A web development agency landing page."
+                className="image-hover work-image-mobile project-image"
+              />
+              <div className="overlay">
+                <p class="overlay-text">
+                  A web development agency landing page.
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://connorocampo.github.io/drone-world-product-page/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="overlay-container">
+              <Image
+                src={ProjectDroneWorld}
+                alt="A single page company product page."
+                className="image-hover work-image-mobile project-image"
+              />
+              <div className="overlay">
+                <p class="overlay-text">
+                  Landing page site for Drone World Reviews.
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://connorocampo.github.io/flexbox-fun/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="overlay-container">
+              <Image
+                src={ProjectCharmCity}
+                alt="A redesign for Charm City Burger's website."
+                className="image-hover work-image-mobile project-image"
+              />
+              <div className="overlay">
+                <p class="overlay-text">
+                  An "updated" design for Charm City Burger's current website.
+                </p>
               </div>
             </div>
           </a>

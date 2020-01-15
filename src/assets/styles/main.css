@@ -523,7 +523,7 @@ p {
   }
 }
 
-/* Project Page   */
+/* Projects Section  */
 
 .project {
   display: flex;
@@ -534,6 +534,12 @@ p {
 
 .project-item {
   border-radius: 5px;
+}
+
+.work-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Responsive */

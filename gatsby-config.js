@@ -1,10 +1,10 @@
 module.exports = {
-  pathPrefix: "/netlify-portfolio",
+  pathPrefix: "/website",
   siteMetadata: {
     title: `Connor Ocampo | Front-end Developer`,
     author: `Connor Ocampo`,
     description: `Connor Ocampo's | Front-end Developer.`,
-    // siteUrl: `https://connorocampo.github.io/website/`,
+    siteUrl: `https://connorocampo.github.io/website/`,
   },
   plugins: [
     {

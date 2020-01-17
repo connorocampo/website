@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/website",
+  pathPrefix: "/netlify-portfolio",
   siteMetadata: {
     title: `Connor Ocampo | Front-end Developer`,
     author: `Connor Ocampo`,

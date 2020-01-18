@@ -17,7 +17,8 @@ import "../assets/styles/footer.css"
 import favicon from "../../static/favicon.ico"
 import Layout from "../components/base/Layout"
 import Header from "../components/base/Header"
-import Bio from "../components/home/Bio"
+// import Bio from "../components/home/Bio"
+import Hero from "../components/home/Hero"
 import About from "../components/home/About"
 import Skills from "../components/home/Skills"
 import RecentWork from "../components/home/RecentWork"
@@ -43,7 +44,8 @@ export default ({ data }) => (
         <link rel="icon" href={favicon} />
       </Helmet>
       <Header />
-      <Bio />
+      {/* <Bio /> */}
+      <Hero />
       <About />
       <Skills />
       <RecentWork />

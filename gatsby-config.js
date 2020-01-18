@@ -33,14 +33,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        workboxConfig: {
-          importWorkboxFrom: `cdn`,
-        },
-      },
-    },
+    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-google-analytics`,

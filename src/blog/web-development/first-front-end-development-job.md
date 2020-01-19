@@ -2,7 +2,7 @@
 title: "My First Front-End Developer Job 🎉"
 date: "2019-01-19"
 tags: ["Code"]
-category: Development
+category: "Web Development"
 ---
 
 This is an update from my post about a non-technical interview tip that led me to get my first Front-end Developer job.

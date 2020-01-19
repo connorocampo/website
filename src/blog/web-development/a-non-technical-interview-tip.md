@@ -2,7 +2,7 @@
 title: "A Non-Technical Job Interview Tip"
 date: "2018-11-08"
 tags: ["front-end-development", "Code"]
-category: Development
+category: "Web Development"
 ---
 
 Here is an easy-to-overlook, non-technical job interview tip that can boost your chances of landing your dream job. This tip can help both the interviewee and the hiring authority better maneuver through the interview process. It also aids in making every minute of an interview count in your favor!

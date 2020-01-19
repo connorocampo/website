@@ -2,7 +2,7 @@
 title: "Custom SVG Animations"
 date: "2019-12-21"
 tags: ["front-end-development", "Code"]
-category: Development
+category: "Web Development"
 ---
 
 <img src="https://cdn-images-1.medium.com/max/2400/1*Mycg7xtgCBqY-2FoSlefZw.gif" class="featured-image">

@@ -2,7 +2,7 @@
 title: "How to Get Organized and Increase Productivity Levels"
 date: "2019-04-24"
 tags: ["Self Improvement"]
-category: Self Improvement
+category: "Personal Growth"
 ---
 
 How does one get organized and increase productivity levels? In a tech world where like happens fast, it’s easy for fine, yet important details to get lost in the shuffle. We’re an on-the-go society and are constantly juggling thoughts, one mental note after the other.

@@ -2,7 +2,7 @@
 title: "8 Reasons For Making a WordPress Website"
 date: "2019-03-04"
 tags: ["Front-end Development"]
-category: Development
+category: "Web Development"
 ---
 
 You are thinking about leveling up your business or digital presence by launching a WordPress website. You know that having a website significantly increases the likelihood of your business to not only survive but to thrive as well.

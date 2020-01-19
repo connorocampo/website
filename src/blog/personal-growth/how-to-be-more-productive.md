@@ -1,7 +1,7 @@
 ---
 title: "How to Be More Productive: 3 Simple Hacks"
 date: "2019-05-04"
-category: "Personal Development"
+category: "Personal Growth"
 ---
 
 If you’re wondering how to be more productive, this article is for you. As someone who works on a laptop for my day job and my side hustles, I know first-hand how easy it is for distractions to pop up on our screens and suck valuable time away from work.

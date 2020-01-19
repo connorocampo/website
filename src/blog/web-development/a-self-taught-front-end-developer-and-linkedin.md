@@ -2,7 +2,7 @@
 title: "A Self-Taught Developer and LinkedIn"
 date: "2019-05-28"
 tags: ["Front End Development", "Code"]
-category: Development
+category: "Web Development"
 ---
 
 Today I received a message on LinkedIn from one of my connections. Here’s a screencap of the message preview from my iPhone:

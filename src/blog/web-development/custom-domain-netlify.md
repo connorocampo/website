@@ -65,3 +65,13 @@ Don't worry ... for now. Allow at least 24 hours for propagation to complete. Pr
 <br />
 
 If the 24 hour mark has passed since updating your nameservers in GoDaddy, then you will have to follow these <a href="_https://docs.netlify.com/domains-https/troubleshooting-tips/#certificates-and-https" class="is-gradient" rel="noopenner noreferrer">troubleshooting tips</a>, or reach out to Netlify support for further assistance.
+
+<br />
+<br />
+
+A nice feature that Netlify provides (for free) is SSL certificate auto-renewal from Lets Encrypt. Once your SSL certificate becomes active, it will automatically renew every 3 months.
+
+<br />
+<br />
+
+Thanks, Netlify, for being a bro.

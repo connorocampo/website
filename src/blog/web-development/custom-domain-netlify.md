@@ -26,9 +26,7 @@ As a side note, Netlify can deploy both public and private repositories for free
 
 <h3><li class="blog-post-ol-li">Once deployed, update DNS in GoDaddy using Netlify DNS records.</li></h3>
 
-It will take some time for the DNS servers to update. Like, 24 hours or time.
-
-Just sit tight. Put a timer on if that makes you feel better. I admit that I did.
+It will take some time for the DNS servers to update. Like, 24 hours or time. Just sit tight. Put a timer on if that makes you feel better. I admit that I did.
 
 </ol>
 <br />
@@ -61,7 +59,7 @@ If you’ve already changed your DNS configuration, allow up to 24 hours for the
 <br />
 <br />
 
-Don't worry ... for now. Allow at least 24 hours for propagation to complete. This won’t happen as quickly as it took for your custom domain name to become active/live. For me it took about 17 hours.
+Don't worry ... for now. Allow at least 24 hours for propagation to complete. Propagation won’t happen as quickly as it took for your custom domain name to become active/live. For me it took about 17 hours.
 
 <br />
 <br />

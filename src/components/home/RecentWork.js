@@ -200,7 +200,7 @@ class RecentWork extends React.Component {
             </a>
           </div>
         </span>
-        <RecentWorkText>Here are a few recent design projects.</RecentWorkText>
+        {/* <RecentWorkText>Here are a few recent design projects.</RecentWorkText>
         <ImageContainer className="work-image-container">
           <a
             href="https://connorocampo.github.io/website/static/DesignArticles-46a7f98ca0e8cbe20381c3aa4f5de2d0.svg"
@@ -272,7 +272,6 @@ class RecentWork extends React.Component {
               </div>
             </div>
           </a>
-          {/* start */}
           <a
             href="https://connorocampo.github.io/sibling/"
             target="_blank"
@@ -329,7 +328,7 @@ class RecentWork extends React.Component {
               <span className="is-gradient">View more in Dribbble</span>
             </a>
           </div>
-        </span>
+        </span> */}
       </Container>
     )
   }

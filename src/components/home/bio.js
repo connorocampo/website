@@ -62,8 +62,7 @@ class Bio extends React.Component {
             Front-end Developer
           </Tagline>
           <Blurb className="bio-blurb">
-            I <span className="is-animated-gradient">design</span>,{" "}
-            <span className="is-animated-gradient">code</span>, and{" "}
+            I<span className="is-animated-gradient">code</span>, and{" "}
             <span className="is-animated-gradient">optimize</span> modern
             websites.
           </Blurb>

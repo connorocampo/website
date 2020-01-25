@@ -61,7 +61,7 @@ class Footer extends React.Component {
             suffice.
           </p>
           <span className="footer-padding-right">
-            <div class="border-gradient-outline ">
+            <div class="border-gradient-outline">
               <a
                 href="mailto:connorocampo@gmail.com"
                 className="gradient-btn border-gradient-fill-dark gradient-link"

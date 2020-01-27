@@ -45,7 +45,7 @@ const Excerpt = styled.p`
 const AboutTheAuthorBlurb = styled.p`
   font-family: "Rubik Light", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.5;
   margin: 0 auto;
 `

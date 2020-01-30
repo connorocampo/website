@@ -18,7 +18,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: calc(95vh - 100px);
+  height: calc(97vh - 100px);
   padding: 0 1em;
 `
 

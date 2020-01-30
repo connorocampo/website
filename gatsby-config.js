@@ -4,7 +4,7 @@ module.exports = {
     title: `Connor Ocampo | Front-end Developer`,
     author: `Connor Ocampo`,
     description: `Connor Ocampo's | Front-end Developer.`,
-    siteUrl: `https://connorocampo.github.io/website/`,
+    siteUrl: `https://connorocampo.com/`,
   },
   plugins: [
     {
@@ -53,6 +53,21 @@ module.exports = {
         useMozJpeg: false,
         stripMetadata: true,
         defaultQuality: 75,
+      },
+    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/blog/web-development`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/assets/images`,
       },
     },
   ],

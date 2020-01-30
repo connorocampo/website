@@ -7,6 +7,9 @@ category: "Web Development"
 
 Follow these steps to configure a custom domain in Netlify using GoDaddy Hosting Provider and GitHub.
 <br />
+<br />
+
+![Blog-netlify-https](../src/assets/images/Blog-netlify-https.png)
 
 <ol>
 <h3><li class="blog-post-ol-li">Deploy site from GitHub account.</li></h3>

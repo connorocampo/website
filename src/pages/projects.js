@@ -14,7 +14,8 @@ import Footer from "../components/base/Footer"
 
 import ProjectCharles from "../assets/images/ProjectCharles.png"
 import ProjectMiddle from "../assets/images/ProjectMiddle.png"
-import ProjectMailchimp from "../assets/images/ProjectMailchimp.png"
+import ProjectDashboard from "../assets/images/ProjectDashboard.png"
+// import ProjectMailchimp from "../assets/images/ProjectMailchimp.png"
 import Portfolio from "../assets/images/Portfolio.png"
 // import ToDoList from "../assets/images/ToDoList.png"
 // import Dribbble from "../assets/images/Dribbble.jpg"
@@ -68,6 +69,36 @@ export default () => (
         refrain from disclosing any previous works with them.
       </Disclaimer>
       <div className="projects">
+        <div className="project">
+          <a
+            href="https://sign-in-app.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src={ProjectDashboard}
+              alt="Sign in/sign up App"
+              className="project-item"
+            />
+          </a>
+          <div>
+            <ProjectTitle>React Router Sign in/Sign up App</ProjectTitle>
+            <ProjectDescription>
+              A Medium.com themed sign in/sign up app. The goal of this project
+              was to create a Medium.com sign in/sign up modal look-alike but
+              using react-router. Click the image to see it live or view the
+              source code in Github{" "}
+              <a
+                href="https://github.com/connorocampo/sign-in-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                here
+              </a>
+              .
+            </ProjectDescription>
+          </div>
+        </div>
         <div className="project">
           <a
             href="https://connorocampo.github.io/charlesocampo/"
@@ -128,7 +159,7 @@ export default () => (
             </ProjectDescription>
           </div>
         </div>
-        <div className="project">
+        {/* <div className="project">
           <a
             href="https://connors-mailchimp-app.herokuapp.com/"
             target="_blank"
@@ -148,7 +179,7 @@ export default () => (
               into personal and professional projects.
             </ProjectDescription>
           </div>
-        </div>
+        </div> */}
         <div className="project">
           <a
             href="https://connorocampo.github.io/website/"

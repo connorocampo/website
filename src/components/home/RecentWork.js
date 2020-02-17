@@ -2,8 +2,9 @@ import React from "react"
 import styled from "styled-components"
 
 // Media
+import ProjectDashboard from "../../assets/images/ProjectDashboard.png"
 import ProjectMiddle from "../../assets/images/ProjectMiddle.png"
-import ProjectMailchimp from "../../assets/images/ProjectMailchimp.png"
+// import ProjectMailchimp from "../../assets/images/ProjectMailchimp.png"
 import ProjectToDo from "../../assets/images/ProjectToDo.png"
 import ProjectDroneWorld from "../../assets/images/ProjectDroneWorld.png"
 import ProjectCharmCity from "../../assets/images/ProjectCharmCity.png"
@@ -70,6 +71,25 @@ class RecentWork extends React.Component {
           Here are a few recent front-end development projects.
         </RecentWorkText>
         <ImageContainer className="work-image-container">
+          <a
+            href="https://connorocampo.github.io/lorem-dashboard/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="overlay-container">
+              <Image
+                src={ProjectDashboard}
+                alt="A pure HTML and CSS responsive dashboard with lorem text."
+                className="image-hover work-image-mobile project-image"
+              />
+              <div className="overlay">
+                <p class="overlay-text">
+                  A pure HTML & CSS responsive dashboard with lorem text.
+                </p>
+              </div>
+            </div>
+          </a>
+
           <a
             href="https://sign-in-app.netlify.com/"
             target="_blank"
@@ -144,7 +164,7 @@ class RecentWork extends React.Component {
             </div>
           </a>
 
-          <a
+          {/* <a
             href="https://connors-mailchimp-app.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -161,7 +181,7 @@ class RecentWork extends React.Component {
                 </p>
               </div>
             </div>
-          </a>
+          </a> */}
 
           <a
             href="https://connorocampo.github.io/react-app/"

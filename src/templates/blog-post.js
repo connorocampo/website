@@ -128,7 +128,7 @@ export default ({ data, pageContext }) => {
                 About the Author
               </p>
               <AboutTheAuthorBlurb>
-                Hi, I’m Connor Ocampo. I’m a self-taught front-end developer
+                Hey, I’m Connor Ocampo. I’m a self-taught front-end developer
                 based in Boca Raton, FL. I enjoy long bike rides on the
                 pavement, really nice people, and oxford commas.
               </AboutTheAuthorBlurb>

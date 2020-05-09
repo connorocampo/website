@@ -4,11 +4,11 @@ import styled from "styled-components"
 // Media
 import ProjectDashboard from "../../assets/images/ProjectDashboard.png"
 import ProjectMiddle from "../../assets/images/ProjectMiddle.png"
-// import ProjectMailchimp from "../../assets/images/ProjectMailchimp.png"
+import ProjectJS from "../../assets/images/ProjectJS.png"
 import ProjectToDo from "../../assets/images/ProjectToDo.png"
 import ProjectDroneWorld from "../../assets/images/ProjectDroneWorld.png"
 import ProjectCharmCity from "../../assets/images/ProjectCharmCity.png"
-import ProjectSuper from "../../assets/images/ProjectSuper.png"
+// import ProjectSuper from "../../assets/images/ProjectSuper.png"
 // import DesignSAL from "../../assets/images/DesignSAL.png"
 // import trial from "../../assets/images/trial.png"
 // import DesignCharles from "../../assets/images/DesignCharles.png"
@@ -83,7 +83,7 @@ class RecentWork extends React.Component {
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
-                <p class="overlay-text">
+                <p className="overlay-text">
                   A pure HTML & CSS responsive dashboard with lorem text.
                 </p>
               </div>
@@ -102,25 +102,25 @@ class RecentWork extends React.Component {
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
-                <p class="overlay-text">Medium.com themed sign in app.</p>
+                <p className="overlay-text">Medium.com themed sign in app.</p>
               </div>
             </div>
           </a>
 
           <a
-            href="https://superawesomelabs.com/"
+            href="https://connorocampo.github.io/responsive-js-menu/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div className="overlay-container">
               <Image
-                src={ProjectSuper}
-                alt="A web development agency landing page."
+                src={ProjectJS}
+                alt="A responsive menu using plain HTML, CSS, and JavaScript. Designed and coded by Connor Ocampo."
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
-                <p class="overlay-text">
-                  A web development agency landing page.
+                <p className="overlay-text">
+                  A responsive menu using plain HTML, CSS, and JavaScript.
                 </p>
               </div>
             </div>
@@ -138,7 +138,7 @@ class RecentWork extends React.Component {
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
-                <p class="overlay-text">
+                <p className="overlay-text">
                   Landing page site for Drone World Reviews.
                 </p>
               </div>
@@ -157,7 +157,7 @@ class RecentWork extends React.Component {
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
-                <p class="overlay-text">
+                <p className="overlay-text">
                   An "updated" design for Charm City Burger's current website.
                 </p>
               </div>
@@ -195,13 +195,13 @@ class RecentWork extends React.Component {
                 className="image-hover work-image-mobile project-image"
               />
               <div className="overlay">
-                <p class="overlay-text">Simple To Do List React App.</p>
+                <p className="overlay-text">Simple To Do List React App.</p>
               </div>
             </div>
           </a>
         </ImageContainer>
         <span style={{ marginBottom: "200px" }}>
-          <div class="recent-work-border-gradient-outline">
+          <div className="recent-work-border-gradient-outline">
             <a
               href="https://github.com/connorocampo"
               className="gradient-btn recent-work-border-gradient-fill-light gradient-link"

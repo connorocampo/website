@@ -1,1 +1,0 @@
-{"errors":[{"message":"Variable \"$slug\" of required type \"String!\" was not provided.","locations":[{"line":2,"column":3}]}],"pageContext":{"isCreatedByStatefulCreatePages":false,"limit":3,"skip":0,"numPages":2,"currentPage":1}}

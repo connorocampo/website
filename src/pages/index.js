@@ -2,7 +2,6 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { ThemeProvider } from "styled-components"
 import { graphql } from "gatsby"
-// import styled from "styled-components"
 
 import themeSettings from "../components/base/settings"
 
@@ -17,12 +16,10 @@ import "../assets/styles/footer.css"
 import favicon from "../../static/favicon.ico"
 import Layout from "../components/base/Layout"
 import Header from "../components/base/Header"
-// import Bio from "../components/home/Bio"
 import Hero from "../components/home/Hero"
 import About from "../components/home/About"
 import Skills from "../components/home/Skills"
 import RecentWork from "../components/home/RecentWork"
-// import Testimonials from "../components/home/Testimonials"
 import Footer from "../components/base/Footer"
 
 export default ({ data }) => (
@@ -44,12 +41,10 @@ export default ({ data }) => (
         <link rel="icon" href={favicon} />
       </Helmet>
       <Header />
-      {/* <Bio /> */}
       <Hero />
       <About />
       <Skills />
       <RecentWork />
-      {/* <Testimonials /> */}
       <Footer />
     </Layout>
   </ThemeProvider>

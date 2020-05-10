@@ -8,17 +8,7 @@ import ProjectJS from "../../assets/images/ProjectJS.png"
 import ProjectToDo from "../../assets/images/ProjectToDo.png"
 import ProjectDroneWorld from "../../assets/images/ProjectDroneWorld.png"
 import ProjectCharmCity from "../../assets/images/ProjectCharmCity.png"
-// import ProjectSuper from "../../assets/images/ProjectSuper.png"
-// import DesignSAL from "../../assets/images/DesignSAL.png"
-// import trial from "../../assets/images/trial.png"
-// import DesignCharles from "../../assets/images/DesignCharles.png"
-// import DesignSibling from "../../assets/images/DesignSibling.png"
-// import DesignVans from "../../assets/images/DesignVans.png"
-// import DesignWebsite from "../../assets/images/DesignWebsite.svg"
-// import DesignArticles from "../../assets/images/DesignArticles.svg"
-
 import github from "../../assets/images/icons/github.svg"
-// import dribbble from "../../assets/images/icons/dribbble.svg"
 
 /*
  * Styles

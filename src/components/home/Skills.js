@@ -69,7 +69,7 @@ class Skills extends React.Component {
               <ColumnHeader>Front-end Development</ColumnHeader>
               <ColumnText style={{ marginBottom: "30px" }}>
                 <span className="regular-fw">I am proficient</span> in HTML,
-                CSS, Flexbox, CSS Grids, media queries, custom CSS & SVG
+                CSS, Flexbox, CSS Grids, media queries, and custom CSS & SVG
                 animations.
               </ColumnText>
               <ColumnText style={{ marginBottom: "75px" }}>

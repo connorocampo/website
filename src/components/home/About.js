@@ -43,8 +43,7 @@ class About extends React.Component {
         <AboutText className="is-white about-text-mobile">
           I'm a self-taught Front-end Developer who enjoys focusing on the
           design aspect of development. Professionally, I have a history of work
-          in front-end development, search engine optimization (SEO), and web
-          design.
+          in front-end development and search engine optimization (SEO).
         </AboutText>
       </Section>
     )

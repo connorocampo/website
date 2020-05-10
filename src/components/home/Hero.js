@@ -62,9 +62,8 @@ class Hero extends React.Component {
             Front-end Developer
           </Tagline>
           <Blurb className="bio-blurb">
-            I <span className="is-animated-gradient">code</span> and{" "}
-            <span className="is-animated-gradient">optimize</span> modern
-            websites.
+            Hey, I'm Connor. I{" "}
+            <span className="is-animated-gradient">code</span> modern websites.
           </Blurb>
           {/* <a
             href="mailto:connorocampo@gmail.com"

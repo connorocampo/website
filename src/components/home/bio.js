@@ -66,19 +66,6 @@ class Bio extends React.Component {
             <span className="is-animated-gradient">optimize</span> modern
             websites.
           </Blurb>
-          {/* <a
-            href="mailto:connorocampo@gmail.com"
-            className="is-black nav-item mobile-contact-btn"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={email}
-              alt="email icon"
-              style={{ marginRight: "10px", marginBottom: "-1.5px" }}
-            />
-            Contact
-          </a> */}
         </Container>
       </ThemeProvider>
     )

@@ -65,7 +65,7 @@ class Skills extends React.Component {
         <Container>
           <Columns className="has-box-shadow skills-columns">
             <div className="column column-1">
-            <Icon src={Dev} alt="development icon" />
+              <Icon src={Dev} alt="development icon" />
               <ColumnHeader>Front-end Development</ColumnHeader>
               <ColumnText style={{ marginBottom: "30px" }}>
                 <span className="regular-fw">I am proficient</span> in HTML,
@@ -88,7 +88,7 @@ class Skills extends React.Component {
             </div>
             <hr className="hr-border" />
             <div className="column column-2">
-            <Icon src={Marketing} alt="marketing/seo icon" />
+              <Icon src={Marketing} alt="marketing/seo icon" />
               <ColumnHeader>Marketing/SEO</ColumnHeader>
               <ColumnText style={{ marginBottom: "30px" }}>
                 Most of my marketing/seo work consists of optimizing articles,
@@ -109,10 +109,10 @@ class Skills extends React.Component {
               </List>
             </div>
             <div className="column column-3">
-
               <Icon src={Design} alt="design icon" />
-              
-              <ColumnHeader>Video/Design</ColumnHeader>
+              <ColumnHeader className="video-design-heading">
+                Video/Design
+              </ColumnHeader>
               <ColumnText style={{ marginBottom: "30px" }}>
                 I enjoy learning, designing, and experimenting with simple,
                 modern, and intuitive design for desktop and mobile devices.

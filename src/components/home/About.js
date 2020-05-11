@@ -38,7 +38,7 @@ class About extends React.Component {
             textAlign: "center",
           }}
         >
-          A Little About Me
+          About Me
         </h2>
         <AboutText className="is-white about-text-mobile">
           I'm a self-taught Front-end Developer who enjoys focusing on the

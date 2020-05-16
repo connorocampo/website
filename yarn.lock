@@ -6240,7 +6240,7 @@ gatsby-plugin-mdx@^1.2.6:
     unist-util-remove "^1.0.3"
     unist-util-visit "^1.4.1"
 
-gatsby-plugin-offline@^3.2.1:
+gatsby-plugin-offline@^3.2.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.2.2.tgz#d63127431b6ef201d70473fdcadc7dc3dd230ac5"
   integrity sha512-sMsqDjCwseQfiTDoHWjjX4F1QtNb+p171peuYi/wyer6pxvKigG1gIy//tSH0eybnEzMgXRlBOXGDIRmBNljWQ==

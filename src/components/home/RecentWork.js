@@ -117,7 +117,7 @@ class RecentWork extends React.Component {
           </a>
 
           <a
-            href="https://connorocampo.github.io/drone-world-product-page/"
+            href="https://connorocampo.github.io/drone-world/"
             target="_blank"
             rel="noopener noreferrer"
           >

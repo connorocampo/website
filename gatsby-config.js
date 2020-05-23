@@ -1,10 +1,10 @@
 module.exports = {
-  pathPrefix: "/website",
+  pathPrefix: "/",
   siteMetadata: {
     title: `Connor Ocampo | Front-end Developer`,
     author: `Connor Ocampo`,
     description: `Connor Ocampo's | Front-end Developer.`,
-    siteUrl: `https://connorocampo.com/`,
+    siteUrl: `https://connorocampo.dev/`,
   },
   plugins: [
     {

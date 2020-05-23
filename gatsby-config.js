@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     title: `Connor Ocampo | Front-end Developer`,
     author: `Connor Ocampo`,
-    description: `Connor Ocampo's | Front-end Developer.`,
+    description: `Connor Ocampo | Front-end Developer.`,
     siteUrl: `https://connorocampo.dev/`,
   },
   plugins: [
@@ -61,7 +61,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/blog/web-development`,
+        path: `${__dirname}/src/blog/`,
       },
     },
     {

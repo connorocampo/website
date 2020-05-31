@@ -1,5 +1,5 @@
 {
-  "name": "dotdev",
+  "name": "dotcom",
   "private": true,
   "description": "Front-end Developer based in Boca Raton, Florida, USA",
   "version": "0.1.0",
@@ -48,9 +48,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/connorocampo/dotdev"
+    "url": "https://github.com/connorocampo/website"
   },
   "bugs": {
-    "url": "https://github.com/connorocampo/dotdev/issues"
+    "url": "https://github.com/connorocampo/website/issues"
   }
 }
